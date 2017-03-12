@@ -1,7 +1,12 @@
+### Name
 
-### Title: Staff Developer Advocate, Google Cloud, Google Inc.
+Kaz Sato
 
-### Bit:
+### Title
+
+Staff Developer Advocate, Google Cloud, Google Inc.
+
+### Bio:
 
 Kaz Sato is Staff Developer Advocate at Cloud Platform team, Google Inc. He leads the developer advocacy 
 team for Machine Learning and Data Analytics products, such as TensorFlow, Cloud ML, and BigQuery. 
