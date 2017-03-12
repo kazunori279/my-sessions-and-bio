@@ -4,7 +4,7 @@ Advancing large scale neural network prediction
 
 ### Time: 45 min
 
-### Target audience: Data analysts, data scientists and database engineers
+### Target audience: Data analysts, data scientists and database engineers. Requires no ML expertise.
 
 ### Tech level: intermediate
 
