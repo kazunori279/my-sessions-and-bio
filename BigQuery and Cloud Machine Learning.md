@@ -20,11 +20,29 @@ analytics without affecting performance to the production system,
 
 Now, imagine what would happen if you could use BigQuery for deep learning as well. After having data 
 scientists training the cutting edge intelligent neural network model with TensorFlow or Google Cloud Machine 
-Learning, you can move the model to BigQuery and execute predictions with the model inside BigQuery. 
-This means you can let any employee in your company use the power of BigQuery for their daily data 
-analytics tasks, including image analytics and business data analytics on terabytes of data, processed 
-in tens of seconds, solely on BigQuery without any engineering knowledge. 
+Learning Engine (ML Engine), you can move the model to BigQuery and execute predictions with the model inside BigQuery. 
+This means you can let any employee in your company use the power of BigQuery and machine learning for their 
+daily data analytics tasks, including sophisticated content analytics on terabytes of unstructured data such 
+as image, natural language, audio and IoT device signals, solely on BigQuery without any engineering knowledge. 
 
-In this session, we'll look at how you can combine Cloud Machine Learning and BigQuery to realize this vision. 
-By sharing a demo, you'll see how BigQuery's power of "democratizing enterprise data" can be enhanced with 
-a deep neural network model trained with Cloud Machine Learning.
+In this session, we'll look at how you can combine ML Engine and BigQuery to realize this vision. 
+By sharing some demos, you'll see how BigQuery's power of "democratizing enterprise data" can be enhanced with 
+a deep neural network model trained with ML Engine.
+
+## Adenga (in Japanese)
+
+BigQueryの真価はパフォーマンスだけではありません。「誰もがデータにアクセスできること」にあります。BiqQueryはスケーラビリティが
+極めて高いため、あるユーザーの処理負荷が他のユーザーに影響を与えることがありません。そのため、セールスやマーケ、サポート担当など、
+企業のあらゆるユーザーが、それぞれに作成したプロフェッショナルでないSQLをBigQueryに直接実行させることが可能です。実運用環境に影響を
+及ぼすことなく、企業の誰もが大規模なデータにアクセスし、アドホックなデータ分析を瞬時に行えます。
+
+このBigQueryを、ディープラーニングと組み合わせると、どのようなことが起きるでしょうか。TensorFlowやCloud Machine Learning Engine 
+(ML Engine)の技術を用いて作成された最新のニューラルネットワークモデルは、BigQuery上でも利用できます。つまり、データサイエンティストが
+作り上げた機械学習技術を、企業の誰もがBigQuery上で簡単に使えるようになり、画像や音声、自然言語、IoTデバイスデータ等の分析に日々活用可能となります。
+
+このセッションでは、ML EngineとBigQueryを組み合わせ、これを実現する方法を解説します。いくつかのデモを通じて、BigQueryによる
+「データの民主化」がML Engineのディープラーニング技術によって大きな力を発揮する例を紹介します。
+
+
+
+
