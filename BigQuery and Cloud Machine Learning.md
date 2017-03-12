@@ -1,5 +1,7 @@
 # BigQuery and Cloud Machine Learning
 
+Advancing large scale neural network prediction
+
 ### Time: 45 min
 
 ### Target audience: Data analysts, data scientists and database engineers
