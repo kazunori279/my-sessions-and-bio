@@ -25,3 +25,7 @@ in hardwares and IoT, and has been hosting FPGA meetups since 2013.
 ### Photos:
 
 - [Download](photo.jpg)
+
+### Session agenda:
+
+- See [my session agenda list](https://github.com/kazunori279/my-session-agenda)
