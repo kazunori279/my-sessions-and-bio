@@ -18,9 +18,9 @@ Intermediate
 
 [YouTube video](https://youtu.be/Ov3Om5Y_Fbg)
 
-### Short Agenda (64 words)
+### Short Agenda (62 words)
 
-BigQuery is the petabyte-scale datawarehouse from Google that realizes "democratizing the data". Because of its scalability, you can let sales, marketing, support and any users in enterprise executing their homebrew SQLs directly. In this session, we will explore how you can combine BigQuery with TensorFlow and ML Engine so every user can get the power of neural network for their every day data analytics.
+BigQuery is the petabyte-scale datawarehouse from Google that realizes "democratizing the data". Because of its scalability, you can let sales, marketing, support and anyone in enterprise running homebrew SQLs directly. In this session, we will explore how you can combine BigQuery with TensorFlow and ML Engine so every user can get the power of neural network for their every day data analytics.
 
 ### Agenda (217 words)
 
