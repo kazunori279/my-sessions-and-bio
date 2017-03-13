@@ -2,15 +2,27 @@
 
 Advancing large scale neural network prediction
 
-### Time: 45 min
+### Time
 
-### Target audience: Data analysts, data scientists and database engineers. Requires no ML expertise.
+45 min
 
-### Tech level: intermediate
+### Target audience
 
-### Session Video: [here](https://youtu.be/Ov3Om5Y_Fbg)
+Data analysts, data scientists and database engineers. Requires no ML expertise.
 
-## Agenda
+### Tech level
+
+Intermediate
+
+### Session Video
+
+[YouTube video](https://youtu.be/Ov3Om5Y_Fbg)
+
+### Short Agenda (64 words)
+
+BigQuery is the petabyte-scale datawarehouse from Google that realizes "democratizing the data". Because of its scalability, you can let sales, marketing, support and any users in enterprise executing their homebrew SQLs directly. In this session, we will explore how you can combine BigQuery with TensorFlow and ML Engine so every user can get the power of neural network for their every day data analytics.
+
+### Agenda (217 words)
 
 The real value of BigQuery is not its speed. It's the power of "democratizing enterprise data." 
 Because of BigQuery's scalability, you can isolate any workload on BigQuery from others. That means 
