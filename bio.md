@@ -14,3 +14,14 @@ Invited to major events including Google Cloud Next '17 SF, Google I/O 2016, Had
 Strata+Hadoop World 2016 San Jose and NYC, ODSC East/West 2016 and Google Next 2015 NYC. Kaz also has 
 been leading and supporting developer communities for Google Cloud for over 8 years. He is also interested 
 in hardwares and IoT, and has been hosting FPGA meetups since 2013.
+
+### Links:
+
+- Twitter: [@kazunori_279](https://twitter.com/kazunori_279)
+- GitHub: [kazunori279](https://github.com/kazunori279)
+- LinkedIn: [kazunori279](https://www.linkedin.com/in/kazunori279/)
+- Facebook: [kazunori.sato](https://www.facebook.com/kazunori.sato.39)
+
+### Photos:
+
+- [Download](photo.jpg)
