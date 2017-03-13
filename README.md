@@ -1,4 +1,5 @@
-# my-session-agenda
+# My sessions and bio
+
 Below is the list of my session agenda.
 
 - [BigQuery and Cloud Machine Learning](BigQuery%20and%20Cloud%20Machine%20Learning.md)
