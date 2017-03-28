@@ -8,12 +8,16 @@ Staff Developer Advocate, Google Cloud, Google Inc.
 
 ### Bio:
 
-Kaz Sato is Staff Developer Advocate at Cloud Platform team, Google Inc. He leads the developer advocacy 
-team for Machine Learning and Data Analytics products, such as TensorFlow, Cloud ML, and BigQuery. 
-Invited to major events including Google Cloud Next '17 SF, Google I/O 2016, Hadoop Summit 2016, 
-Strata+Hadoop World 2016 San Jose and NYC, ODSC East/West 2016 and Google Next 2015 NYC. Kaz also has 
-been leading and supporting developer communities for Google Cloud for over 8 years. He is also interested 
-in hardwares and IoT, and has been hosting FPGA meetups since 2013.
+Kaz Sato is Staff Developer Advocate at Cloud Platform team, Google Inc. Focusing on Machine Learning and 
+Data Analytics products, such as TensorFlow, Cloud ML and BigQuery. Invited to major events including Google 
+Cloud Next '17 SF, Google I/O 2016 and 2017, Strata+Hadoop World London 2017, San Jose and NYC 2016, Hadoop 
+Summit 2016, ODSC East 2016 and 2017. Kaz also has been leading and supporting developer communities for Google 
+Cloud for over 8 years. He is also interested in hardwares and IoT, and has been hosting FPGA meetups since 2013.
+
+Google Cloud Platformチームのデベロッパーアドボケイトとして、TensorFlow、Cloud ML、BigQuery等のデータ分析および機械学習
+プロダクトの開発者支援を担当。Cloud Next '17、Google I/O 2016および2017、Strata+Hadoop World London 2017、同San Jose
+およびNYC 2016、ODSC East 2016および2016等の主要イベントでスピーカーを務める。Googleクラウドの開発者コミュニティを7年以上に
+わたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。
 
 ### Past/Future speaking events:
 
