@@ -41,6 +41,13 @@ In this session, we'll look at how you can combine ML Engine and BigQuery to rea
 By sharing some demos, you'll see how BigQuery's power of "democratizing enterprise data" can be enhanced with 
 a deep neural network model trained with ML Engine.
 
+### Outline
+
+- What is BigQuery (10 min)
+- Smart analytics with the signatures (15 min)
+- ML Engine for smarter analytics (10 min)
+- Large scale demand forecast with BigQuery (10 min)
+
 ## Adenga (in Japanese)
 
 BigQueryの真価はパフォーマンスだけではありません。「誰もがデータにアクセスできること」にあります。BiqQueryはスケーラビリティが
