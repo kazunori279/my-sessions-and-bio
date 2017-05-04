@@ -16,9 +16,9 @@ Intermediate
 
 [YouTube video](https://youtu.be/Ov3Om5Y_Fbg)
 
-### Short Agenda (99 words)
+### Short Agenda (55 words)
 
-BigQuery is Google's fully managed, petabyte scale, low cost enterprise data warehouse. The service  features an unique technology, User Defined Function (UDF), that let you define your own SQL function with JavaScript code. UDF enables variety of "smart" queries with the power of machine learning, such as similarity search and recommendation on images or documents, by processing feature vectors of any contents with UDF. You can even run neural network inside BigQuery. In this session, we will discuss how BigQuery, TensorFlow and ML Engine can be integrated and build a powerful solution with the cloud data warehouse and ML.
+BigQuery is Google's fully managed, petabyte scale data warehouse. It's User Defined Function realizes "smart" queries with the power of machine learning, such as similarity search or recommendation on images or documents with feature vectors and neural network prediction. In this session we will see BigQuery and TensorFlow enables a powerful "data warehouse + ML" solution.
 
 ### Agenda (170 words)
 
