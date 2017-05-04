@@ -1,6 +1,4 @@
-# BigQuery and Cloud Machine Learning
-
-Advancing large scale neural network prediction
+# BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query
 
 ### Time
 
