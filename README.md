@@ -2,7 +2,7 @@
 
 Below is the list of my session agenda.
 
-- [BigQuery and Cloud Machine Learning](BigQuery%20and%20Cloud%20Machine%20Learning.md)
+- [BigQuery and TensorFlow](BigQuery%20and%20TensorFlow.md)
 - [TensorFlow in the Wild](TensorFlow%20in%20the%20Wild.md)
 - [Android meets TensorFlow](Android%20meets%20TensorFlow.md)
 
