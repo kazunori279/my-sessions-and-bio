@@ -18,28 +18,17 @@ Intermediate
 
 [YouTube video](https://youtu.be/Ov3Om5Y_Fbg)
 
-### Short Agenda (62 words)
+### Short Agenda (99 words)
 
-BigQuery is the petabyte-scale datawarehouse from Google that realizes "democratizing the data". Because of its scalability, you can let sales, marketing, support and anyone in enterprise running homebrew SQLs directly. In this session, we will explore how you can combine BigQuery with TensorFlow and ML Engine so every user can get the power of neural network for their every day data analytics.
+BigQuery is Google's fully managed, petabyte scale, low cost enterprise data warehouse. The service  features an unique technology, User Defined Function (UDF), that let you define your own SQL function with JavaScript code. UDF enables variety of "smart" queries with the power of machine learning, such as similarity search and recommendation on images or documents, by processing feature vectors of any contents with UDF. You can even run neural network inside BigQuery. In this session, we will discuss how BigQuery, TensorFlow and ML Engine can be integrated and build a powerful solution with the cloud data warehouse and ML.
 
-### Agenda (217 words)
+### Agenda (170 words)
 
-The real value of BigQuery is not its speed. It's the power of "democratizing enterprise data." 
-Because of BigQuery's scalability, you can isolate any workload on BigQuery from others. That means 
-you can let non-engineers, such as sales, marketing, support and others, execute arbitrary quick-and-dirty 
-SQL on BigQuery directly. Any employees in your enterprise can access its big data and quickly do data 
-analytics without affecting performance to the production system, 
+BigQuery is Google's fully managed, petabyte scale, low cost enterprise data warehouse. By leveraging the petabit network and tens of thousands of servers in Google datacenter, BigQuery allow you to execute your SQL with as a Massively Parallel Processing query with hundreds of CPU cores and disk storages, scanning ang aggregating terabytes of data in seconds.
 
-Now, imagine what would happen if you could use BigQuery for deep learning as well. After having data 
-scientists training the cutting edge intelligent neural network model with TensorFlow or Google Cloud Machine 
-Learning Engine (ML Engine), you can move the model to BigQuery and execute predictions with the model inside BigQuery. 
-This means you can let any employee in your company use the power of BigQuery and machine learning for their 
-daily data analytics tasks, including sophisticated content analytics on terabytes of unstructured data such 
-as image, natural language, audio and IoT device signals, solely on BigQuery without any engineering knowledge. 
+BigQuery also features an unique technology, User Defined Function (UDF), that let you define your own SQL function with JavaScript code, embedded in SQL. UDF is the key to integrate the scalable data warehouse with the power of Machine Learning (ML) by using TensorFlow and ML Engine. The solution enables variety of "smart" queries, such as similarity search and recommendation on images, documents, products or users, by processing feature vectors of the contents with UDF. Or you can even run neural network prediction inside BigQuery.
 
-In this session, we'll look at how you can combine ML Engine and BigQuery to realize this vision. 
-By sharing some demos, you'll see how BigQuery's power of "democratizing enterprise data" can be enhanced with 
-a deep neural network model trained with ML Engine.
+In this session, we will discuss how BigQuery, TensorFlow and ML Engine can be integrated with UDF and build a powerful solution with the cloud data warehouse and ML.
 
 ### Outline
 
@@ -50,10 +39,7 @@ a deep neural network model trained with ML Engine.
 
 ## Adenga (in Japanese)
 
-BigQueryとディープラーニングと組み合わせると、どのようなことが起きるでしょうか。TensorFlowやCloud Machine Learning Engine 
-(ML Engine)の技術を用いて作成された最新のニューラルネットワークモデルは、BigQuery上でも利用できます。つまり、データサイエンティストが
-作り上げた機械学習技術を、企業の誰もがBigQuery上で簡単に使えるようになり、画像や音声、自然言語、IoTデバイスデータ等の分析に日々活用可能となります。このセッションでは、ML EngineとBigQueryを組み合わせ、これを実現する方法を解説します。いくつかのデモを通じて、BigQueryによる
-「データの民主化」がML Engineのディープラーニング技術によって大きな力を発揮する例を紹介します。
+BigQueryは、Googleが提供するフルマネージドの大規模データウェアハウスサービスです。BigQueryに備わるユニークな機能、User Defined Function (UDF)を用いると、JavaScriptコードを記述してSQL関数を新たに定義が可能です。このUDFを用いてコンテンツの特徴ベクトル処理を実装することで、画像やドキュメントの類似検索やリコメンド等、機械学習の力を活かした様々な「賢い」検索が実現します。BigQuery内部でニューラルネットワークを動作させることも可能です。このセッションでは、BigQueryとTensorFlow、ML Engineにより、データウェアハウスと機械学習を組み合わせた強力なソリューションを作る方法を紹介します。
 
 
 
