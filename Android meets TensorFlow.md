@@ -11,6 +11,10 @@ AndroidとTensorFlow：アプリをAIで賢くする方法
 
 about 45 min
 
+## Video
+
+[Google I/O session YouTube video](https://www.youtube.com/watch?v=25ISTLhz0ys)
+
 ## Target audience
 
 Smart phone developers
