@@ -6,6 +6,6 @@ Below is the list of my session agenda.
 - [TensorFlow in the Wild](TensorFlow%20in%20the%20Wild.md)
 - [Android meets TensorFlow](Android%20meets%20TensorFlow.md)
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
-- [TensorFlow Introduction (codelab for a few hours)](https://github.com/kazunori279/TensorFlow-Intro)
+- [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
 
 See [this page](bio.md) for my bio. Also, please see [my page on Lanyrd](http://lanyrd.com/profile/kazunori_279/) for past and future session with those agendas.
