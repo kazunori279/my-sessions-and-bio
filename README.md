@@ -10,7 +10,7 @@ Kaz Sato is Staff Developer Advocate at Cloud Platform team, Google Inc. Focusin
 
 Google CloudのデベロッパーアドボケイトとしてTensorFlow、Cloud ML、BigQuery等のデータ分析および機械学習プロダクトの開発者支援を担当。Cloud Next  SF、Google I/O、Strata London/San Jose/NYC等の主要イベントでスピーカーを務める。Googleクラウドの開発者コミュニティを7年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。
 
-## Current sessios topics
+## Current session topics
 
 Below is the list of my current session topics.
 
@@ -18,6 +18,9 @@ Below is the list of my current session topics.
 - [TensorFlow in the Wild (or the Democratization of Machine Learning)](TensorFlow%20in%20the%20Wild.md)
 - [Android meets TensorFlow: how to accelerate your app with AI](Android%20meets%20TensorFlow.md)
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
+
+## Codelab material
+
 - [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
 
 ## Blog posts, videos and demos
