@@ -1,13 +1,3 @@
-## My sessions topics
-
-Below is the list of my current session topics.
-
-- [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
-- [TensorFlow in the Wild (or the Democratization of Machine Learning)](TensorFlow%20in%20the%20Wild.md)
-- [Android meets TensorFlow: how to accelerate your app with AI](Android%20meets%20TensorFlow.md)
-- [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
-- [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
-
 ## Name
 
 Kaz Sato
@@ -24,12 +14,23 @@ Kaz Sato is Staff Developer Advocate at Cloud Platform team, Google Inc. Focusin
 
 Google CloudのデベロッパーアドボケイトとしてTensorFlow、Cloud ML、BigQuery等のデータ分析および機械学習プロダクトの開発者支援を担当。Cloud Next  SF、Google I/O、Strata London/San Jose/NYC等の主要イベントでスピーカーを務める。Googleクラウドの開発者コミュニティを7年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。
 
+## Current sessios topics
+
+Below is the list of my current session topics.
+
+- [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
+- [TensorFlow in the Wild (or the Democratization of Machine Learning)](TensorFlow%20in%20the%20Wild.md)
+- [Android meets TensorFlow: how to accelerate your app with AI](Android%20meets%20TensorFlow.md)
+- [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
+- [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
+
 ## Blog posts, videos and demos
 
 ### 2017
 
 - GCP Data blog: [Using machine learning for insurance pricing optimization](https://cloud.google.com/blog/big-data/2017/03/using-machine-learning-for-insurance-pricing-optimization)
 - GCP Data blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU)](https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu) ([JP version](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html))
+- YouTube video: [BigQuery and Cloud Machine Learning: advancing neural network predictions (Google Cloud Next '17)](https://www.youtube.com/watch?v=Ov3Om5Y_Fbg&feature=youtu.be)
 - YouTube video: [Android Meets TensorFlow: How to Accelerate Your App with AI (Google I/O '17)](https://www.youtube.com/watch?v=25ISTLhz0ys)
 
 ### 2016
