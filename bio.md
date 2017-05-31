@@ -18,25 +18,55 @@ Google CloudのデベロッパーアドボケイトとしてTensorFlow、Cloud M
 
 ### 2017
 
-- Kalaari Future of AI, Bangalore, India (Jan 12)
-- Developers Summit, Tokyo, Japan (Feb 17)
-- Google Cloud Next 2017, San Francisco, US (March 7)
+- Kalaari Future of AI, Bangalore
+- Global AI Conf, Santa Clara
+- Developers Summit, Tokyo
+- APAC ML Expert Day, Singapore
+- Google Cloud Next, San Francisco
+- Cloud Conf, Turin
+- Slush Tokyo
+- ODSC East, Boston
+- DevFest DC, Washington DC
+- Google I/O, Mountain View
+- Apache Big Data, Miami
+- IoT World, Santa Clara
+- Strata Data Conf, London
+- Data Science Summit EU, Jerusalem
+- Open Source Summit, Tokyo
+
+### 2016
+
+- Software Architecture Conference, London
+- WebTech Conf, Munich
+- ODSC West, Santa Clara
+- Think with Google, Tokyo
+- Strata + Hadoop World, San Jose
+- Google I/O, Mountain View
+- ODSC East, Boston
+- GOTO Amsterdam
+- Hadoop Summit, San Jose 
+- Google for Mobile, Tokyo and Korea
+- Google Atmosphere, Melbourne and India
+
+## Blog posts, videos and demos
 
 ### 2017
 
-- Software Architecture Conference, London, UK (Oct 18)
-- WebTech Conf, Munich, Germany (Oct 24)
-- ODSC West, Santa Clara, US (Nov 5)
-- Think with Google 2016, Tokyo, Japan (Nov 30)
-- Strata + Hadoop World 2016 San Jose
-- Google I/O 2016
-- ODSC East Boston 2016
-- GOTO Amsterdam 2016
-- Hadoop Summit San Jose 2016
-- Google for Mobile Tokyo and Korea
-- Atmosphere Melbourne and India
+- GCP Data blog: [Using machine learning for insurance pricing optimization](https://cloud.google.com/blog/big-data/2017/03/using-machine-learning-for-insurance-pricing-optimization)
+- GCP Data blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU)](https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu) ([JP version](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html))
+- YouTube video: [Android Meets TensorFlow: How to Accelerate Your App with AI (Google I/O '17)](https://www.youtube.com/watch?v=25ISTLhz0ys)
 
-### Links:
+### 2016
+
+- GCP Data blog: [Explore the Galaxy of images with Cloud Vision API](https://cloud.google.com/blog/big-data/2016/05/explore-the-galaxy-of-images-with-cloud-vision-api)
+- GCP Data blog: [Understanding neural networks with TensorFlow Playground](https://cloud.google.com/blog/big-data/2016/07/understanding-neural-networks-with-tensorflow-playground) ([JP version](http://googlecloudplatform-japan.blogspot.in/2016/07/tensorflow-playground.html))
+- GCP Data blog: [How a Japanese cucumber farmer is using deep learning and TensorFlow](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow) ([JP version](http://googlecloudplatform-japan.blogspot.jp/2016/08/tensorflow_5.html))
+- YouTube video: [What is Cloud Vision API](https://www.youtube.com/watch?v=eve8DkkVdhI)
+- YouTube video: [What is Cloud Speech API](https://www.youtube.com/watch?v=wzp9dfVpeeg)
+- YouTube video: [How to build a smart RasPi Bot with Cloud Vision and Speech API - Google I/O 2016](https://www.youtube.com/watch?v=HpPyhsC4q9M)
+- Demo: [Cloud Vision Explorer](http://vision-explorer.reactive.ai/)
+
+## Links:
 
 - Twitter: [@kazunori_279](https://twitter.com/kazunori_279)
 - GitHub: [kazunori279](https://github.com/kazunori279)
@@ -44,10 +74,10 @@ Google CloudのデベロッパーアドボケイトとしてTensorFlow、Cloud M
 - Facebook: [kazunori.sato](https://www.facebook.com/kazunori.sato.39)
 - Lanyrd: [kazunori_279](http://lanyrd.com/profile/kazunori_279/)
 
-### Photos:
+## Photos:
 
 - [Download](photo.jpg)
 
-### Session agenda:
+## Session agenda:
 
 - See [my session agenda list](https://github.com/kazunori279/my-session-agenda)
