@@ -31,6 +31,7 @@ Below is the list of my current session topics.
 - GCP Data blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU)](https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu) ([JP version](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html))
 - YouTube video: [BigQuery and Cloud Machine Learning: advancing neural network predictions (Google Cloud Next '17)](https://www.youtube.com/watch?v=Ov3Om5Y_Fbg&feature=youtu.be)
 - YouTube video: [Android Meets TensorFlow: How to Accelerate Your App with AI (Google I/O '17)](https://www.youtube.com/watch?v=25ISTLhz0ys)
+- YouTube video: [Classifying Manhattan with TensorFlow (Google Cloud Next '17)](https://youtu.be/XEka7Bp41To)
 
 ### 2016
 
