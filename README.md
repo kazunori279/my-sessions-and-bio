@@ -62,6 +62,7 @@ Below is the list of my current session topics.
 - Strata Data Conf, London
 - Data Science Summit EU, Jerusalem
 - Open Source Summit, Tokyo
+- APAC Innovation Summit, Hong Kong
 
 ### 2016
 
