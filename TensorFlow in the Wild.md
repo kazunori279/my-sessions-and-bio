@@ -1,8 +1,12 @@
 # TensorFlow in the Wild (or the Democratization of Machine Learning)
 
-### Time: 45 min
+### Time: 
 
-### Target audience: Developers and ITDMs. Requires no ML expertise
+45 min
+
+### Target audience and level: 
+
+Developers and ITDMs. Beginner level (no requires ML expertise)
 
 ## Agenda
 
