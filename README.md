@@ -43,7 +43,22 @@ Below is the list of my current session topics.
 - YouTube video: [How to build a smart RasPi Bot with Cloud Vision and Speech API - Google I/O 2016](https://www.youtube.com/watch?v=HpPyhsC4q9M)
 - Demo: [Cloud Vision Explorer](http://vision-explorer.reactive.ai/)
 
-## Sessions in past events
+## Sessions in events
+
+### 2017 (planned)
+
+- Google Cloud Next, Tokyo
+- ML Code Camp, Jeju
+- InfiniteConf, London
+- Google for Mobile, Tokyo
+- JupyterCon, New York
+- Google Cloud Summit, Mumbai and Bangalore
+- ODSC Europe, London
+- VoxxedDays, Belgrade
+- Horizons, Vienna
+- Cloud Expo Europe, Paris
+- GOTO Berlin
+- Strata Data Conf, Singapore
 
 ### 2017
 
