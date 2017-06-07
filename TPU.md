@@ -17,7 +17,7 @@ This session is based on the content of blog post: [An in-depth look at Googleâ€
 
 ## Target audience
 
-Smart phone developers
+Data engineers and analysts, hardware developers
 
 ## Abstract: 
 
