@@ -17,7 +17,7 @@ about 45 min
 
 ## Target audience and level
 
-Smart phone developers, embedded system designers. Intermediate level.
+Smart phone developers, embedded system designers. Intermediate level (requires no ML expertise)
 
 ## Abstract: 
 
