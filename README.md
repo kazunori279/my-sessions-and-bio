@@ -43,7 +43,7 @@ Below is the list of my current session topics.
 - YouTube video: [How to build a smart RasPi Bot with Cloud Vision and Speech API - Google I/O 2016](https://www.youtube.com/watch?v=HpPyhsC4q9M)
 - Demo: [Cloud Vision Explorer](http://vision-explorer.reactive.ai/)
 
-## Sessions in events
+## Invited Events
 
 ### 2017 (planned)
 
