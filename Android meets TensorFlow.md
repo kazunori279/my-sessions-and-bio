@@ -15,9 +15,9 @@ about 45 min
 
 [Google I/O session YouTube video](https://www.youtube.com/watch?v=25ISTLhz0ys)
 
-## Target audience
+## Target audience and level
 
-Smart phone developers
+Smart phone developers, embedded system designers. Intermediate level.
 
 ## Abstract: 
 
