@@ -4,13 +4,9 @@
 
 45 min
 
-### Target audience
+### Target audience and level
 
-Data analysts, data scientists and database engineers. Requires no ML expertise.
-
-### Tech level
-
-Intermediate
+Data analysts, data scientists and database engineers. Intermediate level (requires no ML expertise)
 
 ### Session Video
 
