@@ -92,6 +92,7 @@ Below is the list of my current session topics.
 - Hadoop Summit, San Jose 
 - Google for Mobile, Tokyo and Korea
 - Google Atmosphere, Melbourne and India
+- MLconf, Atlanta
 
 ## Links:
 
