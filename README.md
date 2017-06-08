@@ -78,6 +78,7 @@ Below is the list of my current session topics.
 - Data Science Summit EU, Jerusalem
 - Open Source Summit, Tokyo
 - APAC Innovation Summit, Hong Kong
+- Apps Japan, Tokyo
 
 ### 2016
 
