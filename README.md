@@ -10,6 +10,18 @@ Kaz Sato is Staff Developer Advocate at Google Cloud team, Google Inc. Focusing 
 
 Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud ML、BigQuery等のデータ分析および機械学習プロダクトの開発者支援を担当。Cloud Next SF、Google I/O、Strata NYC等の主要イベントでスピーカーを務め、GCP公式ブログにて多数の記事を寄稿。Googleクラウドの開発者コミュニティを7年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。
 
+## Photos:
+
+- [Download](photo.jpg)
+
+## Links:
+
+- Twitter: [@kazunori_279](https://twitter.com/kazunori_279)
+- GitHub: [kazunori279](https://github.com/kazunori279)
+- LinkedIn: [kazunori279](https://www.linkedin.com/in/kazunori279/)
+- Facebook: [kazunori.sato](https://www.facebook.com/kazunori.sato.39)
+- Lanyrd: [kazunori_279](http://lanyrd.com/profile/kazunori_279/)
+
 ## Current session topics
 
 Below is the list of my current session topics.
@@ -27,8 +39,9 @@ Below is the list of my current session topics.
 
 ### 2017
 
-- GCP Data blog: [Using machine learning for insurance pricing optimization](https://cloud.google.com/blog/big-data/2017/03/using-machine-learning-for-insurance-pricing-optimization)
-- GCP Data blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU)](https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu) ([JP version](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html))
+- GCP blog: [Using machine learning for insurance pricing optimization](https://cloud.google.com/blog/big-data/2017/03/using-machine-learning-for-insurance-pricing-optimization)
+- GCP blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU)](https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu) ([JP version](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html))
+- GCP blog: [Build your own machine-learning-powered robot arm using TensorFlow and Google Cloud](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) ([JP version](https://cloudplatform-jp.googleblog.com/2017/06/google-io-tensorflow-findyourcandy.html))
 - YouTube video: [BigQuery and Cloud Machine Learning: advancing neural network predictions (Google Cloud Next '17)](https://www.youtube.com/watch?v=Ov3Om5Y_Fbg&feature=youtu.be)
 - YouTube video: [Android Meets TensorFlow: How to Accelerate Your App with AI (Google I/O '17)](https://www.youtube.com/watch?v=25ISTLhz0ys)
 - YouTube video: [Classifying Manhattan with TensorFlow (Google Cloud Next '17)](https://youtu.be/XEka7Bp41To)
@@ -47,7 +60,6 @@ Below is the list of my current session topics.
 
 ### 2017 (planned)
 
-- Google Cloud Next, Tokyo
 - ML Code Camp, Jeju
 - InfiniteConf, London
 - Google for Mobile, Tokyo
@@ -79,6 +91,7 @@ Below is the list of my current session topics.
 - Open Source Summit, Tokyo
 - APAC Innovation Summit, Hong Kong
 - Apps Japan, Tokyo
+- Google Cloud Next, Tokyo
 
 ### 2016
 
@@ -94,15 +107,3 @@ Below is the list of my current session topics.
 - Google for Mobile, Tokyo and Korea
 - Google Atmosphere, Melbourne and India
 - MLconf, Atlanta
-
-## Links:
-
-- Twitter: [@kazunori_279](https://twitter.com/kazunori_279)
-- GitHub: [kazunori279](https://github.com/kazunori279)
-- LinkedIn: [kazunori279](https://www.linkedin.com/in/kazunori279/)
-- Facebook: [kazunori.sato](https://www.facebook.com/kazunori.sato.39)
-- Lanyrd: [kazunori_279](http://lanyrd.com/profile/kazunori_279/)
-
-## Photos:
-
-- [Download](photo.jpg)
