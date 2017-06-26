@@ -1,7 +1,7 @@
 
 ## Title
 
-Tensor Processing Unit: Google's LSI designed for neural network
+Tensor Processing Unit: A processor for neural network designed by Google 
 
 ## Title (JP)
 
