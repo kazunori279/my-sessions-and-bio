@@ -1,10 +1,16 @@
-# TensorFlow in the Wild (or the Democratization of Machine Learning)
+## Title:
 
-### Time: 
+TensorFlow in the Wild (or the Democratization of Machine Learning)
+
+## Title (JP):
+
+TensorFlowがめざす、誰もが使える機械学習
+
+## Time: 
 
 45 min
 
-### Target audience and level: 
+## Target audience and level: 
 
 Developers and ITDMs. Beginner level (no requires ML expertise)
 
