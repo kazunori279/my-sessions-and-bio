@@ -46,6 +46,7 @@ Below is the list of my current session topics.
 - YouTube video: [Android Meets TensorFlow: How to Accelerate Your App with AI (Google I/O '17)](https://www.youtube.com/watch?v=25ISTLhz0ys)
 - YouTube video: [Classifying Manhattan with TensorFlow (Google Cloud Next '17)](https://youtu.be/XEka7Bp41To)
 - YouTube video: [Image similarity search with BigQiery (Google Cloud Next '17)](https://youtu.be/KDWj5Mtotbw)
+- YouTube video: [Find your Candy](https://youtu.be/lMvV_OGFFck)
 
 ### 2016
 
