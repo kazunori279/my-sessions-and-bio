@@ -1,4 +1,7 @@
-# BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query
+### Title
+
+- BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query
+- BigQuery＋TensorFlow: データウェアハウスと機械学習で実現する「賢い」検索
 
 ### Time
 
