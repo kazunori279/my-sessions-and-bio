@@ -67,8 +67,6 @@ Below is the list of my current session topics.
 
 ### 2017 (planned)
 
-- AI Summit, Hong Kong
-- Google for Mobile, Tokyo
 - JupyterCon, New York
 - Open Source Summit North America, Los Angeles
 - Google Cloud Summit, Mumbai and Bangalore
@@ -103,6 +101,8 @@ Below is the list of my current session topics.
 - Google Cloud Next, Tokyo
 - ML Code Camp, Jeju
 - InfiniteConf, London
+- AI Summit, Hong Kong
+- Google for Mobile, Tokyo
 
 ### 2016
 
