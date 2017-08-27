@@ -30,6 +30,7 @@ Below is the list of my current session topics.
 - [TensorFlow in the Wild (or the Democratization of Machine Learning)](TensorFlow%20in%20the%20Wild.md)
 - [Android meets TensorFlow: how to accelerate your app with AI](Android%20meets%20TensorFlow.md)
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
+- [Cloud Datalab: Jupyter with the power of BigQuery and TensorFlow](datalab.md)
 
 ## Codelab material
 
@@ -68,7 +69,6 @@ Below is the list of my current session topics.
 
 ### 2017 (planned)
 
-- JupyterCon, New York
 - Open Source Summit North America, Los Angeles
 - Google Cloud Summit, Mumbai and Bangalore
 - ODSC Europe, London
@@ -104,6 +104,7 @@ Below is the list of my current session topics.
 - InfiniteConf, London
 - AI Summit, Hong Kong
 - Google for Mobile, Tokyo
+- JupyterCon, New York
 
 ### 2016
 
