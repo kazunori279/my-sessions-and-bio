@@ -1,6 +1,6 @@
 ### Title
 
-- Easy distributed training with Keras and Cloud ML Engine
+- Easy and fully managed distributed training with Keras and Cloud ML Engine
 - KerasとCloud ML Engineでかんたん分散学習
 
 ### Time
