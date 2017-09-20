@@ -1,10 +1,10 @@
 ## Title:
 
-TensorFlow in the Wild (or the Democratization of Machine Learning)
+Real-world Machine Learning with TensorFlow and Cloud ML
 
 ## Title (JP):
 
-TensorFlowがめざす、誰もが使える機械学習
+TensorFlowとCloud MLで広がる、現場で使える機械学習
 
 ## Time: 
 
