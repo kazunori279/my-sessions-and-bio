@@ -19,7 +19,11 @@ about 45 min
 
 Smart phone developers, embedded system designers. Intermediate level (requires no ML expertise)
 
-## Abstract: 
+## Short agenda (370 chars)
+
+Portability is one of the benefits of TensorFlow. You can easily move the neural network model to Android and run the prediction inside mobile phones, to do many AI tricks things like image recognition, motion recognition and etc. In this session, we will discuss tips and tricks to overcome those challenges to bring the latest AI technology to production Android app.
+
+## Long Agenda
 
 Portability is one of the benefits of TensorFlow. You can easily move the neural network model to Android 
 and run the prediction inside mobile phones, to do many AI tricks things like image recognition, motion 
