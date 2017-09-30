@@ -19,9 +19,11 @@ This session is based on the content of blog post: [An in-depth look at Google�
 
 Data engineers and analysts, hardware developers
 
-## Abstract: 
+## Short agenda (380 chars): 
+Tensor Processing Unit (TPU) is a LSI designed by Google for neural network processing. TPU features a large-scale systolic array matrix unit that achieves outstanding performance-per-watt ratio. In this session we will learn how a minimalistic design philosophy and a tight focus on neural network inference use-cases enabled the high performance neural network accelerator chip.
 
-This session takes a detailed look at the architecture of Google’s 1st generation Tensor Processing Unit (TPU), the LSI designed for neural network processing. We’ll cover quantization, CISC design, as well as the systolic array matrix unit that is the heart of the device. You’ll learn how a minimalistic design philosophy and a tight focus on neural network inference use-cases enabled Google to build and deploy such a high-performing device in just 15 months.
+## Long agenda
+
 
 ## Abstract (JP):
 
