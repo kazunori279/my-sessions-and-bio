@@ -71,8 +71,6 @@ Below is the list of my current session topics.
 
 ### 2017 (planned)
 
-- Open Source Summit North America, Los Angeles
-- Google Cloud Summit, Mumbai and Bangalore
 - ODSC Europe, London
 - VoxxedDays, Belgrade
 - Data Scientist Association Symposium, Tokyo
@@ -107,6 +105,8 @@ Below is the list of my current session topics.
 - AI Summit, Hong Kong
 - Google for Mobile, Tokyo
 - JupyterCon, New York
+- Open Source Summit North America, Los Angeles
+- Google Cloud Summit, Mumbai and Bangalore
 
 ### 2016
 
