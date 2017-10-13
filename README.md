@@ -46,6 +46,7 @@ Below is the list of my current session topics.
 - GCP blog: [Build your own machine-learning-powered robot arm using TensorFlow and Google Cloud](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) ([JP version](https://cloudplatform-jp.googleblog.com/2017/06/google-io-tensorflow-findyourcandy.html))
 - GCP blog: [How Aucnet leveraged TensorFlow to transform their IT engineers into machine learning engineers](https://cloud.google.com/blog/big-data/2017/08/how-aucnet-leveraged-tensorflow-to-transform-their-it-engineers-into-machine-learning-engineers)
 - Opensource.com blog: [TensorFlow brings machine learning to the masses](https://opensource.com/article/17/9/tensorflow)
+- GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow) ([JP version](https://cloudplatform-jp.googleblog.com/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow.html))
 
 ### 2017 GCP YouTube videos
 
