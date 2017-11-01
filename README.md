@@ -21,6 +21,7 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - LinkedIn: [kazunori279](https://www.linkedin.com/in/kazunori279/)
 - Facebook: [kazunori.sato](https://www.facebook.com/kazunori.sato.39)
 - Lanyrd: [kazunori_279](http://lanyrd.com/profile/kazunori_279/)
+- Google+: [+KazunoriSato](https://plus.google.com/+KazunoriSato)
 
 ## Current session topics
 
@@ -72,10 +73,6 @@ Below is the list of my current session topics.
 
 ### 2017 (planned)
 
-- ODSC Europe, London
-- VoxxedDays, Belgrade
-- Data Scientist Association Symposium, Tokyo
-- Gartner Symposium, Tokyo
 - Horizons, Vienna
 - Cloud Expo Europe, Paris
 - GOTO Berlin
@@ -108,6 +105,10 @@ Below is the list of my current session topics.
 - JupyterCon, New York
 - Open Source Summit North America, Los Angeles
 - Google Cloud Summit, Mumbai and Bangalore
+- ODSC Europe, London
+- VoxxedDays, Belgrade
+- Data Scientist Association Symposium, Tokyo
+- Gartner Symposium, Tokyo
 
 ### 2016
 
