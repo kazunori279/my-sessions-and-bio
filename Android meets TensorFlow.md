@@ -1,11 +1,11 @@
 
 ## Title
 
-Android meets TensorFlow: how to accelerate your app with AI
+Android meets TensorFlow Lite: how to accelerate your app with AI
 
 ## Title (JP)
 
-AndroidとTensorFlow：アプリをAIで賢くする方法
+AndroidとTensorFlow Lite：アプリをAIで賢くする方法
 
 ## Session duration
 
@@ -19,17 +19,9 @@ about 45 min
 
 Smart phone developers, embedded system designers. Intermediate level (requires no ML expertise)
 
-## Short agenda (370 chars)
+## Short agenda
 
-Portability is one of the benefits of TensorFlow. You can easily move the neural network model to Android and run the prediction inside mobile phones, to do many AI tricks things like image recognition, motion recognition and etc. In this session, we will discuss tips and tricks to overcome those challenges to bring the latest AI technology to production Android app.
-
-## Long Agenda
-
-Portability is one of the benefits of TensorFlow. You can easily move the neural network model to Android 
-and run the prediction inside mobile phones, to do many AI tricks things like image recognition, motion 
-recognition and etc. But the challenges are the model size and CPU consumption. The models usually takes 
-tens of megabytes, and also consumes CPU power for neural network prediction. In this session, we will 
-discuss tips and tricks to overcome those challenges to bring the latest AI technology to production Android app.
+TensorFlow Lite is TensorFlow’s lightweight solution for mobile and embedded devices. It enables on-device machine learning inference with low latency and a small binary size. TensorFlow Lite also supports hardware acceleration with the Android Neural Networks API. In this session, we will discuss how developers can use TensorFlow Lite to overcome the challenges for bringing the latest AI technology to production Android app.
 
 ## Abstract (JP):
 
@@ -37,5 +29,5 @@ Googleが提供するオープンソースの機械学習ライブラリTensorFl
 ニューラルネットワークモデルをAndroid等のスマートフォンに載せることで、画像認識や動き検知等、AIの賢さを活用したさまざまな
 アプリへの応用が可能です。しかし、アプリへのAI導入の大きな課題は、ニューラルネットワークのモデルサイズとCPU消費です。そのままでは
 モデルが数10MBの容量に達し、またニューラルネットワークによる認識処理には大きなCPUパワーを必要とします。このセッションでは、
-プロダクションのAndroidアプリに最新のAIを導入するための課題を説明し、それをクリアするための各種手法を解説します。
+モバイル向けライブラリ TensorFlow Liteを用いてスマートフォンアプリに最新のAIを導入するための課題や各種手法を解説します。
 
