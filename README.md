@@ -53,9 +53,11 @@ Below is the list of my current session topics.
 
 - [BigQuery and Cloud Machine Learning: advancing neural network predictions (Google Cloud Next '17)](https://www.youtube.com/watch?v=Ov3Om5Y_Fbg&feature=youtu.be)
 - [Android Meets TensorFlow: How to Accelerate Your App with AI (Google I/O '17)](https://www.youtube.com/watch?v=25ISTLhz0ys)
+- [Android Meets TensorFlow: How to Accelerate Your App with AI (GDD India 2017)](https://www.youtube.com/watch?v=Qa_0l94Tvls)
 - [Classifying Manhattan with TensorFlow (Cloud Next '17)](https://youtu.be/XEka7Bp41To)
 - [Image similarity search with BigQiery (Cloud Next '17)](https://youtu.be/KDWj5Mtotbw)
 - [Find your Candy (Cloud Next '17)](https://youtu.be/lMvV_OGFFck)
+- [Real-world Machine Learning with TensorFlow and Cloud ML (GDD India 2017)](https://www.youtube.com/watch?v=7yylsf0ewzE)
 
 ### 2016 GCP blogs
 
