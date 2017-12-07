@@ -1,7 +1,7 @@
 
 ## Title
 
-TensorFlow Lite: how to accelerate your mobile app with AI
+TensorFlow Lite: how to accelerate your Android and iOS app with AI
 
 ## Title (JP)
 
