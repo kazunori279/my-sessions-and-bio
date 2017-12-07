@@ -30,7 +30,7 @@ Below is the list of my current session topics.
 - [Easy and fully managed distributed training with Keras and Cloud ML Engine](keras.md)
 - [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
 - [Real-world Machine Learning with TensorFlow and Cloud ML](TensorFlow%20and%20ML.md)
-- [Android meets TensorFlow: how to accelerate your app with AI](tflite.md)
+- [TensorFlow Lite: how to accelerate your Android and iOS app with AI](tflite.md)
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
 - [Cloud Datalab: Jupyter with the power of BigQuery and TensorFlow](datalab.md)
 
