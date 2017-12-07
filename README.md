@@ -73,12 +73,14 @@ Below is the list of my current session topics.
 
 ## Invited Events
 
-### 2017 (planned)
+### 2018 (planned)
 
-- Horizons, Vienna
-- Cloud Expo Europe, Paris
-- GOTO Berlin
-- Strata Data Conf, Singapore
+- NVIDIA GTC, Santa Clara
+- O'Reilly AI Conf, Beijing
+- COOL Chips, Yokohama
+- AI Congress, Las Vegas
+- O'Reilly AI Conf, NYC
+- WeAreDevlopers, Vienna
 
 ### 2017
 
@@ -111,6 +113,11 @@ Below is the list of my current session topics.
 - VoxxedDays, Belgrade
 - Data Scientist Association Symposium, Tokyo
 - Gartner Symposium, Tokyo
+- Horizons, Vienna
+- Cloud Expo Europe, Paris
+- GOTO Berlin
+- GDD India (keynote)
+- Strata Data Conf, Singapore
 
 ### 2016
 
