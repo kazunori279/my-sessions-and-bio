@@ -73,7 +73,7 @@ Below is the list of my current session topics.
 
 ## Invited Events
 
-### 2018 (planned)
+### 2018
 
 - NVIDIA GTC, Santa Clara
 - O'Reilly AI Conf, Beijing
