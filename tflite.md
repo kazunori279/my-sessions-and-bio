@@ -21,7 +21,7 @@ Smart phone developers, embedded system designers. Intermediate level (requires 
 
 ## Short agenda
 
-TensorFlow Lite is TensorFlow’s lightweight solution for Android, iOS and embedded devices. It enables on-device machine learning inference with low latency and a small binary size. TensorFlow Lite also supports hardware acceleration with the Android Neural Networks API. In this session, we will discuss how developers can use TensorFlow Lite to overcome the challenges for bringing the latest AI technology to production Android app.
+TensorFlow Lite is TensorFlow’s lightweight solution for Android, iOS and embedded devices. It enables on-device machine learning inference with low latency and a small binary size. TensorFlow Lite also supports hardware acceleration with the Android Neural Networks API and Apple Core ML. In this session, we will discuss how developers can use TensorFlow Lite to overcome the challenges for bringing the latest AI technology to production mobile apps and embeded systems.
 
 ## Abstract (JP):
 
