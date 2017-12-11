@@ -27,7 +27,6 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 Below is the list of my current session topics.
 
-- [Easy and fully managed distributed training with Keras and Cloud ML Engine](keras.md)
 - [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
 - [Real-world Machine Learning with TensorFlow and Cloud ML](TensorFlow%20and%20ML.md)
 - [TensorFlow Lite: how to accelerate your Android and iOS app with AI](tflite.md)
