@@ -70,7 +70,7 @@ Below is the list of my current session topics.
 - [What is Cloud Speech API](https://www.youtube.com/watch?v=wzp9dfVpeeg)
 - [How to build a smart RasPi Bot with Cloud Vision and Speech API - Google I/O 2016](https://www.youtube.com/watch?v=HpPyhsC4q9M)
 
-## Invited Events
+## Events
 
 ### 2018
 
