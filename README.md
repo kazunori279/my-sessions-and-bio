@@ -46,7 +46,7 @@ Below is the list of my current session topics.
 - GCP blog: [Build your own machine-learning-powered robot arm using TensorFlow and Google Cloud](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) ([JP version](https://cloudplatform-jp.googleblog.com/2017/06/google-io-tensorflow-findyourcandy.html))
 - GCP blog: [How Aucnet leveraged TensorFlow to transform their IT engineers into machine learning engineers](https://cloud.google.com/blog/big-data/2017/08/how-aucnet-leveraged-tensorflow-to-transform-their-it-engineers-into-machine-learning-engineers)
 - Opensource.com blog: [TensorFlow brings machine learning to the masses](https://opensource.com/article/17/9/tensorflow)
-- GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow) ([JP version](https://cloudplatform-jp.googleblog.com/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow.html)): Featured on [The Keyword](https://www.blog.google/topics/machine-learning/tensorflow-lends-hand-build-rock-paper-scissors-machine/), [Jeff Dean's Research blog](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html) and [Eric Schmidt's tweet](https://twitter.com/ericschmidt/status/925432904888541184).
+- GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow) ([JP version](https://cloudplatform-jp.googleblog.com/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/tensorflow-lends-hand-build-rock-paper-scissors-machine/), [Jeff Dean's Research blog](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html) and [Eric Schmidt's tweet](https://twitter.com/ericschmidt/status/925432904888541184).
 
 ### 2017 GCP YouTube videos
 
@@ -62,7 +62,7 @@ Below is the list of my current session topics.
 
 - [Explore the Galaxy of images with Cloud Vision API](https://cloud.google.com/blog/big-data/2016/05/explore-the-galaxy-of-images-with-cloud-vision-api)
 - [Understanding neural networks with TensorFlow Playground](https://cloud.google.com/blog/big-data/2016/07/understanding-neural-networks-with-tensorflow-playground) ([JP version](http://googlecloudplatform-japan.blogspot.in/2016/07/tensorflow-playground.html))
-- [How a Japanese cucumber farmer is using deep learning and TensorFlow](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow) ([JP version](http://googlecloudplatform-japan.blogspot.jp/2016/08/tensorflow_5.html))
+- [How a Japanese cucumber farmer is using deep learning and TensorFlow](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow) ([JP version](http://googlecloudplatform-japan.blogspot.jp/2016/08/tensorflow_5.html)): featured on [The Newsweek](http://www.newsweek.com/artificial-intelligence-cucumber-farm-raspberry-pi-495289), [The New Yorker](https://www.newyorker.com/tech/elements/diy-artificial-intelligence-comes-to-a-japanese-family-farm) and several keynotes at Cloud Next and Google I/O.
 
 ### 2016 GCP YouTube videos
 
