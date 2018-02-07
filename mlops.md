@@ -1,6 +1,6 @@
 ### Title
 
-- What is "MLOps"? Solutions and best practices for bringing ML into production
+- What is MLOps: Solutions and best practices for DevOps of profudtion ML services 
 - MLOpsとは：機械学習の実運用のためのソリューションとベスト・プラクティス
 
 ### Time
