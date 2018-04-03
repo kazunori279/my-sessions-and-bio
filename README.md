@@ -2,13 +2,13 @@
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
 
-Kaz Sato is Staff Developer Advocate at Google Cloud. For machine learning and data analytics products, such as TensorFlow, Cloud ML and BigQuery, Kaz has been invited as a speaker at major events including Google Cloud Next, Google I/O, Strata NYC, NVIDIA GTC and etc. Also, authoring many GCP blog posts, supporting developer communities for Google Cloud for over 8 years. He is also interested in hardwares and IoT, and has been hosting FPGA meetups since 2013.
+Kaz Sato is Staff Developer Advocate at Google Cloud. For machine learning and data analytics products, such as TensorFlow, Cloud ML and BigQuery, Kaz has been invited as a speaker at major events including Google Cloud Next, Google I/O, Strata, NVIDIA GTC and etc. Also, authoring many GCP blog posts, supporting developer communities for Google Cloud for over 8 years. He is also interested in hardwares and IoT, and has been hosting FPGA meetups since 2013.
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Google Cloud デベロッパーアドボケイト
 
-Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud ML、BigQuery等のデータ分析および機械学習プロダクトの開発者支援を担当。Cloud Next SF、Google I/O、Strata NYC等の主要イベントでスピーカーを務め、GCP公式ブログにて多数の記事を寄稿。Googleクラウドの開発者コミュニティを7年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。
+Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud ML、BigQuery等のデータ分析および機械学習プロダクトの開発者支援を担当。Google Cloud Next、Google I/O、Strata、NVIDIA GTC等の主要イベントでスピーカーを務め、GCP公式ブログ英語版にて多数の記事を寄稿。Googleクラウドの開発者コミュニティを7年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。
 
 ## Photos:
 
