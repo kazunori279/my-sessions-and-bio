@@ -40,6 +40,10 @@ Below is the list of my current session topics.
 
 ## Blog posts, videos and demos
 
+### 2018 blogs
+
+- GCP blog: [AutoML Vision in action: from ramen to branded goods](https://cloud.google.com/blog/big-data/2018/03/automl-vision-in-action-from-ramen-to-branded-goods) ([JP version](https://cloudplatform-jp.googleblog.com/2018/03/automl-vision-in-action-from-ramen-to-branded-goods.html), also featured on [The Keyword](https://www.blog.google/topics/machine-learning/noodle-machine-learning-can-identify-ramen-shop/))
+
 ### 2017 blogs
 
 - GCP blog: [Using machine learning for insurance pricing optimization](https://cloud.google.com/blog/big-data/2017/03/using-machine-learning-for-insurance-pricing-optimization)
@@ -75,7 +79,7 @@ Below is the list of my current session topics.
 
 ### 2018
 
-- NVIDIA GTC, Santa Clara
+- NVIDIA GTC, Santa Clara (Featured speaker)
 - O'Reilly AI Conf, Beijing
 - COOL Chips, Yokohama
 - AI Congress, Las Vegas
