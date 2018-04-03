@@ -79,7 +79,8 @@ Below is the list of my current session topics.
 
 ### 2018
 
-- NVIDIA GTC, Santa Clara (Featured speaker)
+- FOSS Asia, Singapore (keynote)
+- NVIDIA GTC, Santa Clara (featured speaker)
 - O'Reilly AI Conf, Beijing
 - COOL Chips, Yokohama
 - AI Congress, Las Vegas
