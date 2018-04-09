@@ -33,6 +33,7 @@ Below is the list of my current session topics.
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
 - [Cloud Datalab: Jupyter with the power of BigQuery and TensorFlow](datalab.md)
 - [What is MLOps: Solutions and best practices for DevOps of production ML services](mlops.md)
+- [Internet of Smart Things: Build smart IoT system with Machine Learning](iost.md)
 
 ## Codelab material
 
