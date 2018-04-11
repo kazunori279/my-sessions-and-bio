@@ -92,6 +92,8 @@ Below is the list of my current session topics.
 - O'Reilly AI Conf, NYC
 - WeAreDevlopers, Vienna
 - Google I/O, Mountain View
+- Google Cloud Next, San Francisco
+- GOTO, Copenhagen
 
 ### 2017
 
