@@ -86,7 +86,7 @@ Below is the list of my current session topics.
 - FOSS Asia, Singapore (keynote)
 - NVIDIA GTC, Santa Clara (featured speaker)
 - O'Reilly AI Conf, Beijing
-- COOL Chips, Yokohama
+- COOL Chips, Yokohama (keynote)
 - AI Congress, Las Vegas
 - O'Reilly AI Conf, NYC
 - WeAreDevlopers, Vienna
