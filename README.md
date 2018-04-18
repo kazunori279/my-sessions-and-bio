@@ -86,13 +86,14 @@ Below is the list of my current session topics.
 - FOSS Asia, Singapore (keynote)
 - NVIDIA GTC, Santa Clara (featured speaker)
 - O'Reilly AI Conf, Beijing
-- COOL Chips, Yokohama (keynote)
+- IEEE COOL Chips, Yokohama (keynote)
 - AI Congress, Las Vegas
 - O'Reilly AI Conf, NYC
 - WeAreDevlopers, Vienna
 - Google I/O, Mountain View
 - Google Cloud Next, San Francisco
 - GOTO, Copenhagen
+- ML Code Camp, Jeju
 
 ### 2017
 
