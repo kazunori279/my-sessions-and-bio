@@ -42,6 +42,7 @@ Below is the list of my current session topics.
 
 ### 2018 blogs
 
+- GCP blog: [Now live in Tokyo: using TensorFlow to predict taxi demand](https://cloud.google.com/blog/big-data/2018/04/now-live-in-tokyo-using-tensorflow-to-predict-taxi-demand) ([JP version](https://cloudplatform-jp.googleblog.com/2018/04/ntt-docomo-ai-taxi-tensorflow.html))
 - GCP blog: [AutoML Vision in action: from ramen to branded goods](https://cloud.google.com/blog/big-data/2018/03/automl-vision-in-action-from-ramen-to-branded-goods) ([JP version](https://cloudplatform-jp.googleblog.com/2018/03/automl-vision-in-action-from-ramen-to-branded-goods.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/noodle-machine-learning-can-identify-ramen-shop/) and [Jeff Dean's tweet](https://twitter.com/JeffDean/status/978510291779465216)
 
 ### 2018 videos
