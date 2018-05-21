@@ -48,6 +48,7 @@ Below is the list of my current session topics.
 ### 2018 videos
 
 - FOSS Asia keynote: [Real-world Machine Learning with TensorFlow and Cloud ML](https://youtu.be/_v23trYkMak)
+- Google I/O session: [Machine learning models + IoT data = a smarter world](https://youtu.be/avxpkFUXIfA?t=10m41s)
 
 ### 2017 blogs
 
