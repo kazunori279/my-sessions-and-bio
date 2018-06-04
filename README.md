@@ -12,7 +12,8 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 ## Photos:
 
-- [Download](photo_201802_small.PNG)
+- [My photo](photo_201802_small.PNG)
+- [My past works](past_works.png)
 
 ## Links:
 
