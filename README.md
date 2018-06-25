@@ -29,11 +29,11 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 Below is the list of my current session topics.
 
 - [Real-world Machine Learning with TensorFlow and Cloud ML](TensorFlow%20and%20ML.md)
-- [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
+- [How to win Rock-paper-scissors with ML-powered smart IoT device](iost.md)
 - [TensorFlow Lite: how to accelerate your Android and iOS app with AI](tflite.md)
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
+- [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
 - [What is MLOps: Solutions and best practices for DevOps of production ML services](mlops.md)
-- [How to win Rock-paper-scissors with ML-powered smart IoT device](iost.md)
 
 ## Codelab material
 
