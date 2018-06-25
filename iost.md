@@ -21,5 +21,5 @@ Machine Learning is not only about data analytics. It's a new way of programming
 
 ### Related content
 
-[My summer project: a rock-paper-scissors machine built on TensorFlow](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow)
+- GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow)
 - Google I/O session: [Machine learning models + IoT data = a smarter world](https://youtu.be/avxpkFUXIfA?t=10m41s)
