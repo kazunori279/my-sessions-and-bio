@@ -45,11 +45,17 @@ Below is the list of my current session topics.
 
 - GCP blog: [Now live in Tokyo: using TensorFlow to predict taxi demand](https://cloud.google.com/blog/big-data/2018/04/now-live-in-tokyo-using-tensorflow-to-predict-taxi-demand) ([JP version](https://cloudplatform-jp.googleblog.com/2018/04/ntt-docomo-ai-taxi-tensorflow.html))
 - GCP blog: [AutoML Vision in action: from ramen to branded goods](https://cloud.google.com/blog/big-data/2018/03/automl-vision-in-action-from-ramen-to-branded-goods) ([JP version](https://cloudplatform-jp.googleblog.com/2018/03/automl-vision-in-action-from-ramen-to-branded-goods.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/noodle-machine-learning-can-identify-ramen-shop/), [Jeff Dean's tweet](https://twitter.com/JeffDean/status/978510291779465216), and [Fei-Fei Li's talk at Google I/O](https://youtu.be/WWT0ltBf3MU?t=22m23s).
+- GCP blog: [What makes TPUs fine-tuned for deep learning?](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) ([JP version](https://cloudplatform-jp.googleblog.com/2018/08/what-makes-tpus-fine-tuned-for-deep-learning.html))
 
 ### 2018 videos
 
 - FOSS Asia keynote: [Real-world Machine Learning with TensorFlow and Cloud ML](https://youtu.be/_v23trYkMak)
 - Google I/O session: [Machine learning models + IoT data = a smarter world](https://youtu.be/avxpkFUXIfA?t=10m41s)
+- Google Cloud Next SF session [What is ML Ops?](https://www.youtube.com/watch?v=_jnhXzY1HCw)
+
+### 2018 demos
+
+- [What is Tensor Processing Unit?](https://tpudemo.com)
 
 ### 2017 blogs
 
