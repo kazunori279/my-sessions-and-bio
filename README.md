@@ -102,6 +102,7 @@ Below is the list of my current session topics.
 - Google I/O, Mountain View
 - Google for Mobile, Seoul/Tokyo
 - Google Cloud Next, San Francisco
+- Google Cloud Next, Tokyo (keynote)
 - O'Reilly AI Conf, London
 - GOTO, Copenhagen
 
