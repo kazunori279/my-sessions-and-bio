@@ -33,7 +33,7 @@ Below is the list of my current session topics.
 - [TensorFlow Lite: how to accelerate your Android and iOS app with AI](tflite.md)
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
 - [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
-- [What is MLOps: Solutions and best practices for DevOps of production ML services](mlops.md)
+- [What is ML Ops: Solutions and best practices for DevOps of production ML services](mlops.md)
 
 ## Codelab material
 
