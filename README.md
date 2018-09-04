@@ -104,6 +104,7 @@ Below is the list of my current session topics.
 - Google Cloud Next, San Francisco
 - Google Cloud Next, Tokyo (keynote)
 - O'Reilly AI Conf, London
+- GDG DevFest 2018, Melbourne
 - GOTO, Copenhagen
 
 ### 2017
