@@ -29,7 +29,7 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 Below is the list of my current session topics.
 
 - [Real-world Machine Learning with TensorFlow and Cloud ML](TensorFlow%20and%20ML.md)
-- [How to win Rock-paper-scissors with ML-powered smart IoT device](iost.md)
+- [Understanding ML and smart IoT with "Rock-paper-scissors machine" ](iost.md)
 - [TensorFlow Lite: how to accelerate your Android and iOS app with AI](tflite.md)
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
 - [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
