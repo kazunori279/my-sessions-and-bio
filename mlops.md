@@ -18,4 +18,6 @@ This session features the concept of "ML Ops" (DevOps for ML), solutions and bes
 
 Creating an ML model is just a starting point. To bring the technology into production service, you need to solve various real-world issues such as: building a data pipeline for continuous training, automated validation of the model, version control of the model, scalable serving infra, and ongoing operation of the ML infra with monitoring and alerting. In this session, we will learn concepts of "ML Ops" (DevOps for ML) and how to combine Apache Airflow, Kubeflow and cloud services to build a production ML service infra.
 
+### Related video
 
+- [What is ML Ops](https://www.youtube.com/watch?v=_jnhXzY1HCw) at Google Cloud Next SF 2018
