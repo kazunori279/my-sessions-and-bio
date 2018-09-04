@@ -1,7 +1,7 @@
 ### Title
 
-- How to win Rock-paper-scissors with ML-powered smart IoT device 
-- 機械学習＋スマートIoTで、じゃんけんに勝つ方法
+- Understanding ML and smart IoT with "Rock-paper-scissors machine" 
+- 「じゃんけんマシン」で学ぶ機械学習とスマートIoT
 
 ### Time
 
