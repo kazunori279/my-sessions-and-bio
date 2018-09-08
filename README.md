@@ -1,3 +1,6 @@
+![My past works](past works.png)
+My past blogs and demos
+
 ## Bio
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
@@ -12,8 +15,8 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 ## Photos:
 
-![My photo](photo_201802_small.PNG)
-![My past works](past_works.png)
+- [My photo](photo_201802_small.PNG)
+- [My past works](past works.png)
 
 ## Links:
 
