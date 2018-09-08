@@ -1,4 +1,4 @@
-![My past works](past works.png)
+![My past works](past_works.png)
 My past blogs and demos
 
 ## Bio
