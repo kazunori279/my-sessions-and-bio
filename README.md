@@ -110,6 +110,8 @@ Below is the list of my current session topics.
 - O'Reilly AI Conf, London
 - GDG DevFest 2018, Melbourne
 - GOTO, Copenhagen
+- IEICE Design Gaia 2018, Hiroshima
+- Google Developers ML Summit, Tokyo (keynote)
 
 ### 2017
 
