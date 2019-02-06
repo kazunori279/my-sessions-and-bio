@@ -33,7 +33,7 @@ Below is the list of my current session topics.
 
 - [Real-world Machine Learning with TensorFlow and Cloud ML](TensorFlow%20and%20ML.md)
 - [Understanding ML and smart IoT with "Rock-paper-scissors machine" ](iost.md)
-- [TensorFlow Lite: how to accelerate your Android and iOS app with AI](tflite.md)
+- [TensorFlow Lite and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
 - [Tensor Processing Unit: Google's LSI designed for neural network](TPU.md)
 - [BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query](BigQuery%20and%20TensorFlow.md)
 - [What is ML Ops: Solutions and best practices for DevOps of production ML services](mlops.md)
