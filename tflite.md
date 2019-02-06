@@ -1,7 +1,7 @@
 
 ## Title
 
-TensorFlow Lite and Edge TPU: accelerating your devices with the power of AI
+TensorFlow Lite and Edge TPU: accelerating your mobile devices with the power of AI
 
 ## Title (JP)
 
