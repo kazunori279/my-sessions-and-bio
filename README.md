@@ -94,6 +94,15 @@ Below is the list of my current session topics.
 
 ## Events
 
+### 2019
+
+- Google ML Dev Summit, Tokyo (keynote)
+- Google ML Dev Summit, Seoul
+- Google ML Dev Summit, Taipei
+- Let's Talk AI, Taipei
+- Google Cloud Next, San Francisco
+- O'Reilly AI Conf, Beijing
+
 ### 2018
 
 - FOSS Asia, Singapore (keynote)
