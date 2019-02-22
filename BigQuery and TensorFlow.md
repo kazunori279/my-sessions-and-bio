@@ -1,7 +1,7 @@
 ### Title
 
-- BigQuery and TensorFlow: Data Warehouse + Machine Learning enables the "smart" query
-- BigQuery＋TensorFlow: データウェアハウスと機械学習で実現する「賢い」検索
+- BigQuery ML and TensorFlow: Data Warehouse + Machine Learning enables the "smart" analytics
+- BigQuery MLとTensorFlow: データウェアハウスと機械学習で実現する「賢い」データ分析
 
 ### Time
 
@@ -17,15 +17,15 @@ Data analysts, data scientists and database engineers. Intermediate level (requi
 
 ### Short Agenda (55 words)
 
-BigQuery is Google's fully managed, petabyte scale data warehouse. It's User Defined Function realizes "smart" queries with the power of machine learning, such as similarity search or recommendation on images or documents with feature vectors and neural network prediction. In this session we will see BigQuery and TensorFlow enables a powerful "data warehouse + ML" solution.
+BigQuery is Google's fully managed, petabyte scale data warehouse. It's new feature BigQuery ML realizes smart data analytics with the power of machine learning, such as simple logistic regression, similarity search or recommendation on images or documents with feature vectors and neural network prediction. In this session we will see BigQuery ML and TensorFlow enables a powerful "data warehouse + ML" solution.
 
 ### Agenda (170 words)
 
 BigQuery is Google's fully managed, petabyte scale, low cost enterprise data warehouse. By leveraging the petabit network and tens of thousands of servers in Google datacenter, BigQuery allow you to execute your SQL with as a Massively Parallel Processing query with hundreds of CPU cores and disk storages, scanning ang aggregating terabytes of data in seconds.
 
-BigQuery also features an unique technology, User Defined Function (UDF), that let you define your own SQL function with JavaScript code, embedded in SQL. UDF is the key to integrate the scalable data warehouse with the power of Machine Learning (ML) by using TensorFlow and ML Engine. The solution enables variety of "smart" queries, such as similarity search and recommendation on images, documents, products or users, by processing feature vectors of the contents with UDF. Or you can even run neural network prediction inside BigQuery.
+BigQuery also features an unique technology, BigQuery ML, that let you create and use a Machine Learning (ML) model inside SQL. This is the key technology to integrate the scalable data warehouse with the power of ML. The solution enables variety of smart data analytics, such as logistic regression on large dataset, similarity search and recommendation on images, documents, products or users, by processing feature vectors of the contents. Or you can even run TensorFlow model prediction inside BigQuery.
 
-In this session, we will discuss how BigQuery, TensorFlow and ML Engine can be integrated with UDF and build a powerful solution with the cloud data warehouse and ML.
+In this session, we will discuss how BigQuery ML and TensorFlow can be used to build a powerful solution with the cloud data warehouse and ML.
 
 ### Outline
 
