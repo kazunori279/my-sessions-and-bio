@@ -17,7 +17,7 @@ Data analysts, data scientists and database engineers. Intermediate level (requi
 
 ### Short Agenda (55 words)
 
-BigQuery is Google's fully managed, petabyte scale data warehouse. It's new feature BigQuery ML realizes smart data analytics with the power of machine learning, such as simple logistic regression, similarity search or recommendation on images or documents with feature vectors and neural network prediction. In this session we will see the technology enables a powerful "data warehouse + ML" solution.
+BigQuery is Google's petabyte scale data warehouse. It's new feature BigQuery ML realizes smart data analytics with the power of machine learning, such as simple logistic regression, similarity search or recommendation on images or documents with feature vectors and neural network prediction. In this session we will see the technology enables a powerful "data warehouse + ML" solution.
 
 ### Agenda (170 words)
 
