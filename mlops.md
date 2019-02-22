@@ -1,6 +1,6 @@
 ### Title
 
-- What is ML Ops: solutions and best practices for DevOps of production ML services 
+- ML Ops and Kubernetes Pipelines: solutions and best practices for DevOps of production ML services 
 - ML Opsとは：機械学習の実運用のためのソリューションとベスト・プラクティス
 
 ### Time
