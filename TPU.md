@@ -1,11 +1,11 @@
 
 ## Title
 
-Tensor Processing Unit: A processor for neural network designed by Google 
+Tensor Processing Unit (TPU) and TPU Pod: AI supercomputing for machine learning 
 
 ## Title (JP)
 
-Googleが開発したニューラルネット専用LSI「Tensor Processing Unit」
+Tensor Processing Unit (TPU)とTPU Pod：機械学習のためのAIスーパーコンピュータ
 
 ## Session duration
 
@@ -19,8 +19,11 @@ This session is based on the content of blog post: [What makes TPUs fine-tuned f
 
 Data engineers and analysts, hardware developers
 
-## Short agenda (380 chars): 
-Tensor Processing Unit (TPU) is a LSI designed by Google for neural network processing. TPU features a large-scale systolic array matrix unit that achieves outstanding performance-per-watt ratio. In this session we will learn how a minimalistic design philosophy and a tight focus on neural network inference use-cases enabled the high performance neural network accelerator chip.
+## Short agenda (less than 400 chars)
+Tensor Processing Unit (TPU) is a LSI designed by Google for neural network processing. TPU Pod is a large scale computing cluster that consolidates up to 1024 cores of Cloud TPU v2. In this session, we will learn the technical details of TPU and TPU Pod, and AI supercomputing environment enables a large scale model parallelism for deep learning training.
+
+## Long agenda: 
+Tensor Processing Unit (TPU) is a LSI designed by Google for neural network processing. TPU features a large-scale systolic array matrix unit that achieves outstanding performance-per-watt ratio. TPU Pod is a large scale computing cluster that consolidates up to 1024 cores of Cloud TPU v2, interconnected with Google's high speed interconnect. In this session, we will learn the technical details of TPU and TPU Pod, and AI supercomputing environment enables a large scale model parallelism for deep learning training. 
 
 ## Long agenda
 
