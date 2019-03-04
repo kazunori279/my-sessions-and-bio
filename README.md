@@ -101,6 +101,8 @@ Below is the list of my current session topics.
 - Google Developers ML Summit, Taipei
 - Let's Talk AI, Taipei
 - Google Cloud Next, San Francisco
+- Google I/O, Mountain View
+- SREcon19 Asia, Singapore 
 - O'Reilly AI Conf, Beijing
 
 ### 2018
