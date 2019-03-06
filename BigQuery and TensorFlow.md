@@ -1,6 +1,6 @@
 ### Title
 
-- BigQuery ML and TensorFlow: Data Warehouse + Machine Learning enables the "smart" analytics
+- BigQuery ML and TensorFlow: Data Warehouse + Machine Learning enables smart analytics
 - BigQuery MLとTensorFlow: データウェアハウスと機械学習で実現する「賢い」データ分析
 
 ### Time
