@@ -15,15 +15,15 @@ Data analysts, data scientists and database engineers. Intermediate level (requi
 
 [YouTube video](https://youtu.be/Ov3Om5Y_Fbg)
 
-### Short Agenda (55 words)
+### Short Agenda
 
-BigQuery is Google's petabyte scale data warehouse. It's new feature BigQuery ML realizes smart data analytics with the power of machine learning, such as simple logistic regression, similarity search or recommendation on images or documents with feature vectors and neural network prediction. In this session we will see the technology enables a powerful "data warehouse + ML" solution.
+BigQuery is Google's petabyte scale data warehouse. It's new feature BigQuery ML realizes smart data analytics with the power of machine learning, from simple logistic regression to deep learning prediction with TensorFlow In this session we will see the technology enables a powerful "data warehouse + ML" solution.
 
 ### Agenda (170 words)
 
 BigQuery is Google's fully managed, petabyte scale, low cost enterprise data warehouse. By leveraging the petabit network and tens of thousands of servers in Google datacenter, BigQuery allow you to execute your SQL with as a Massively Parallel Processing query with hundreds of CPU cores and disk storages, scanning ang aggregating terabytes of data in seconds.
 
-BigQuery also features an unique technology, BigQuery ML, that let you create and use a Machine Learning (ML) model inside SQL. This is the key technology to integrate the scalable data warehouse with the power of ML. The solution enables variety of smart data analytics, such as logistic regression on large dataset, similarity search and recommendation on images, documents, products or users, by processing feature vectors of the contents. Or you can even run TensorFlow model prediction inside BigQuery.
+BigQuery has new feature BigQuery ML that let you create and use a simple Machine Learning (ML) model as well as deep learning prediction with TensorFlow model. This is the key technology to integrate the scalable data warehouse with the power of ML. The solution enables variety of smart data analytics, such as logistic regression on large dataset, similarity search and recommendation on images, documents, products or users, by processing feature vectors of the contents. Or you can even run TensorFlow model prediction inside BigQuery.
 
 In this session, we will discuss how BigQuery ML and TensorFlow can be used to build a powerful solution with the cloud data warehouse and ML.
 
