@@ -36,13 +36,17 @@ Below is the list of my current session topics.
 - [TensorFlow Lite and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
 - [Cloud TPU and Cloud TPU Pod: AI supercomputing for large scale machine learning](TPU.md)
 - [BigQuery ML and TensorFlow: Data Warehouse + Machine Learning enables smart analytics](BigQuery%20and%20TensorFlow.md)
-- [ML Ops and Kubeflow Pipelines: solutions and best practices for DevOps of production ML services ](mlops.md)
+- [ML Ops Best Practices on Google Cloud](mlops.md)
 
 ## Codelab material
 
 - [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
 
 ## Blog posts, videos and demos
+
+### 2019 videos
+
+- [ML Ops Best Practices on Google Cloud](https://www.youtube.com/watch?v=20h_RTHEtZI) at Cloud Next SF 2019 
 
 ### 2018 blogs
 
