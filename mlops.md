@@ -1,7 +1,7 @@
 ### Title
 
-- ML Ops with Kubeflow Pipelines and TFX: best practices of "DevOps for ML"
-- ML Opsとは：機械学習の実運用のためのソリューションとベスト・プラクティス
+- ML Ops Best Practices on Google Cloud
+- ML Ops のプラクティスとGoogle Cloudでの実践
 
 ### Time
 
@@ -11,13 +11,11 @@
 
 Data analysts, data scientists and database engineers. Intermediate level (requires no ML expertise)
 
-### Short Agenda (50 words)
-This session features the concept of "ML Ops" (DevOps for ML), solutions and best practices bringing ML into production service. We will learn how to combine Google Cloud Kubeflow Pipelines and TensorFlow Extension (TFX) for building a data pipeline for continuous training and validation, version control, scalable serving, and ongoing monitoring and alerting.
+### Agenda
 
-### Agenda (85 words)
-
-Creating an ML model is just a starting point. To bring the technology into production service, you need to solve various real-world issues such as: building a data pipeline for continuous training, automated validation of the model, version control of the model, scalable serving infra, and ongoing operation of the ML infra with monitoring and alerting. In this session, we will learn concepts of "ML Ops" (DevOps for ML) and how to combine Cloud Kubeflow Pipelines and TensorFlow Extension (TFX) to build a production ML service infra.
+Creating an ML model is just a starting point. To bring it into production, you need to solve various real-world issues, such as building a pipeline for continuous training, automated validation of the model, scalable serving infrastructure, and supporting multiple environments in increasingly common hybrid and multi-cloud setups. In this session, we will learn the concept of "ML Ops" (DevOps for ML) and how to leverage various Google initiatives like TFX, Kubeflow Fairing (Hybrid ML SDK) and Kubeflow Pipelines to build and maintain production quality ML systems.
 
 ### Related video
 
+- [ML Ops Best Practices on Google Cloud](https://www.youtube.com/watch?v=20h_RTHEtZI) at Google Cloud Next SF 2019
 - [What is ML Ops](https://www.youtube.com/watch?v=_jnhXzY1HCw) at Google Cloud Next SF 2018
