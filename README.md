@@ -35,6 +35,7 @@ Below is the list of my current session topics.
 - [Understanding ML and smart IoT with "Rock-paper-scissors machine" ](iost.md)
 - [Getting Started with TensorFlow and Google Colaboratory](tf_intro.md)
 - [TensorFlow Lite and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
+- AutoML Vision and Edge TPU: bringing TensorFlow Lite models to edge devices](automl.md)
 - [Cloud TPU and Cloud TPU Pod: AI supercomputing for large scale machine learning](TPU.md)
 - [BigQuery ML and TensorFlow: Data Warehouse + Machine Learning enables smart analytics](BigQuery%20and%20TensorFlow.md)
 - [ML Ops Best Practices on Google Cloud](mlops.md)
