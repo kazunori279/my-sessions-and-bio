@@ -49,6 +49,7 @@ Below is the list of my current session topics.
 ### 2019 videos
 
 - [ML Ops Best Practices on Google Cloud](https://www.youtube.com/watch?v=20h_RTHEtZI) at Cloud Next SF 2019 
+- [Cloud TPU Pods: AI Supercomputing  for Large Machine Learning Problems](https://youtu.be/kPMpmcl_Pyw?t=1110) at Google I/O'19
 
 ### 2018 blogs
 
