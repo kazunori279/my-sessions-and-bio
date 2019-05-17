@@ -1,11 +1,11 @@
 
 ## Title
 
-TensorFlow Lite and Edge TPU: accelerating your mobile devices with the power of AI
+TensorFlow Lite, AutoML and Edge TPU: accelerating your mobile and edge devices with the power of AI
 
 ## Title (JP)
 
-TensorFlow Lite と Edge TPU：モバイルアプリをAIで賢くする方法
+TensorFlow Lite、AutoML、Edge TPUで加速するエッジデバイスの機械学習
 
 ## Session duration
 
@@ -25,10 +25,7 @@ TensorFlow Lite is TensorFlow’s lightweight solution for Android, iOS and embe
 
 ## Abstract (JP):
 
-Googleが提供するオープンソースの機械学習ライブラリTensorFlowのメリットのひとつは、ポータビリティの高さです。学習を終えた
-ニューラルネットワークモデルをAndroid等のスマートフォンやRaspberry Pi等のエッジデバイスに載せることで、画像認識や動き検知等、
-AIの賢さを活用したさまざまなアプリへの応用が可能です。しかし、アプリへのAI導入の大きな課題は、ニューラルネットワークのモデルサイズと
-CPU消費です。そのままではモデルが数10MBの容量に達し、またニューラルネットワークによる認識処理には大きなCPUパワーを必要とします。
-そのためGoogleでは、これらの問題を解消する技術として、TensorFlow LiteとEdge TPUを開発しました。このセッションでは、
-デバイス向けライブラリ TensorFlow LiteやEdge TPUを用いてスマートフォンアプリやエッジデバイスに最新のAIを導入するための課題や各種手法を解説します。
+機械学習のエッジデバイス導入におけるの大きな課題は、ニューラルネットワークのモデルサイズとCPU消費です。Googleでは、これらの問題を解消する技術として、エッジデバイス向けの機械学習フレームワーク「TensorFlow Lite」と、そして低消費電力の推論プロセッサ「Edge TPU」を開発しました。このセッションでは、
+TensorFlow LiteやEdge TPUを用いてモバイルアプリやエッジデバイスに最新のAIを導入するための課題や各種手法を解説します。また機械学習モデルの作成を自動化するAutoML Vision Edgeを利用し、モバイルアプリやエッジデバイス向けの機械学習モデルをプログラミングレスで作成する例を紹介します。
+
 
