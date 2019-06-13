@@ -109,6 +109,8 @@ Below is the list of my current session topics.
 - Google I/O, Mountain View
 - SREcon19 Asia, Singapore 
 - O'Reilly AI Conf, Beijing
+- Google Cloud Next, Tokyo
+- O'Reilly TensorFlow World
 - Heapcon, Belgrade
 
 ### 2018
