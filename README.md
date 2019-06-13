@@ -110,7 +110,7 @@ Below is the list of my current session topics.
 - SREcon19 Asia, Singapore 
 - O'Reilly AI Conf, Beijing
 - Google Cloud Next, Tokyo
-- O'Reilly TensorFlow World
+- O'Reilly TensorFlow World, Santa Clara
 - Heapcon, Belgrade
 
 ### 2018
