@@ -24,8 +24,6 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - GitHub: [kazunori279](https://github.com/kazunori279)
 - LinkedIn: [kazunori279](https://www.linkedin.com/in/kazunori279/)
 - Facebook: [kazunori.sato](https://www.facebook.com/kazunori.sato.39)
-- Lanyrd: [kazunori_279](http://lanyrd.com/profile/kazunori_279/)
-- Google+: [+KazunoriSato](https://plus.google.com/+KazunoriSato)
 
 ## Current session topics
 
@@ -110,7 +108,7 @@ Below is the list of my current session topics.
 - SREcon19 Asia, Singapore 
 - O'Reilly AI Conf, Beijing
 - Google Cloud Next, Tokyo
-- O'Reilly TensorFlow World, Santa Clara
+- O'Reilly TensorFlow World, Santa Clara (featured speaker)
 - Heapcon, Belgrade
 
 ### 2018
