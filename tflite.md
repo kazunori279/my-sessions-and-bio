@@ -21,7 +21,7 @@ Smart phone developers, embedded system designers. Intermediate level (requires 
 
 ## Short agenda
 
-TensorFlow Lite is TensorFlow’s lightweight solution for Android, iOS and embedded devices. It enables on-device machine learning inference with low latency and a small binary size. TensorFlow Lite also supports hardware acceleration with the Android Neural Networks API and Apple Core ML. Google also develped Edge TPU, a specialized micro processor for ML predictin at edge devices. In this session, we will discuss how developers can use TensorFlow Lite and Edge TPU to overcome the challenges for bringing the latest AI technology to production mobile apps and embeded systems.
+TensorFlow Lite is TensorFlow’s lightweight solution for Android, iOS and embedded devices. It enables on-device machine learning inference with low latency and a small binary size. TensorFlow Lite also supports hardware acceleration with the Android Neural Networks API and Apple Core ML. Google also developed Edge TPU, a specialized micro processor for ML prediction at edge devices. In this session, we will discuss how developers can use TensorFlow Lite and Edge TPU to overcome the challenges for bringing the latest AI technology to production mobile apps and embedded systems.
 
 ## Abstract (JP):
 
