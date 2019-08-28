@@ -1,6 +1,6 @@
 ### Title
 
-- ML Fairness and Explanable AI
+- ML Fairness and Explainable AI
 
 ### Time
 
