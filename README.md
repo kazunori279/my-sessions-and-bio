@@ -35,7 +35,7 @@ Below is the list of my current session topics.
 - [Cloud TPU and Cloud TPU Pod: AI supercomputing for large scale machine learning](TPU.md)
 - [ML Ops Best Practices on Google Cloud](mlops.md)
 - [Real-world Machine Learning with TensorFlow and Cloud AI](TensorFlow%20and%20ML.md)
-- [ML Fairness and Explainable AI](mlfairness.md)
+- [Fairness and Explainability in ML](mlfairness.md)
 
 ## Codelab material
 
