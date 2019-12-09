@@ -37,7 +37,12 @@ Below is the list of my current session topics.
 - [Real-world Machine Learning with TensorFlow and Cloud AI](TensorFlow%20and%20ML.md)
 - [Fairness and Explainability in ML](mlfairness.md)
 
-## Codelab material
+## Featured demos
+- [QueryIt Smart](http://queryit.magellanic-clouds.com/): Image search on BigQuery with TensorFlow model
+- [Tensor Processing Unit (TPU)](https://tpudemo.com): Explains the TPU design archtecture. See the [blog](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) for more detail
+- [Rock Papar Scissors Machine](https://www.youtube.com/watch?v=hyNruFqe1L0): A simple demo for explaining how ML with linear model works
+- [Find your candy](https://youtu.be/lMvV_OGFFck?t=91): Candy sorter demo for Cloud Next with TensorFlow and ML APIs. See the [blog](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) for more details
+- [What is Cloud Vision API](https://www.youtube.com/watch?v=eve8DkkVdhI): A fun robot demo with Vision API
 
 - [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
 
