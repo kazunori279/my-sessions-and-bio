@@ -29,6 +29,7 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 Below is the list of my current session topics.
 
+- [PDF2Audiobook: How to read more books and lose your weight with the power of AI](p2a.md)
 - [AutoML Tables and BigQuery ML: Quick and scalable AI analytics on large business data](automl_bqml.md)
 - [Getting Started with TensorFlow 2.0 with Google Colab and Cloud AI Platform](tf_intro.md)
 - [TensorFlow Lite, AutoML and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
