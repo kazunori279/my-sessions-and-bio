@@ -1,7 +1,7 @@
 ### Title
 
-- ML Ops Best Practices with TensorFlow Enterprise and Google Cloud
-- TensorFlow EnterpriseとGoogle Cloudで実践するML Ops のベストプラクティス
+- TensorFlow Enterprise: Productionizing TensorFlow with Google Cloud
+- TensorFlow EnterpriseとGoogle Cloudによる機械学習の実運用導入
 
 ### Time
 
@@ -13,7 +13,7 @@ Data analysts, data scientists and DevOps engineers. Intermediate level (require
 
 ### Agenda
 
-Creating an ML model is just a starting point. To bring it into production, you need to solve various real-world issues, such as building a pipeline for continuous training, automated validation of the model, scalable serving infrastructure, and supporting multiple environments in increasingly common hybrid and multi-cloud setups. In this session, we will learn the concept of "ML Ops" (DevOps for ML) and how to leverage Google's Cloud and AI technologies including TensorFlow Enterprise, Google Kubernetes Engine (GKE) and AI Platform to build and maintain scalable and production quality ML systems.
+The hardest part of ML adoption in enterprise is Productization. As we see in recent discussions around "ML Ops", there are many gaps between Data Scientists' PoC Notebook and production ML system manageable by an Ops team. Questions would be "How to deploy the Notebook on cloud in a scalable, portable and manageable way?", "How to process millions of rows of data from a Notebook at cloud scale and speed?", "How to get professional technical consulting for TensorFlow applications?" and so on. In this session, we will see how TensorFlow Enterprise solves these problems with Google Cloud for productionizing your TensorFlow code for mission critical business operation.
 
 ### Related video
 
