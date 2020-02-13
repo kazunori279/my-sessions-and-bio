@@ -104,7 +104,7 @@ Below is the list of my current session topics.
 
 ## Events
 
-### 2019
+### 2020
 
 - TensorFlow Dev Summit, Sunnyvale (keynote)
 - Google Cloud Next, San Francisco
