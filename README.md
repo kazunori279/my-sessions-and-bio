@@ -23,7 +23,7 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - Twitter: [@kazunori_279](https://twitter.com/kazunori_279)
 - GitHub: [kazunori279](https://github.com/kazunori279)
 - LinkedIn: [kazunori279](https://www.linkedin.com/in/kazunori279/)
-- Facebook: [kazunori.sato](https://www.facebook.com/kazunori.sato.39)
+- Facebook: [kazunori279](https://www.facebook.com/kazunori279)
 
 ## Current session topics
 
@@ -103,6 +103,12 @@ Below is the list of my current session topics.
 - [How to build a smart RasPi Bot with Cloud Vision and Speech API - Google I/O 2016](https://www.youtube.com/watch?v=HpPyhsC4q9M)
 
 ## Events
+
+### 2019
+
+- TensorFlow Dev Summit, Sunnyvale (keynote)
+- Google Cloud Next, San Francisco
+- Google I/O, Mountain View
 
 ### 2019
 
