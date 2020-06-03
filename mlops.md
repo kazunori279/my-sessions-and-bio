@@ -1,7 +1,7 @@
 ### Title
 
-- TensorFlow Enterprise: Productionizing TensorFlow with Google Cloud
-- TensorFlow EnterpriseとGoogle Cloudによる機械学習の実運用導入
+- Productionizing ML with ML Ops and Cloud AI
+- ML OpsとCloud AIで実現する機械学習のプロダクション導入
 
 ### Time
 
@@ -9,11 +9,11 @@
 
 ### Target audience and level
 
-Data analysts, data scientists and DevOps engineers. Intermediate level (requires no ML expertise)
+Data analysts, data scientists and DevOps engineers. Intermediate level
 
 ### Agenda
 
-The hardest part of ML adoption in enterprise is Productization. As we see in recent discussions around "ML Ops", there are many gaps between Data Scientists' PoC Notebook and production ML system manageable by an Ops team. Questions would be "How to deploy the Notebook on cloud in a scalable, portable and manageable way?", "How to process millions of rows of data from a Notebook at cloud scale and speed?", "How to get professional technical consulting for TensorFlow applications?" and so on. In this session, we will see how TensorFlow Enterprise solves these problems with Google Cloud for productionizing your TensorFlow code for mission critical business operation.
+The hardest part of ML adoption in enterprises is Productinization. As we see in recent discussions around ML Ops, there is a big gap between Data Scientists' PoC code and production ML development and operation with Ops team. Such as, preparing manageable ML dev environment, building a scalable ML serving infrastructure, setting up a ML pipeline for continuous training, and automated validation of data and model. In this session, we will learn how to leverage various Google's ML/AI offerings such as TensorFlow Extension (TFX), TensorFlow Enterprise, Cloud AI Platform Notebooks, Training, Prediction, and Pipelines for productionizing your ML service with the ML Ops best practices.
 
 ### Related video
 
