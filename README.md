@@ -29,14 +29,13 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 Below is the list of my current session topics.
 
+- [Productionizing ML with ML Ops and Cloud AI](mlops.md)
 - [PDF2Audiobook: How to read more books and lose your weight with the power of AI](p2a.md)
+- [Fairness and Explainability in ML](mlfairness.md)
 - [AutoML Tables and BigQuery ML: Quick and scalable AI analytics on large business data](automl_bqml.md)
 - [Getting Started with TensorFlow 2.0 with Google Colab and Cloud AI Platform](tf_intro.md)
 - [TensorFlow Lite, AutoML and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
 - [Cloud TPU and Cloud TPU Pod: AI supercomputing for large scale machine learning](TPU.md)
-- [ML Ops Best Practices with TensorFlow Enterprise and Google Cloud](mlops.md)
-- [Real-world Machine Learning with TensorFlow and Cloud AI](TensorFlow%20and%20ML.md)
-- [Fairness and Explainability in ML](mlfairness.md)
 
 ## Featured demos
 
