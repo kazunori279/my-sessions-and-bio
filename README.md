@@ -106,8 +106,10 @@ Below is the list of my current session topics.
 ### 2020
 
 - TensorFlow Dev Summit, Sunnyvale (session replaced)
-- Google Next OnAir (online session)
-- Google Cloud Day (online session)
+- ML Bootcamp (online)
+- Google Cloud Day (online, keynote)
+- DeveloperWeek Global (online)
+- Google Next OnAir (online)
 
 ### 2019
 
