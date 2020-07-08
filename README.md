@@ -110,6 +110,7 @@ Below is the list of my current session topics.
 - Google Cloud Day (online, keynote)
 - DeveloperWeek Global (online)
 - Google Cloud Talks by DevRel (online)
+- Google Cloud FinServ workshop (online)
 - Google Next OnAir (online)
 
 ### 2019
