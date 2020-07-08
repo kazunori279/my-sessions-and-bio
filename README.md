@@ -27,15 +27,16 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 ## Current session topics
 
-Below is the list of my current session topics.
-
 - [Productionizing ML with ML Ops and Cloud AI](mlops.md)
 - [PDF2Audiobook: How to read more books and lose your weight with the power of AI](p2a.md)
 - [Fairness and Explainability in ML](mlfairness.md)
 - [AutoML Tables and BigQuery ML: Quick and scalable AI analytics on large business data](automl_bqml.md)
+- [TensorFlow Lite, AutoML and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
+
+## Current workshop topics
+
 - Cloud AI codelab for FinTech: based on Sara's [fraud detection codelab](https://codelabs.developers.google.com/codelabs/fraud-detection-ai-explanations/#7) and [What-if Tool codelab](https://codelabs.developers.google.com/codelabs/xgb-wit-caip/index.html?index=..%2F..index#7)
 - [Getting Started with TensorFlow 2.0 with Google Colab and Cloud AI Platform](tf_intro.md)
-- [TensorFlow Lite, AutoML and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
 
 ## Featured demos
 
