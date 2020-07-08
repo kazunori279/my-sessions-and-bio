@@ -33,9 +33,9 @@ Below is the list of my current session topics.
 - [PDF2Audiobook: How to read more books and lose your weight with the power of AI](p2a.md)
 - [Fairness and Explainability in ML](mlfairness.md)
 - [AutoML Tables and BigQuery ML: Quick and scalable AI analytics on large business data](automl_bqml.md)
+- Cloud AI codelab for FinTech: based on Sara's [fraud detection codelab](https://codelabs.developers.google.com/codelabs/fraud-detection-ai-explanations/#7) and [What-if Tool codelab](https://codelabs.developers.google.com/codelabs/xgb-wit-caip/index.html?index=..%2F..index#7)
 - [Getting Started with TensorFlow 2.0 with Google Colab and Cloud AI Platform](tf_intro.md)
 - [TensorFlow Lite, AutoML and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
-- [Cloud TPU and Cloud TPU Pod: AI supercomputing for large scale machine learning](TPU.md)
 
 ## Featured demos
 
@@ -101,7 +101,7 @@ Below is the list of my current session topics.
 - [What is Cloud Speech API](https://www.youtube.com/watch?v=wzp9dfVpeeg)
 - [How to build a smart RasPi Bot with Cloud Vision and Speech API - Google I/O 2016](https://www.youtube.com/watch?v=HpPyhsC4q9M)
 
-## Events
+## Invited Events
 
 ### 2020
 
@@ -109,6 +109,7 @@ Below is the list of my current session topics.
 - ML Bootcamp (online)
 - Google Cloud Day (online, keynote)
 - DeveloperWeek Global (online)
+- Google Cloud Talks by DevRel (online)
 - Google Next OnAir (online)
 
 ### 2019
