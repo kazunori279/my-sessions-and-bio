@@ -49,6 +49,17 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 ## Blog posts, videos and demos
 
+### 2020 blogs
+
+- [How Google Cloud helped scaling-out one person's AI service—and his life](https://cloud.google.com/blog/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service) ([JP version](https://cloud.google.com/blog/ja/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service))
+- [Rhizomatiks' new Squarepusher MV and how it is empowered with Google Cloud (JP only)](https://cloud.google.com/blog/ja/topics/customers/rhizomatiks-mv)
+
+### 2020 videos and demos
+- [How to convert PDFs to audiobooks with machine learning](https://www.youtube.com/watch?v=q-nvbuc59Po&feature=youtu.be) with Dale Markowitz
+- [Using AI in manufacturing for increased productivity](https://youtu.be/aRwhRwybKF0) at Next OnAir '20 Demos with Yufeng Guo
+- [Productionizing ML on Google Cloud](https://youtu.be/biq-yHDwEMs) at Next OnAir '20 Demos with Yufeng Guo
+- [From Siloed ML to ML Service Mesh Using API Management](https://youtu.be/EQsnO_Jn88c) at Next OnAir '20 Sessions with Rakesh Talanki
+
 ### 2019 videos
 
 - [ML Ops Best Practices on Google Cloud](https://www.youtube.com/watch?v=20h_RTHEtZI) at Cloud Next SF 2019 
@@ -61,14 +72,11 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - GCP blog: [Google's ML enables Perfume and Rhizomatics' new challenge on media art (JP version only)](https://cloudplatform-jp.googleblog.com/2018/06/NHK-Perfume-TECHNOLOGY-Reframe-Your-Photo-Google-TensorFlow.html)
 - GCP blog: [What makes TPUs fine-tuned for deep learning?](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) ([JP version](https://cloudplatform-jp.googleblog.com/2018/08/what-makes-tpus-fine-tuned-for-deep-learning.html))
 
-### 2018 videos
+### 2018 videos and demos
 
 - FOSS Asia keynote: [Real-world Machine Learning with TensorFlow and Cloud ML](https://youtu.be/_v23trYkMak)
 - Google I/O session: [Machine learning models + IoT data = a smarter world](https://youtu.be/avxpkFUXIfA?t=10m41s)
 - Google Cloud Next SF session [What is ML Ops?](https://www.youtube.com/watch?v=_jnhXzY1HCw)
-
-### 2018 demos
-
 - [What is Tensor Processing Unit?](https://tpudemo.com)
 
 ### 2017 blogs
@@ -80,7 +88,7 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - Opensource.com blog: [TensorFlow brings machine learning to the masses](https://opensource.com/article/17/9/tensorflow)
 - GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow) ([JP version](https://cloudplatform-jp.googleblog.com/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/tensorflow-lends-hand-build-rock-paper-scissors-machine/), [Jeff Dean's Research blog](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html) and [Eric Schmidt's tweet](https://twitter.com/ericschmidt/status/925432904888541184).
 
-### 2017 GCP YouTube videos
+### 2017 videos
 
 - [BigQuery and Cloud Machine Learning: advancing neural network predictions (Google Cloud Next '17)](https://www.youtube.com/watch?v=Ov3Om5Y_Fbg&feature=youtu.be)
 - [Android Meets TensorFlow: How to Accelerate Your App with AI (Google I/O '17)](https://www.youtube.com/watch?v=25ISTLhz0ys)
@@ -90,13 +98,13 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - [Find your Candy (Cloud Next '17)](https://youtu.be/lMvV_OGFFck)
 - [Real-world Machine Learning with TensorFlow and Cloud ML (GDD India 2017)](https://www.youtube.com/watch?v=7yylsf0ewzE)
 
-### 2016 GCP blogs
+### 2016 blogs
 
 - [Explore the Galaxy of images with Cloud Vision API](https://cloud.google.com/blog/big-data/2016/05/explore-the-galaxy-of-images-with-cloud-vision-api)
 - [Understanding neural networks with TensorFlow Playground](https://cloud.google.com/blog/big-data/2016/07/understanding-neural-networks-with-tensorflow-playground) ([JP version](http://googlecloudplatform-japan.blogspot.in/2016/07/tensorflow-playground.html))
 - [How a Japanese cucumber farmer is using deep learning and TensorFlow](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow) ([JP version](http://googlecloudplatform-japan.blogspot.jp/2016/08/tensorflow_5.html)): featured on [The Newsweek](http://www.newsweek.com/artificial-intelligence-cucumber-farm-raspberry-pi-495289), [The New Yorker](https://www.newyorker.com/tech/elements/diy-artificial-intelligence-comes-to-a-japanese-family-farm) and several keynotes at Cloud Next and Google I/O.
 
-### 2016 GCP YouTube videos
+### 2016 videos
 
 - [What is Cloud Vision API](https://www.youtube.com/watch?v=eve8DkkVdhI)
 - [What is Cloud Speech API](https://www.youtube.com/watch?v=wzp9dfVpeeg)
@@ -113,6 +121,8 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - Google Cloud Talks by DevRel (online)
 - Google Cloud FinServ workshop (online)
 - Google Next OnAir (online)
+- Open Source Summit Europe (online)
+- Google Developers ML Summit (online)
 
 ### 2019
 
