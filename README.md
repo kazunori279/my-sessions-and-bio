@@ -121,8 +121,10 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - Google Cloud Talks by DevRel (online)
 - Google Cloud FinServ workshop (online)
 - Google Next OnAir (online)
+- Google Developers ML Summit, US (online)
+- Google DevFest Adelaide, Brunei, Central Asia, Indonesia and Tokyo (online)
+- Global AI Conf, US (online)
 - Open Source Summit Europe (online)
-- Google Developers ML Summit (online)
 
 ### 2019
 
