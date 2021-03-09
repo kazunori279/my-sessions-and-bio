@@ -112,6 +112,14 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 ## Invited Events
 
+### 2021
+
+- Google Cloud Innovators Gym (online)
+- GDG Perth (online)
+- GDG Cloud Singapore (online)
+- NVIDIA GTC 2021 Spring (online)
+- Google I/O (online)
+
 ### 2020
 
 - TensorFlow Dev Summit, Sunnyvale (session replaced)
