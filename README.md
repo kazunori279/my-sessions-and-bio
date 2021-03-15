@@ -49,6 +49,10 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 ## Blog posts, videos and demos
 
+### 2021 videos
+
+- [MLOps on AI Platform](https://www.youtube.com/watch?v=uo9IPfYL64E) at GDG Perth
+
 ### 2020 blogs
 
 - [How Google Cloud helped scaling-out one person's AI service—and his life](https://cloud.google.com/blog/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service) ([JP version](https://cloud.google.com/blog/ja/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service))
