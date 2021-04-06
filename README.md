@@ -24,6 +24,9 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - GitHub: [kazunori279](https://github.com/kazunori279)
 - LinkedIn: [kazunori279](https://www.linkedin.com/in/kazunori279/)
 - Facebook: [kazunori279](https://www.facebook.com/kazunori279)
+- Qiita: [kazunori279](https://qiita.com/kazunori279)
+- Hatena blog: [kazunori279](https://kazunori279.hatenablog.com/)
+- Medium: [kazunori279](https://medium.com/@kazunori279)
 
 ## Current session topics
 
