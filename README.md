@@ -126,6 +126,7 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - GDG Cloud Singapore (online)
 - NVIDIA GTC 2021 Spring (online)
 - Google I/O (online)
+- Google Cloud ML Practitioner Summit (Online)
 
 ### 2020
 
