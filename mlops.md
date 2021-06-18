@@ -1,6 +1,6 @@
 ### Title
 
-- Productionizing ML with ML Ops and Cloud AI
+- MLOps with Vertex AI
 - ML OpsとCloud AIで実現する機械学習のプロダクション導入
 
 ### Time
@@ -13,7 +13,7 @@ Data analysts, data scientists and DevOps engineers. Intermediate level
 
 ### Agenda
 
-The hardest part of ML adoption in enterprises is Productinization. As we see in recent discussions around ML Ops, there is a big gap between Data Scientists' PoC code and production ML development and operation with the Ops team. Such as, preparing a manageable ML dev environment, building a scalable ML serving infrastructure, setting up a ML pipeline for continuous training, and automated validation of data and model. In this session, we will learn how to leverage various Google's ML/AI offerings such as TensorFlow Extension (TFX), TensorFlow Enterprise, Cloud AI Platform Notebooks, Training, Prediction, and Pipelines for productionizing your ML service with the ML Ops best practices.
+The hardest part of ML adoption in enterprises is Productinization. As we see in recent discussions around MLOps, there is a big gap between Data Scientists' PoC code and production ML development and operation with the Ops team. Such as, preparing a manageable ML dev environment, building a scalable ML serving infrastructure, setting up a ML pipeline for continuous training, managing features with scalable way, and monitoring the model performance in the production. In this session, we will learn how to leverage various Google's MLOps best practices and Vertex AI products to solve these problems.
 
 ### Related video
 
