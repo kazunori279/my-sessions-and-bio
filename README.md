@@ -30,7 +30,7 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 
 ## Current session topics
 
-- [Productionizing ML with ML Ops and Cloud AI](mlops.md)
+- [MLOps with Google's best practices and Vertex AI](mlops.md)
 - [PDF2Audiobook: How to read more books and lose your weight with the power of AI](p2a.md)
 - [Fairness and Explainability in ML](mlfairness.md)
 - [AutoML Tables and BigQuery ML: Quick and scalable AI analytics on large business data](automl_bqml.md)
