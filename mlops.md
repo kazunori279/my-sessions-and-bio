@@ -1,7 +1,7 @@
 ### Title
 
-- MLOps with Vertex AI
-- Vertex AIによるMLOps導入
+- MLOps with Google's best practices and Vertex AI
+- GoogleのベストプラクティスとVertex AIで導入するMLOps
 
 ### Time
 
