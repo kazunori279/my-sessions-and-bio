@@ -31,10 +31,8 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 ## Current session topics
 
 - [MLOps with Google's best practices and Vertex AI](mlops.md)
+- [Vector similarity search at Google-scale: Vertex Matching Engine](vme.md)
 - [PDF2Audiobook: How to read more books and lose your weight with the power of AI](p2a.md)
-- [Fairness and Explainability in ML](mlfairness.md)
-- [AutoML Tables and BigQuery ML: Quick and scalable AI analytics on large business data](automl_bqml.md)
-- [TensorFlow Lite, AutoML and Edge TPU: how to accelerate your mobile devices with AI](tflite.md)
 
 ## Current workshop topics
 
@@ -59,7 +57,8 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 ### 2021 blogs
 
 - [Cloud AI in the developer community](https://cloud.google.com/blog/topics/developers-practitioners/cloud-ai-developer-community)
-
+- [Kickstart your organization’s ML application development flywheel with the Vertex Feature Store](https://cloud.google.com/blog/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store)
+- [Monitor models for training-serving skew with Vertex AI](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
 ### 2020 blogs
 
 - [How Google Cloud helped scaling-out one person's AI service—and his life](https://cloud.google.com/blog/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service) ([JP version](https://cloud.google.com/blog/ja/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service))
