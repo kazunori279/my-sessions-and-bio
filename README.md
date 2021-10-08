@@ -59,6 +59,9 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - [Cloud AI in the developer community](https://cloud.google.com/blog/topics/developers-practitioners/cloud-ai-developer-community)
 - [Kickstart your organization’s ML application development flywheel with the Vertex Feature Store](https://cloud.google.com/blog/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store)
 - [Monitor models for training-serving skew with Vertex AI](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
+- [Monitoring feature attributions: How Google saved one of the largest ML services in trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
+
+
 ### 2020 blogs
 
 - [How Google Cloud helped scaling-out one person's AI service—and his life](https://cloud.google.com/blog/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service) ([JP version](https://cloud.google.com/blog/ja/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service))
