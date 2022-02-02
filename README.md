@@ -61,7 +61,7 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - [Monitor models for training-serving skew with Vertex AI](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
 - [Monitoring feature attributions: How Google saved one of the largest ML services in trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
 - [Coca-Cola Bottlers Japan collects insights from 700,000 vending machines with Vertex AI](https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai)
-- [Find anything blazingly fast with Google's vector search technology](https://cloud.google.com/blog/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology)
+- [Find anything blazingly fast with Google's vector search technology](https://cloud.google.com/blog/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology): featured on HackerNews as #3 article
 
 
 ### 2020 blogs
