@@ -5,13 +5,13 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
 
-Kaz Sato is Staff Developer Advocate at Google Cloud for machine learning and AI products, such as TensorFlow, Cloud AI and BigQuery. Kaz has been invited as a speaker at major events including Google Cloud Next, Google I/O, NVIDIA GTC and etc. Also, authoring many GCP blog posts, supporting developer communities for Google Cloud for over 9 years. 
+Kaz Sato is Staff Developer Advocate at Google Cloud focusing on machine learning and AI products and technologies. Kaz has been invited as a speaker at major events including Google Cloud Next, Google I/O, and NVIDIA GTC. Authoring many Google Cloud official blog posts, and supporting Google Cloud developer communities  for over 10 years. 
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Google Cloud デベロッパーアドボケイト
 
-Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud AI等の機械学習プロダクトの開発者支援を担当。Google Cloud Next、Google I/O、NVIDIA GTC等の主要イベントでスピーカーを務め、GCP公式ブログ英語版に多数の記事を寄稿。またGoogle Cloud開発者コミュニティを10年以上にわたり支援している。
+Google Cloudチームのデベロッパーアドボケイトとして機械学習やAI系プロダクトの開発者支援を担当。Google Cloud Next、Google I/O、NVIDIA GTC等の主要イベントでスピーカーを務め、Google Cloud公式ブログに多数の記事を寄稿。またGoogle Cloud開発者コミュニティを10年以上にわたり支援している。
 
 ## Photos:
 
