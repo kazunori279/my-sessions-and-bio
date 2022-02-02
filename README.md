@@ -5,13 +5,13 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
 
-Kaz Sato is Staff Developer Advocate at Google Cloud for machine learning and AI products, such as TensorFlow, Cloud AI and BigQuery. Kaz has been invited as a speaker at major events including Google Cloud Next, Google I/O, NVIDIA GTC and etc. Also, authoring many GCP blog posts, supporting developer communities for Google Cloud for over 9 years. He is also interested in hardwares and IoT, and has been hosting FPGA meetups since 2013.
+Kaz Sato is Staff Developer Advocate at Google Cloud for machine learning and AI products, such as TensorFlow, Cloud AI and BigQuery. Kaz has been invited as a speaker at major events including Google Cloud Next, Google I/O, NVIDIA GTC and etc. Also, authoring many GCP blog posts, supporting developer communities for Google Cloud for over 9 years. 
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Google Cloud デベロッパーアドボケイト
 
-Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud AI等の機械学習プロダクトの開発者支援を担当。Google Cloud Next、Google I/O、NVIDIA GTC等の主要イベントでスピーカーを務め、GCP公式ブログ英語版に多数の記事を寄稿。Googleクラウドの開発者コミュニティを9年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。
+Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud AI等の機械学習プロダクトの開発者支援を担当。Google Cloud Next、Google I/O、NVIDIA GTC等の主要イベントでスピーカーを務め、GCP公式ブログ英語版に多数の記事を寄稿。またGoogle Cloud開発者コミュニティを10年以上にわたり支援している。
 
 ## Photos:
 
@@ -59,7 +59,9 @@ Google CloudチームのデベロッパーアドボケイトとしてTensorFlow�
 - [Cloud AI in the developer community](https://cloud.google.com/blog/topics/developers-practitioners/cloud-ai-developer-community)
 - [Kickstart your organization’s ML application development flywheel with the Vertex Feature Store](https://cloud.google.com/blog/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store)
 - [Monitor models for training-serving skew with Vertex AI](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
-- [Monitoring feature attributions: How Google saved one of the largest ML services in trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
+- [Monitoring feature attributions: How Google saved one of the largest ML services in trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)[(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
+- [Coca-Cola Bottlers Japan collects insights from 700,000 vending machines with Vertex AI](https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai)
+- [Find anything blazingly fast with Google's vector search technology](https://cloud.google.com/blog/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology)[(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology)
 
 
 ### 2020 blogs
