@@ -32,6 +32,7 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 - [MLOps with Google's best practices and Vertex AI](mlops.md)
 - [Vector similarity search at Google-scale: Vertex Matching Engine](vme.md)
+- [Recommendations at Google: the Two-Tower model and vector similarity search](tt.md)
 - [PDF2Audiobook: How to read more books and lose your weight with the power of AI](p2a.md)
 
 ## Current workshop topics
