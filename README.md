@@ -53,7 +53,7 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2022 blogs
 
-- [https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems](EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems): co-authored with Google Research team
+- [EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems): co-authored with Google Research team
 
 ### 2021 videos
 
