@@ -51,6 +51,10 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ## Blog posts, videos and demos
 
+### 2022 blogs
+
+- [https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems](EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems): co-authored with Google Research team
+
 ### 2021 videos
 
 - [MLOps on AI Platform](https://www.youtube.com/watch?v=uo9IPfYL64E) at GDG Perth
