@@ -53,8 +53,8 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2022 blogs
 
-- [EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems (EN)](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems): co-authored with Google Research team 
-- [Mercari leverages Google's vector search technology to create a new marketplace (EN)](https://cloud.google.com/blog/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace)
+- Google Cloud blog: [EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems (EN)](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems): co-authored with Google Research team 
+- Google Cloud blog: [Mercari leverages Google's vector search technology to create a new marketplace (EN)](https://cloud.google.com/blog/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace)
 
 ### 2021 videos
 
@@ -62,18 +62,18 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2021 blogs
 
-- [Cloud AI in the developer community](https://cloud.google.com/blog/topics/developers-practitioners/cloud-ai-developer-community)
-- [Kickstart your organization’s ML application development flywheel with the Vertex Feature Store (EN)](https://cloud.google.com/blog/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store)
-- [Monitor models for training-serving skew with Vertex AI (EN)](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
-- [Monitoring feature attributions: How Google saved one of the largest ML services in trouble (EN)](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
-- [Coca-Cola Bottlers Japan collects insights from 700,000 vending machines with Vertex AI (EN)](https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai)
-- [Find anything blazingly fast with Google's vector search technology (EN)](https://cloud.google.com/blog/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology): featured on HackerNews as #3 article
+- Google Cloud blog: [Cloud AI in the developer community](https://cloud.google.com/blog/topics/developers-practitioners/cloud-ai-developer-community)
+- Google Cloud blog: [Kickstart your organization’s ML application development flywheel with the Vertex Feature Store (EN)](https://cloud.google.com/blog/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store)
+- Google Cloud blog: [Monitor models for training-serving skew with Vertex AI (EN)](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
+- Google Cloud blog: [Monitoring feature attributions: How Google saved one of the largest ML services in trouble (EN)](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
+- Google Cloud blog: [Coca-Cola Bottlers Japan collects insights from 700,000 vending machines with Vertex AI (EN)](https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai)
+- Google Cloud blog: [Find anything blazingly fast with Google's vector search technology (EN)](https://cloud.google.com/blog/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology): featured on HackerNews as #3 article
 
 
 ### 2020 blogs
 
-- [How Google Cloud helped scaling-out one person's AI service—and his life (EN)](https://cloud.google.com/blog/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service) ([JP](https://cloud.google.com/blog/ja/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service))
-- [Rhizomatiks' new Squarepusher MV and how it is empowered with Google Cloud (JP only)](https://cloud.google.com/blog/ja/topics/customers/rhizomatiks-mv)
+- Google Cloud blog: [How Google Cloud helped scaling-out one person's AI service—and his life (EN)](https://cloud.google.com/blog/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service) ([JP](https://cloud.google.com/blog/ja/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service))
+- Google Cloud blog: [Rhizomatiks' new Squarepusher MV and how it is empowered with Google Cloud (JP only)](https://cloud.google.com/blog/ja/topics/customers/rhizomatiks-mv)
 
 ### 2020 videos and demos
 - [How to convert PDFs to audiobooks with machine learning](https://www.youtube.com/watch?v=q-nvbuc59Po&feature=youtu.be) with Dale Markowitz
