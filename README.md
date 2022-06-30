@@ -53,7 +53,7 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2022 blogs
 
-- [EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems (EN)](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems): co-authored with Google Research team [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy22q2-googlecloud_jp-blog-ai-in_feed-no-brand-regional-apac&utm_content=evojax-bringing-power-neuroevolution-solve-your-problems&utm_term=-)
+- [EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems (EN)](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems): co-authored with Google Research team 
 - [Mercari leverages Google's vector search technology to create a new marketplace (EN)](https://cloud.google.com/blog/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace)
 
 ### 2021 videos
@@ -63,16 +63,16 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 ### 2021 blogs
 
 - [Cloud AI in the developer community](https://cloud.google.com/blog/topics/developers-practitioners/cloud-ai-developer-community)
-- [Kickstart your organization’s ML application development flywheel with the Vertex Feature Store](https://cloud.google.com/blog/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store)
-- [Monitor models for training-serving skew with Vertex AI](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
-- [Monitoring feature attributions: How Google saved one of the largest ML services in trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
-- [Coca-Cola Bottlers Japan collects insights from 700,000 vending machines with Vertex AI](https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai)
-- [Find anything blazingly fast with Google's vector search technology](https://cloud.google.com/blog/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology): featured on HackerNews as #3 article
+- [Kickstart your organization’s ML application development flywheel with the Vertex Feature Store (EN)](https://cloud.google.com/blog/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store)
+- [Monitor models for training-serving skew with Vertex AI (EN)](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP version)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
+- [Monitoring feature attributions: How Google saved one of the largest ML services in trouble (EN)](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
+- [Coca-Cola Bottlers Japan collects insights from 700,000 vending machines with Vertex AI (EN)](https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai)
+- [Find anything blazingly fast with Google's vector search technology (EN)](https://cloud.google.com/blog/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/find-anything-blazingly-fast-googles-vector-search-technology): featured on HackerNews as #3 article
 
 
 ### 2020 blogs
 
-- [How Google Cloud helped scaling-out one person's AI service—and his life](https://cloud.google.com/blog/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service) ([JP version](https://cloud.google.com/blog/ja/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service))
+- [How Google Cloud helped scaling-out one person's AI service—and his life (EN)](https://cloud.google.com/blog/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service) ([JP](https://cloud.google.com/blog/ja/products/ai-machine-learning/using-google-cloud-platform-free-tier-to-scale-out-an-ai-service))
 - [Rhizomatiks' new Squarepusher MV and how it is empowered with Google Cloud (JP only)](https://cloud.google.com/blog/ja/topics/customers/rhizomatiks-mv)
 
 ### 2020 videos and demos
@@ -88,10 +88,10 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2018 blogs
 
-- GCP blog: [Now live in Tokyo: using TensorFlow to predict taxi demand](https://cloud.google.com/blog/big-data/2018/04/now-live-in-tokyo-using-tensorflow-to-predict-taxi-demand) ([JP version](https://cloudplatform-jp.googleblog.com/2018/04/ntt-docomo-ai-taxi-tensorflow.html))
-- GCP blog: [AutoML Vision in action: from ramen to branded goods](https://cloud.google.com/blog/big-data/2018/03/automl-vision-in-action-from-ramen-to-branded-goods) ([JP version](https://cloudplatform-jp.googleblog.com/2018/03/automl-vision-in-action-from-ramen-to-branded-goods.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/noodle-machine-learning-can-identify-ramen-shop/), [Jeff Dean's tweet](https://twitter.com/JeffDean/status/978510291779465216), and [Fei-Fei Li's talk at Google I/O](https://youtu.be/WWT0ltBf3MU?t=22m23s).
-- GCP blog: [Google's ML enables Perfume and Rhizomatics' new challenge on media art (JP version only)](https://cloudplatform-jp.googleblog.com/2018/06/NHK-Perfume-TECHNOLOGY-Reframe-Your-Photo-Google-TensorFlow.html)
-- GCP blog: [What makes TPUs fine-tuned for deep learning?](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) ([JP version](https://cloudplatform-jp.googleblog.com/2018/08/what-makes-tpus-fine-tuned-for-deep-learning.html))
+- GCP blog: [Now live in Tokyo: using TensorFlow to predict taxi demand (EN)](https://cloud.google.com/blog/big-data/2018/04/now-live-in-tokyo-using-tensorflow-to-predict-taxi-demand) ([JP](https://cloudplatform-jp.googleblog.com/2018/04/ntt-docomo-ai-taxi-tensorflow.html))
+- GCP blog: [AutoML Vision in action: from ramen to branded goods (EN)](https://cloud.google.com/blog/big-data/2018/03/automl-vision-in-action-from-ramen-to-branded-goods) ([JP](https://cloudplatform-jp.googleblog.com/2018/03/automl-vision-in-action-from-ramen-to-branded-goods.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/noodle-machine-learning-can-identify-ramen-shop/), [Jeff Dean's tweet](https://twitter.com/JeffDean/status/978510291779465216), and [Fei-Fei Li's talk at Google I/O](https://youtu.be/WWT0ltBf3MU?t=22m23s).
+- GCP blog: [Google's ML enables Perfume and Rhizomatics' new challenge on media art (JP only)](https://cloudplatform-jp.googleblog.com/2018/06/NHK-Perfume-TECHNOLOGY-Reframe-Your-Photo-Google-TensorFlow.html)
+- GCP blog: [What makes TPUs fine-tuned for deep learning? (EN)](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) ([JP](https://cloudplatform-jp.googleblog.com/2018/08/what-makes-tpus-fine-tuned-for-deep-learning.html))
 
 ### 2018 videos and demos
 
@@ -102,12 +102,12 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2017 blogs
 
-- GCP blog: [Using machine learning for insurance pricing optimization](https://cloud.google.com/blog/big-data/2017/03/using-machine-learning-for-insurance-pricing-optimization)
-- GCP blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU)](https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu) ([JP version](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html)): co-authored with David Patterson and Cliff Young
-- GCP blog: [Build your own machine-learning-powered robot arm using TensorFlow and Google Cloud](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) ([JP version](https://cloudplatform-jp.googleblog.com/2017/06/google-io-tensorflow-findyourcandy.html))
-- GCP blog: [How Aucnet leveraged TensorFlow to transform their IT engineers into machine learning engineers](https://cloud.google.com/blog/big-data/2017/08/how-aucnet-leveraged-tensorflow-to-transform-their-it-engineers-into-machine-learning-engineers)
-- Opensource.com blog: [TensorFlow brings machine learning to the masses](https://opensource.com/article/17/9/tensorflow)
-- GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow) ([JP version](https://cloudplatform-jp.googleblog.com/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/tensorflow-lends-hand-build-rock-paper-scissors-machine/), [Jeff Dean's Research blog](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html) and [Eric Schmidt's tweet](https://twitter.com/ericschmidt/status/925432904888541184).
+- GCP blog: [Using machine learning for insurance pricing optimization (EN)](https://cloud.google.com/blog/big-data/2017/03/using-machine-learning-for-insurance-pricing-optimization)
+- GCP blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU) (EN)](https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu) ([JP](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html)): co-authored with David Patterson and Cliff Young
+- GCP blog: [Build your own machine-learning-powered robot arm using TensorFlow and Google Cloud (EN)](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) ([JP](https://cloudplatform-jp.googleblog.com/2017/06/google-io-tensorflow-findyourcandy.html))
+- GCP blog: [How Aucnet leveraged TensorFlow to transform their IT engineers into machine learning engineers (EN)](https://cloud.google.com/blog/big-data/2017/08/how-aucnet-leveraged-tensorflow-to-transform-their-it-engineers-into-machine-learning-engineers)
+- Opensource.com blog: [TensorFlow brings machine learning to the masses (EN)](https://opensource.com/article/17/9/tensorflow)
+- GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow (EN)](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow) ([JP](https://cloudplatform-jp.googleblog.com/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/tensorflow-lends-hand-build-rock-paper-scissors-machine/), [Jeff Dean's Research blog](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html) and [Eric Schmidt's tweet](https://twitter.com/ericschmidt/status/925432904888541184).
 
 ### 2017 videos
 
@@ -121,9 +121,9 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2016 blogs
 
-- [Explore the Galaxy of images with Cloud Vision API](https://cloud.google.com/blog/big-data/2016/05/explore-the-galaxy-of-images-with-cloud-vision-api)
-- [Understanding neural networks with TensorFlow Playground](https://cloud.google.com/blog/big-data/2016/07/understanding-neural-networks-with-tensorflow-playground) ([JP version](http://googlecloudplatform-japan.blogspot.in/2016/07/tensorflow-playground.html))
-- [How a Japanese cucumber farmer is using deep learning and TensorFlow](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow) ([JP version](http://googlecloudplatform-japan.blogspot.jp/2016/08/tensorflow_5.html)): featured on [The Newsweek](http://www.newsweek.com/artificial-intelligence-cucumber-farm-raspberry-pi-495289), [The New Yorker](https://www.newyorker.com/tech/elements/diy-artificial-intelligence-comes-to-a-japanese-family-farm) and several keynotes at Cloud Next and Google I/O.
+- [Explore the Galaxy of images with Cloud Vision API (EN)](https://cloud.google.com/blog/big-data/2016/05/explore-the-galaxy-of-images-with-cloud-vision-api)
+- [Understanding neural networks with TensorFlow Playground (EN)](https://cloud.google.com/blog/big-data/2016/07/understanding-neural-networks-with-tensorflow-playground) ([JP](http://googlecloudplatform-japan.blogspot.in/2016/07/tensorflow-playground.html))
+- [How a Japanese cucumber farmer is using deep learning and TensorFlow (EN)](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow) ([JP](http://googlecloudplatform-japan.blogspot.jp/2016/08/tensorflow_5.html)): featured on [The Newsweek](http://www.newsweek.com/artificial-intelligence-cucumber-farm-raspberry-pi-495289), [The New Yorker](https://www.newyorker.com/tech/elements/diy-artificial-intelligence-comes-to-a-japanese-family-farm) and several keynotes at Cloud Next and Google I/O.
 
 ### 2016 videos
 
