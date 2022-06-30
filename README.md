@@ -53,7 +53,8 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2022 blogs
 
-- [EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems): co-authored with Google Research team
+- [EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems (EN)](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems): co-authored with Google Research team [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy22q2-googlecloud_jp-blog-ai-in_feed-no-brand-regional-apac&utm_content=evojax-bringing-power-neuroevolution-solve-your-problems&utm_term=-)
+- [Mercari leverages Google's vector search technology to create a new marketplace (EN)](https://cloud.google.com/blog/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace)
 
 ### 2021 videos
 
