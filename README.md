@@ -42,7 +42,8 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ## Featured demos
 
-- [QueryIt Smart](http://queryit.magellanic-clouds.com/): Image search on BigQuery with TensorFlow model
+- [MatchIt Fast](https://matchit.magellanic-clouds.com/): Image and news article similarity search on Vertex AI Matching Engine, with Groovenauts
+- [QueryIt Smart](http://queryit.magellanic-clouds.com/): Image search on BigQuery with TensorFlow model, with Groovenauts
 - [Tensor Processing Unit (TPU)](https://tpudemo.com): Explains the TPU design archtecture. See the [blog](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) for more detail
 - [Rock Papar Scissors Machine](https://www.youtube.com/watch?v=hyNruFqe1L0): A simple demo for explaining how ML with linear model works
 - [Find your candy](https://youtu.be/lMvV_OGFFck?t=91): Candy sorter demo for Cloud Next with TensorFlow and ML APIs. See the [blog](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) for more details
