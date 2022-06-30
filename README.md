@@ -63,7 +63,7 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2021 blogs
 
-- Google Cloud blog: [Cloud AI in the developer community](https://cloud.google.com/blog/topics/developers-practitioners/cloud-ai-developer-community)
+- Google Cloud blog: [Cloud AI in the developer community (EN)](https://cloud.google.com/blog/topics/developers-practitioners/cloud-ai-developer-community)
 - Google Cloud blog: [Kickstart your organization’s ML application development flywheel with the Vertex Feature Store (EN)](https://cloud.google.com/blog/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/kickstart-your-organizations-ml-application-development-flywheel-vertex-feature-store)
 - Google Cloud blog: [Monitor models for training-serving skew with Vertex AI (EN)](https://cloud.google.com/blog/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitor-models-training-serving-skew-vertex-ai)
 - Google Cloud blog: [Monitoring feature attributions: How Google saved one of the largest ML services in trouble (EN)](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
