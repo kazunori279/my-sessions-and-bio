@@ -33,12 +33,6 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 - [MLOps with Google's best practices and Vertex AI](mlops.md)
 - [Vector similarity search at Google-scale: Vertex Matching Engine](vme.md)
 - [Recommendations at Google: the Two-Tower model and vector similarity search](tt.md)
-- [PDF2Audiobook: How to read more books and lose your weight with the power of AI](p2a.md)
-
-## Current workshop topics
-
-- Cloud AI codelab for FinTech: based on Sara's [fraud detection codelab](https://codelabs.developers.google.com/codelabs/fraud-detection-ai-explanations/#7) and [What-if Tool codelab](https://codelabs.developers.google.com/codelabs/xgb-wit-caip/index.html?index=..%2F..index#7)
-- [Getting Started with TensorFlow 2.0 with Google Colab and Cloud AI Platform](tf_intro.md)
 
 ## Featured demos
 
