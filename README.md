@@ -48,6 +48,7 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ### 2022 blogs
 
+- Google Cloud blog: [Enabling real-time AI with Streaming Ingestion in Vertex AI (EN)](https://cloud.google.com/blog/products/ai-machine-learning/real-time-ai-with-google-cloud-vertex-ai/?hl=en) [(JP)](https://cloud.google.com/blog/ja/products/ai-machine-learning/real-time-ai-with-google-cloud-vertex-ai)
 - Google Cloud blog: [EvoJAX: Bringing the Power of Neuroevolution to Solve Your Problems (EN)](https://cloud.google.com/blog/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/evojax-bringing-power-neuroevolution-solve-your-problems): co-authored with Google Research team 
 - Google Cloud blog: [Mercari leverages Google's vector search technology to create a new marketplace (EN)](https://cloud.google.com/blog/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace) [(JP)](https://cloud.google.com/blog/ja/topics/developers-practitioners/mercari-leverages-googles-vector-search-technology-create-new-marketplace)
 
