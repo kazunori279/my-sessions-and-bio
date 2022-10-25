@@ -129,6 +129,13 @@ Google Cloudのデベロッパーアドボケイトとして、機械学習やAI
 
 ## Invited Events
 
+### 2022
+
+- Google Cloud Next '22 US
+- Google Cloud Next '22 JP
+- Google Cloud Innovators Live JP
+- Google Cloud Innovators Hive JP
+
 ### 2021
 
 - Google Cloud Innovators Gym (online)
