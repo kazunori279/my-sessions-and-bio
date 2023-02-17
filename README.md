@@ -5,7 +5,7 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
 
-Kaz Sato is Staff Developer Advocate at Google Cloud. Creating inspiring blogs and demos for ML/AI products since 2016, including the Vision API Explorer demo for Jeff Dean's keynote, the rock-paper-scissors robot featured by Eric Schmidt, the TPU blog post and demo co-authored with David Patterson (Turing award winner), and the cucumber farmer story featured by the Newsweek and the New Yorker. Invited as a speaker at Google I/O for 5 times, Cloud Next SF for 3 times, and NVIDIA GTC for 2 times, and many other major conferences.
+Kaz Sato is Staff Developer Advocate at Google Cloud. Since 2016, Kaz has been creating inspiring blogs and demos for Google Cloud's ML/AI products. Notable examples include the Vision API Explorer demo for Jeff Dean's keynote, the rock-paper-scissors robot featured by Eric Schmidt, the TPU blog post and demo that Kaz co-authored with David Patterson (a Turing award winner), and the cucumber farmer story featured by Newsweek and The New Yorker. Kaz has presented at Google I/O five times, Cloud Next SF three times, and NVIDIA GTC twice. Kaz regularly tweets about ML/AI topics for my 17K followers.
 
 ## Bio (Japanese)
 
