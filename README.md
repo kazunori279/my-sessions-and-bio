@@ -11,7 +11,7 @@ Kaz Sato is Staff Developer Advocate at Google Cloud. Since 2016, Kaz has been c
 
 佐藤一憲　/ グーグル合同会社 Google Cloud デベロッパーアドボケイト
 
-Google Cloudのデベロッパーアドボケイトとして、Google Cloudの機械学習やAI系プロダクトのブログ記事の執筆やデモ開発を2016年より担当。おもな実績として、ジェフ・ディーン（Google Research担当副社長）のキーノートで使われたVision API Explorerデモ、エリック・シュミットが紹介した「じゃんけんマシン」記事、デビッド・パターソン（チューリング賞受賞者・元ACM会長）と共著によるTPUブログ記事およびデモ、そして米ニューズウィーク誌とニューヨーカー誌で紹介されたキュウリ農家のAI事例記事などがある。また、Google I/Oに5回、Cloud Next SFに3回、NVIDIA GTCに2回の登壇実績を持つ。Twitterフォロワー数は1万7千人以上で、機械学習やAIにまつわるトピックを日々ツイートしている。
+Google Cloudのデベロッパーアドボケイトとして、Google Cloudの機械学習やAI系プロダクトのブログ記事の執筆やデモ開発を2016年より担当。おもな実績として、ジェフ・ディーン（Google Research担当副社長）のキーノートで使われたVision API Explorerデモ、エリック・シュミットが紹介した「じゃんけんマシン」記事、デビッド・パターソン（チューリング賞受賞者・元ACM会長）との共著によるTPU（AIプロセッサ）ブログ記事およびデモ、そして米ニューズウィーク誌とニューヨーカー誌で紹介されたキュウリ農家のAI事例記事などがある。また、Google I/Oに5回、Cloud Next SFに3回、NVIDIA GTCに2回の登壇実績を持つ。Twitterフォロワー数は1万7千人以上で、機械学習やAIにまつわるトピックを日々ツイートしている。
 
 ## Photos:
 
