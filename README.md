@@ -129,6 +129,12 @@ Google Cloudのデベロッパーアドボケイトとして、Google Cloudの�
 
 ## Invited Events
 
+## 2023
+
+- Google Cloud Technical Series (Singapore/Online)
+- Google I/O (Online)
+- Google Cloud Day (Tokyo/Online)
+
 ### 2022
 
 - Google Cloud Next '22 US
