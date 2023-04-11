@@ -98,12 +98,12 @@ Google Cloudのデベロッパーアドボケイトとして、Google Cloudの�
 
 ### 2017 blogs
 
-- GCP blog: [Using machine learning for insurance pricing optimization (EN)](https://cloud.google.com/blog/big-data/2017/03/using-machine-learning-for-insurance-pricing-optimization)
-- GCP blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU) (EN)](https://cloud.google.com/blog/big-data/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu) ([JP](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html)): co-authored with David Patterson and Cliff Young
-- GCP blog: [Build your own machine-learning-powered robot arm using TensorFlow and Google Cloud (EN)](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) ([JP](https://cloudplatform-jp.googleblog.com/2017/06/google-io-tensorflow-findyourcandy.html))
-- GCP blog: [How Aucnet leveraged TensorFlow to transform their IT engineers into machine learning engineers (EN)](https://cloud.google.com/blog/big-data/2017/08/how-aucnet-leveraged-tensorflow-to-transform-their-it-engineers-into-machine-learning-engineers)
+- GCP blog: [Using machine learning for insurance pricing optimization (EN)](https://cloud.google.com/blog/products/gcp/using-machine-learning-for-insurance-pricing-optimization?hl=en)
+- GCP blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU) (EN)](https://cloud.google.com/blog/products/ai-machine-learning/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu?hl=en) ([JP](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html)): co-authored with David Patterson and Cliff Young
+- GCP blog: [Build your own machine-learning-powered robot arm using TensorFlow and Google Cloud (EN)](https://cloud.google.com/blog/products/gcp/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud/?hl=en) ([JP](https://cloudplatform-jp.googleblog.com/2017/06/google-io-tensorflow-findyourcandy.html))
+- GCP blog: [How Aucnet leveraged TensorFlow to transform their IT engineers into machine learning engineers (EN)](https://cloud.google.com/blog/products/gcp/how-aucnet-leveraged-tensorflow-to-transform-their-it-engineers-into-machine-learning-engineers?hl=en)
 - Opensource.com blog: [TensorFlow brings machine learning to the masses (EN)](https://opensource.com/article/17/9/tensorflow)
-- GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow (EN)](https://cloud.google.com/blog/big-data/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow) ([JP](https://cloudplatform-jp.googleblog.com/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/tensorflow-lends-hand-build-rock-paper-scissors-machine/), [Jeff Dean's Research blog](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html) and [Eric Schmidt's tweet](https://twitter.com/ericschmidt/status/925432904888541184).
+- GCP blog: [My summer project: a rock-paper-scissors machine built on TensorFlow (EN)](https://cloud.google.com/blog/products/ai-machine-learning/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow?hl=en) ([JP](https://cloudplatform-jp.googleblog.com/2017/10/my-summer-project-a-rock-paper-scissors-machine-built-on-tensorflow.html)): featured on [The Keyword](https://www.blog.google/topics/machine-learning/tensorflow-lends-hand-build-rock-paper-scissors-machine/), [Jeff Dean's Research blog](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html) and [Eric Schmidt's tweet](https://twitter.com/ericschmidt/status/925432904888541184).
 
 ### 2017 videos
 
@@ -117,9 +117,9 @@ Google Cloudのデベロッパーアドボケイトとして、Google Cloudの�
 
 ### 2016 blogs
 
-- [Explore the Galaxy of images with Cloud Vision API (EN)](https://cloud.google.com/blog/big-data/2016/05/explore-the-galaxy-of-images-with-cloud-vision-api)
-- [Understanding neural networks with TensorFlow Playground (EN)](https://cloud.google.com/blog/big-data/2016/07/understanding-neural-networks-with-tensorflow-playground) ([JP](http://googlecloudplatform-japan.blogspot.in/2016/07/tensorflow-playground.html))
-- [How a Japanese cucumber farmer is using deep learning and TensorFlow (EN)](https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow) ([JP](http://googlecloudplatform-japan.blogspot.jp/2016/08/tensorflow_5.html)): featured on [The Newsweek](http://www.newsweek.com/artificial-intelligence-cucumber-farm-raspberry-pi-495289), [The New Yorker](https://www.newyorker.com/tech/elements/diy-artificial-intelligence-comes-to-a-japanese-family-farm) and several keynotes at Cloud Next and Google I/O.
+- [Explore the Galaxy of images with Cloud Vision API (EN)](https://cloud.google.com/blog/products/gcp/explore-the-galaxy-of-images-with-cloud-vision-api/?hl=en)
+- [Understanding neural networks with TensorFlow Playground (EN)](https://cloud.google.com/blog/products/ai-machine-learning/understanding-neural-networks-with-tensorflow-playground?hl=en) ([JP](http://googlecloudplatform-japan.blogspot.in/2016/07/tensorflow-playground.html))
+- [How a Japanese cucumber farmer is using deep learning and TensorFlow (EN)](https://cloud.google.com/blog/products/ai-machine-learning/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow?hl=en) ([JP](http://googlecloudplatform-japan.blogspot.jp/2016/08/tensorflow_5.html)): featured on [The Newsweek](http://www.newsweek.com/artificial-intelligence-cucumber-farm-raspberry-pi-495289), [The New Yorker](https://www.newyorker.com/tech/elements/diy-artificial-intelligence-comes-to-a-japanese-family-farm) and several keynotes at Cloud Next and Google I/O.
 
 ### 2016 videos
 
