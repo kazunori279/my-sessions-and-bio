@@ -5,13 +5,13 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
 
-Kaz Sato is Staff Developer Advocate at Google Cloud. Since 2016, Kaz has been creating inspiring blogs and demos for Google Cloud's ML/AI products. Notable examples include the Vision API Explorer demo for Jeff Dean's keynote, the rock-paper-scissors robot featured by Eric Schmidt, the TPU blog post and demo that Kaz co-authored with David Patterson (a Turing award winner), and the cucumber farmer story featured by Newsweek and The New Yorker. Kaz has presented at Google I/O five times, Cloud Next SF three times, and NVIDIA GTC twice. Kaz regularly tweets about ML/AI topics for his 17K followers.
+Kaz Sato is Staff Developer Advocate at Google Cloud. Since 2016, Kaz has been creating inspiring blogs and demos for Google Cloud's ML/AI products. Notable examples include the Vision API Explorer demo for Jeff Dean's keynote, the rock-paper-scissors robot featured by Eric Schmidt, the TPU blog post and demo that Kaz co-authored with the TPU team, and the cucumber farmer story featured by Newsweek and The New Yorker. Kaz has presented at Google I/O five times, Cloud Next SF three times, and NVIDIA GTC twice. Kaz regularly tweets about ML/AI topics for his 17K followers.
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Google Cloud デベロッパーアドボケイト
 
-Google Cloudのデベロッパーアドボケイトとして、Google Cloudの機械学習やAI系プロダクトのブログ記事の執筆やデモ開発を2016年より担当。おもな実績として、ジェフ・ディーン（Google Research担当副社長）のキーノートで使われたVision API Explorerデモ、エリック・シュミットが紹介した「じゃんけんマシン」記事、デビッド・パターソン（チューリング賞受賞者・元ACM会長）との共著によるTPU（AIプロセッサ）ブログ記事およびデモ、そして米ニューズウィーク誌とニューヨーカー誌で紹介されたキュウリ農家のAI事例記事などがある。また、Google I/Oに5回、Cloud Next SFに3回、NVIDIA GTCに2回の登壇実績を持つ。Twitterフォロワー数は1万7千人以上で、機械学習やAIにまつわるトピックを日々ツイートしている。
+Google Cloudのデベロッパーアドボケイトとして、Google Cloudの機械学習やAI系プロダクトのブログ記事の執筆やデモ開発を2016年より担当。おもな実績として、ジェフ・ディーン（Google Research担当副社長）のキーノートで使われたVision API Explorerデモ、エリック・シュミットが紹介した「じゃんけんマシン」記事、TPU（AIプロセッサ）ブログ記事およびデモ、そして米ニューズウィーク誌とニューヨーカー誌で紹介されたキュウリ農家のAI事例記事などがある。また、Google I/Oに5回、Cloud Next SFに3回、NVIDIA GTCに2回の登壇実績を持つ。Twitterフォロワー数は1万7千人以上で、機械学習やAIにまつわるトピックを日々ツイートしている。
 
 ## Photos:
 
@@ -99,7 +99,7 @@ Google Cloudのデベロッパーアドボケイトとして、Google Cloudの�
 ### 2017 blogs
 
 - GCP blog: [Using machine learning for insurance pricing optimization (EN)](https://cloud.google.com/blog/products/gcp/using-machine-learning-for-insurance-pricing-optimization?hl=en)
-- GCP blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU) (EN)](https://cloud.google.com/blog/products/ai-machine-learning/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu?hl=en) ([JP](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html)): co-authored with David Patterson and Cliff Young
+- GCP blog: [An in-depth look at Google’s first Tensor Processing Unit (TPU) (EN)](https://cloud.google.com/blog/products/ai-machine-learning/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu?hl=en) ([JP](https://cloudplatform-jp.googleblog.com/2017/05/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu.html)): co-authored with Cliff Young from the TPU team
 - GCP blog: [Build your own machine-learning-powered robot arm using TensorFlow and Google Cloud (EN)](https://cloud.google.com/blog/products/gcp/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud/?hl=en) ([JP](https://cloudplatform-jp.googleblog.com/2017/06/google-io-tensorflow-findyourcandy.html))
 - GCP blog: [How Aucnet leveraged TensorFlow to transform their IT engineers into machine learning engineers (EN)](https://cloud.google.com/blog/products/gcp/how-aucnet-leveraged-tensorflow-to-transform-their-it-engineers-into-machine-learning-engineers?hl=en)
 - Opensource.com blog: [TensorFlow brings machine learning to the masses (EN)](https://opensource.com/article/17/9/tensorflow)
