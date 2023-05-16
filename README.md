@@ -5,13 +5,13 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
 
-Kaz Sato is Staff Developer Advocate at Google Cloud. Since 2016, Kaz has been creating inspiring blogs and demos for Google Cloud's ML/AI products. Notable examples include the Vision API Explorer demo for Jeff Dean's keynote, the rock-paper-scissors robot featured by Eric Schmidt, the TPU blog post and demo that Kaz co-authored with the TPU team, and the cucumber farmer story featured by Newsweek and The New Yorker. Kaz has presented at Google I/O five times, Cloud Next SF three times, and NVIDIA GTC twice. Kaz regularly tweets about ML/AI topics for his 17K followers.
+Kaz Sato is Staff Developer Advocate at Google Cloud. Since 2016, Kaz has been posting over 20 inspiring blogs and demos at Google Cloud blog for ML/AI products. Notable examples include the Vision API Explorer demo for Jeff Dean's keynote, the rock-paper-scissors robot featured by Eric Schmidt, the TPU blog post and demo that Kaz co-authored with the TPU team, and the cucumber farmer story featured by Newsweek and The New Yorker. Kaz has presented at Google I/O six times, Cloud Next SF three times, and NVIDIA GTC twice. Kaz regularly tweets about ML/AI topics for his 17K followers.
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Google Cloud デベロッパーアドボケイト
 
-Google Cloudのデベロッパーアドボケイトとして、Google Cloudの機械学習やAI系プロダクトのブログ記事の執筆やデモ開発を2016年より担当。おもな実績として、ジェフ・ディーン（Google Research担当副社長）のキーノートで使われたVision API Explorerデモ、エリック・シュミットが紹介した「じゃんけんマシン」記事、TPU（AIプロセッサ）ブログ記事およびデモ、そして米ニューズウィーク誌とニューヨーカー誌で紹介されたキュウリ農家のAI事例記事などがある。また、Google I/Oに5回、Cloud Next SFに3回、NVIDIA GTCに2回の登壇実績を持つ。Twitterフォロワー数は1万7千人以上で、機械学習やAIにまつわるトピックを日々ツイートしている。
+Google Cloudのデベロッパーアドボケイトとして、Google Cloudブログにて機械学習やAIプロダクトの記事やデモを2016年以降で20件以上を掲載。おもな事例として、ジェフ・ディーン（Google Research担当副社長）のキーノートで使われたVision API Explorerデモ、エリック・シュミットが紹介した「じゃんけんマシン」記事、TPU（AIプロセッサ）ブログ記事およびデモ、そして米ニューズウィーク誌とニューヨーカー誌で紹介されたキュウリ農家のAI事例記事などがある。また、Google I/Oに6回、Cloud Next SFに3回、NVIDIA GTCに2回の登壇実績を持つ。Twitterフォロワー数は1万7千人以上で、機械学習やAIにまつわるトピックを日々ツイートしている。
 
 ## Photos:
 
