@@ -30,12 +30,10 @@ Google Cloudのデベロッパーアドボケイトとして、Google Cloudブ�
 
 ## Current session topics
 
-- [MLOps with Google's best practices and Vertex AI](mlops.md)
-- [Vector similarity search at Google-scale: Vertex Matching Engine](vme.md)
-- [Recommendations at Google: the Two-Tower model and vector similarity search](tt.md)
-
 ## Featured demos
 
+- [Vertex AI Embeddings API + Matching Engine demo](https://ai-demos.dev/demos/matching-engine): Text and image semantics search demo
+- [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI Embeddings API
 - [MatchIt Fast](https://matchit.magellanic-clouds.com/): Image and news article similarity search on Vertex AI Matching Engine, with Groovenauts
 - [QueryIt Smart](http://queryit.magellanic-clouds.com/): Image search on BigQuery with TensorFlow model, with Groovenauts
 - [Tensor Processing Unit (TPU)](https://tpudemo.com): Explains the TPU design archtecture. See the [blog](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) for more detail
@@ -45,6 +43,15 @@ Google Cloudのデベロッパーアドボケイトとして、Google Cloudブ�
 - [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
 
 ## Blog posts, videos and demos
+
+### 2023 blogs
+
+- Google Cloud blog: [Vertex AI Embeddings for Text: Grounding LLMs made easy (EN)](https://cloud.google.com/blog/products/ai-machine-learning/how-to-use-grounding-for-your-llms-with-text-embeddings?hl=en) [(JP)](https://cloud.google.com/blog/ja/products/ai-machine-learning/how-to-use-grounding-for-your-llms-with-text-embeddings)
+
+### 2023 videos
+
+- Google IO 2023 session: [Harnessing the power of generative AI to deliver next-gen search experiences](https://www.youtube.com/watch?v=HD_xreaLKb4)
+- Google Cloud Technical Series 2023 session: [AI-UX: Transforming the user experience with Vertex AI and Discovery](https://www.youtube.com/watch?v=z7T2i2RBQzU)
 
 ### 2022 blogs
 
@@ -132,8 +139,8 @@ Google Cloudのデベロッパーアドボケイトとして、Google Cloudブ�
 ## 2023
 
 - Google Cloud Technical Series (Singapore/Online)
-- Google I/O (Online)
-- Google Cloud Day (Tokyo/Online)
+- Google IO 2023 (Online)
+- Google Cloud Day 2023 (Tokyo/Online)
 
 ### 2022
 
