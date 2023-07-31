@@ -5,13 +5,13 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
 
-Kaz Sato is Staff Developer Advocate at Google Cloud. Since 2016, Kaz has been posting over 20 inspiring blogs and demos at Google Cloud blog for ML/AI products. Notable examples include the Vision API Explorer demo for Jeff Dean's keynote, the rock-paper-scissors robot featured by Eric Schmidt, the TPU blog post and demo that Kaz co-authored with the TPU team, and the cucumber farmer story featured by Newsweek and The New Yorker. Kaz has presented at Google I/O six times, Cloud Next SF three times, NVIDIA GTC twice, and regularly tweets about ML/AI topics for his 17K followers.
+Kaz Sato, a Staff Developer Advocate at Google Cloud, shared 20+ ML/AI blogs and demos that are featured by Jeff Dean, Eric Schmidt, Newsweek, and The New Yorker. He has spoken regulary at Google I/O, Cloud Next SF, and NVIDIA GTC, and tweets about ML/AI to his 17K followers.
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Google Cloud デベロッパーアドボケイト
 
-Google Cloudのデベロッパーアドボケイトとして、Google Cloudブログにて機械学習やAIプロダクトの記事やデモを2016年以降で20件以上を掲載。おもな事例として、ジェフ・ディーン（Google Research担当副社長）のキーノートで使われたVision API Explorerデモ、エリック・シュミットが紹介した「じゃんけんマシン」記事、TPU（AIプロセッサ）ブログ記事およびデモ、そして米ニューズウィーク誌とニューヨーカー誌で紹介されたキュウリ農家のAI事例記事などがある。また、Google I/Oに6回、Cloud Next SFに3回、NVIDIA GTCに2回の登壇実績を持つ。Twitterフォロワー数は1万7千人以上で、機械学習やAIにまつわるトピックを日々ツイートしている。
+AI/ML技術担当のデベロッパーアドボケイトとして、Google Cloud US本社の公式ブログ記事の執筆やデモ開発を担当。2016年以降で20件以上を掲載し、そのいくつかはJeff Dean、Eric Schmidt、Newsweek、そしてThe New Yorker等によって紹介された。またGoogle I/OやCloud Next San Francisco等のイベントにも例年登壇。ツイッターでは1万7千人のフォロアーに向けてAI/MLの情報を日々共有している。
 
 ## Photos:
 
