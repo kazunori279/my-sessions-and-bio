@@ -32,7 +32,8 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 
 ## Featured demos
 
-- [Vertex AI Embeddings API + Matching Engine demo](https://ai-demos.dev/demos/matching-engine): Text and image semantics search demo
+- [Vertex AI Embeddings API + Matching Engine demo](https://ai-demos.dev/): Text and image semantics search demo
+- [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
 - [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI Embeddings API
 - [MatchIt Fast](https://matchit.magellanic-clouds.com/): Image and news article similarity search on Vertex AI Matching Engine, with Groovenauts
 - [QueryIt Smart](http://queryit.magellanic-clouds.com/): Image search on BigQuery with TensorFlow model, with Groovenauts
@@ -46,12 +47,15 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 
 ### 2023 blogs
 
+- Google Cloud blog: [What is Multimodal Search: "LLMs with vision" change businesses (EN)](https://cloud.google.com/blog/products/ai-machine-learning/multimodal-generative-ai-search?hl=en)
 - Google Cloud blog: [Vertex AI Embeddings for Text: Grounding LLMs made easy (EN)](https://cloud.google.com/blog/products/ai-machine-learning/how-to-use-grounding-for-your-llms-with-text-embeddings?hl=en) [(JP)](https://cloud.google.com/blog/ja/products/ai-machine-learning/how-to-use-grounding-for-your-llms-with-text-embeddings)
 
 ### 2023 videos
 
 - Google IO 2023 session: [Harnessing the power of generative AI to deliver next-gen search experiences](https://www.youtube.com/watch?v=HD_xreaLKb4)
 - Google Cloud Technical Series 2023 session: [AI-UX: Transforming the user experience with Vertex AI and Discovery](https://www.youtube.com/watch?v=z7T2i2RBQzU)
+- Google Cloud Tech channel: [Vertex AI Embeddings API + Matching Engine: Grounding LLMs made easy](https://www.youtube.com/watch?v=RC3JOzN2F1w)
+- Google Cloud Tech channel: [How Recommendations AI for Media can boost customer retention](https://www.youtube.com/watch?v=p10qOapgrAM&list=PLIivdWyY5sqJdmVMjLI8iCul14XkTRosn)
 
 ### 2022 blogs
 
@@ -141,6 +145,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google Cloud Technical Series (Singapore/Online)
 - Google IO 2023 (Online)
 - Google Cloud Day 2023 (Tokyo/Online)
+- Google Cloud Next 2023 (San Francisco)
 
 ### 2022
 
