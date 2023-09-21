@@ -36,7 +36,9 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
 - [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI Embeddings API
 - [MatchIt Fast](https://matchit.magellanic-clouds.com/): Image and news article similarity search on Vertex AI Matching Engine, with Groovenauts
-- [QueryIt Smart](http://queryit.magellanic-clouds.com/): Image search on BigQuery with TensorFlow model, with Groovenauts
+
+## Past demos
+
 - [Tensor Processing Unit (TPU) works pt.1](https://www.youtube.com/watch?v=kIyWGrEX7Ms) and [pt.2](https://www.youtube.com/watch?v=80cQQygOXAA): Explains the TPU design archtecture. See the [blog](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) for more detail
 - [Rock Papar Scissors Machine](https://www.youtube.com/watch?v=hyNruFqe1L0): A simple demo for explaining how ML with linear model works
 - [Find your candy](https://youtu.be/lMvV_OGFFck?t=91): Candy sorter demo for Cloud Next with TensorFlow and ML APIs. See the [blog](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) for more details
@@ -56,6 +58,8 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google Cloud Technical Series 2023 session: [AI-UX: Transforming the user experience with Vertex AI and Discovery](https://www.youtube.com/watch?v=z7T2i2RBQzU)
 - Google Cloud Tech channel: [Vertex AI Embeddings API + Matching Engine: Grounding LLMs made easy](https://www.youtube.com/watch?v=RC3JOzN2F1w)
 - Google Cloud Tech channel: [How Recommendations AI for Media can boost customer retention](https://www.youtube.com/watch?v=p10qOapgrAM&list=PLIivdWyY5sqJdmVMjLI8iCul14XkTRosn)
+- Google Cloud Tech channel: [Understanding Embeddings in one minute](https://www.youtube.com/shorts/qzRyCEapjFE)
+- Cloud Next 2023 session: [Predictive and generative AI projects with Vertex AI Feature Platform](https://www.youtube.com/watch?v=vWs2Q4gzO5g&t=2s)
 
 ### 2022 blogs
 
@@ -146,6 +150,8 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google IO 2023 (Online)
 - Google Cloud Day 2023 (Tokyo/Online)
 - Google Cloud Next 2023 (San Francisco)
+- Big Data & AI World Asia 2023 (Singapore)
+- Google Cloud Next 2023 (Tokyo)
 
 ### 2022
 
