@@ -49,7 +49,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 
 ### 2023 blogs
 
-- Google Cloud blog: [What is Multimodal Search: "LLMs with vision" change businesses (EN)](https://cloud.google.com/blog/products/ai-machine-learning/multimodal-generative-ai-search?hl=en)
+- Google Cloud blog: [What is Multimodal Search: "LLMs with vision" change businesses (EN)](https://cloud.google.com/blog/products/ai-machine-learning/multimodal-generative-ai-search?hl=en) [(JP)](https://cloud.google.com/blog/ja/products/ai-machine-learning/multimodal-generative-ai-search?hl=ja)
 - Google Cloud blog: [Vertex AI Embeddings for Text: Grounding LLMs made easy (EN)](https://cloud.google.com/blog/products/ai-machine-learning/how-to-use-grounding-for-your-llms-with-text-embeddings?hl=en) [(JP)](https://cloud.google.com/blog/ja/products/ai-machine-learning/how-to-use-grounding-for-your-llms-with-text-embeddings)
 
 ### 2023 videos
@@ -60,6 +60,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google Cloud Tech channel: [How Recommendations AI for Media can boost customer retention](https://www.youtube.com/watch?v=p10qOapgrAM&list=PLIivdWyY5sqJdmVMjLI8iCul14XkTRosn)
 - Google Cloud Tech channel: [Understanding Embeddings in one minute](https://www.youtube.com/shorts/qzRyCEapjFE)
 - Cloud Next 2023 session: [Predictive and generative AI projects with Vertex AI Feature Platform](https://www.youtube.com/watch?v=vWs2Q4gzO5g&t=2s)
+- Google Cloud Tech channel: [Get Started with Vector Search using Vertex AI](https://www.youtube.com/watch?v=Y5Jm_Gtfhsg)
 
 ### 2022 blogs
 
