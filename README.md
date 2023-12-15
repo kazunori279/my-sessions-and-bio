@@ -59,8 +59,10 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google Cloud Tech channel: [Vertex AI Embeddings API + Matching Engine: Grounding LLMs made easy](https://www.youtube.com/watch?v=RC3JOzN2F1w)
 - Google Cloud Tech channel: [How Recommendations AI for Media can boost customer retention](https://www.youtube.com/watch?v=p10qOapgrAM&list=PLIivdWyY5sqJdmVMjLI8iCul14XkTRosn)
 - Google Cloud Tech channel: [Understanding Embeddings in one minute](https://www.youtube.com/shorts/qzRyCEapjFE)
-- Cloud Next 2023 session: [Predictive and generative AI projects with Vertex AI Feature Platform](https://www.youtube.com/watch?v=vWs2Q4gzO5g&t=2s)
+- Cloud Next SF 2023 session: [Predictive and generative AI projects with Vertex AI Feature Platform](https://www.youtube.com/watch?v=vWs2Q4gzO5g&t=2s)
 - Google Cloud Tech channel: [Get Started with Vector Search using Vertex AI](https://www.youtube.com/watch?v=Y5Jm_Gtfhsg)
+- Cloud Next Tokyo 2023 session: [Multimodal embeddings with Vector Search](https://youtu.be/q7rYew8cA30?feature=shared)
+- Applied AI Summit session: [Build LLM-powered apps with embeddings, vector search, and RAG](https://www.youtube.com/watch?v=zSaP2vCXa7E&t=1s)
 
 ### 2022 blogs
 
@@ -153,6 +155,8 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google Cloud Next 2023 (San Francisco)
 - Big Data & AI World Asia 2023 (Singapore)
 - Google Cloud Next 2023 (Tokyo)
+- DevFest Seoul (Seoul)
+- Applied AI Summit (Americas/Online)
 
 ### 2022
 
