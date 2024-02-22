@@ -5,13 +5,13 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Google Cloud, Google Inc.
 
-Kaz Sato, a Staff Developer Advocate at Google Cloud, has shared over 20 ML/AI blogs and demos at Google Cloud official blog that have been featured by Jeff Dean, Eric Schmidt, Newsweek, and The New Yorker. Having presented in 17 countries, he also regularly speaks at Google I/O and Cloud Next SF. Additionally, he tweets about ML/AI to his 17K followers.
+Kaz Sato, a Staff Developer Advocate at Google Cloud, has shared over 25 ML/AI blogs and demos at Google Cloud official blog that have been featured by Jeff Dean, Eric Schmidt, Newsweek, and The New Yorker. Having presented in 17 countries, he also regularly speaks at Google I/O and Cloud Next SF. Additionally, he tweets about ML/AI to his 17K followers.
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Google Cloud デベロッパーアドボケイト
 
-AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社のブログ記事の執筆やデモ開発を担当。2016年より20件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Next SFにも例年登壇。ツイッターでは1万7千人のフォロワーに向けてAI/MLの情報を日々共有している。
+AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社のブログ記事の執筆やデモ開発を担当。2016年より25件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Next SFにも例年登壇。ツイッターでは1万7千人のフォロワーに向けてAI/MLの情報を日々共有している。
 
 ## Photos:
 
@@ -35,7 +35,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - [Vertex AI Embeddings API + Matching Engine demo](https://ai-demos.dev/): Text and image semantics search demo
 - [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
 - [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI Embeddings API
-- [MatchIt Fast](https://matchit.magellanic-clouds.com/): Image and news article similarity search on Vertex AI Matching Engine, with Groovenauts
+- [MatchIt Fast](https://matchit.magellanic-clouds.com/): Image and news article similarity search with Vertex AI Multimodal embeddings and Vector Search, with Groovenauts
 
 ## Past demos
 
@@ -46,6 +46,11 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
 
 ## Blog posts, videos and demos
+
+### 2024 blogs
+
+- Google Cloud blog: [Your RAGs powered by Google Search technology, part 1](https://cloud.google.com/blog/products/ai-machine-learning/rags-powered-by-google-search-technology-part-1?hl=en)
+- Google Cloud blog: [Your RAGs powered by Google Search technology, part 2](https://cloud.google.com/blog/products/ai-machine-learning/rags-powered-by-google-search-technology-part-2?hl=en)
 
 ### 2023 blogs
 
@@ -146,6 +151,11 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - [How to build a smart RasPi Bot with Cloud Vision and Speech API - Google I/O 2016](https://www.youtube.com/watch?v=HpPyhsC4q9M)
 
 ## Invited Events
+
+## 2024
+
+- Google Cloud Technical Series (Singapore/Online)
+- Google Cloud Next 2024 (Las Vegas)
 
 ## 2023
 
