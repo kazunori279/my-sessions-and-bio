@@ -155,7 +155,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 ## 2024
 
 - Google Cloud Technical Series (Singapore/Online)
-- Google Cloud Next 2024 (Las Vegas)
+- Google IO 2024
 
 ## 2023
 
