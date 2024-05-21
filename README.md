@@ -31,7 +31,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 ## Current session topics
 
 ## Featured demos
-
+- [Infinite Nature](https://www.youtube.com/watch?v=vJlgiqPupFw): Generative Recommendation and RAG with Gemini models, Multimodal embeddings and Vector Search
 - [Vertex AI Embeddings API + Matching Engine demo](https://ai-demos.dev/): Text and image semantics search demo
 - [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
 - [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI Embeddings API
@@ -49,8 +49,13 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 
 ### 2024 blogs
 
+- Google Cloud blog: [Infinite Nature and the nature of industries: This 'wild' demo shows the diverse possibilities of AI](https://cloud.google.com/transform/infinite-nature-gen-ai-biodiversity-demo-industry-applications?e=48754805&hl=en)
 - Google Cloud blog: [Your RAGs powered by Google Search technology, part 1](https://cloud.google.com/blog/products/ai-machine-learning/rags-powered-by-google-search-technology-part-1?hl=en)
 - Google Cloud blog: [Your RAGs powered by Google Search technology, part 2](https://cloud.google.com/blog/products/ai-machine-learning/rags-powered-by-google-search-technology-part-2?hl=en)
+
+### 2024 videos
+
+- Google IO 2024 session: [Build generative AI agents with Vertex AI Agent Builder and Flutter](https://www.youtube.com/watch?v=V8P_S9OLI_I)
 
 ### 2023 blogs
 
