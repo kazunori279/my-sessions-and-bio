@@ -47,21 +47,25 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 
 ## Blog posts, videos and demos
 
-### 2024 blogs
+### 2024 blogs and demos
 
 - Google Cloud blog: [Infinite Nature and the nature of industries: This 'wild' demo shows the diverse possibilities of AI](https://cloud.google.com/transform/infinite-nature-gen-ai-biodiversity-demo-industry-applications?e=48754805&hl=en)
 - Google Cloud blog: [Your RAGs powered by Google Search technology, part 1](https://cloud.google.com/blog/products/ai-machine-learning/rags-powered-by-google-search-technology-part-1?hl=en)
 - Google Cloud blog: [Your RAGs powered by Google Search technology, part 2](https://cloud.google.com/blog/products/ai-machine-learning/rags-powered-by-google-search-technology-part-2?hl=en)
+- GitHub GoogleCloudPlatform repo: [Vertex AI Agent Builder & Flutter Demo](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/sample-apps/photo-discovery)
+- GitHub GoogleCloudPlatform repo: [Introduction to Vertex AI Embeddings - Text & Multimodal](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/intro_multimodal_embeddings.ipynb)
 
 ### 2024 videos
 
 - Google IO 2024 session: [Build generative AI agents with Vertex AI Agent Builder and Flutter](https://www.youtube.com/watch?v=V8P_S9OLI_I)
 - Google Cloud Tech channel: [Grounding in Gemini with Vertex AI Search](https://www.youtube.com/watch?v=ml2xMeftEG4)
 
-### 2023 blogs
+### 2023 blogs and demos
 
 - Google Cloud blog: [What is Multimodal Search: "LLMs with vision" change businesses (EN)](https://cloud.google.com/blog/products/ai-machine-learning/multimodal-generative-ai-search?hl=en) [(JP)](https://cloud.google.com/blog/ja/products/ai-machine-learning/multimodal-generative-ai-search?hl=ja)
 - Google Cloud blog: [Vertex AI Embeddings for Text: Grounding LLMs made easy (EN)](https://cloud.google.com/blog/products/ai-machine-learning/how-to-use-grounding-for-your-llms-with-text-embeddings?hl=en) [(JP)](https://cloud.google.com/blog/ja/products/ai-machine-learning/how-to-use-grounding-for-your-llms-with-text-embeddings)
+- GitHub GoogleCloudPlatform repo: [Vertex AI Vector Search Quickstart](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/vector-search-quickstart.ipynb)
+- GitHub GoogleCloudPlatform repo: [Getting Started with Text Embeddings + Vertex AI Vector Search](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/intro-textemb-vectorsearch.ipynb)
 
 ### 2023 videos
 
