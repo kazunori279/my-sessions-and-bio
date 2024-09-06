@@ -54,11 +54,14 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google Cloud blog: [Your RAGs powered by Google Search technology, part 2](https://cloud.google.com/blog/products/ai-machine-learning/rags-powered-by-google-search-technology-part-2?hl=en)
 - GitHub GoogleCloudPlatform repo: [Vertex AI Agent Builder & Flutter Demo](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/sample-apps/photo-discovery)
 - GitHub GoogleCloudPlatform repo: [Introduction to Vertex AI Embeddings - Text & Multimodal](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/intro_multimodal_embeddings.ipynb)
+- Google Cloud document: [About hybrid search](https://cloud.google.com/vertex-ai/docs/vector-search/about-hybrid-search)
+- GitHub GoogleCloudPlatform repo: [Combining Semantic & Keyword Search: A Hybrid Search Tutorial with Vertex AI Vector Search](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/hybrid-search.ipynb)
 
 ### 2024 videos
 
 - Google IO 2024 session: [Build generative AI agents with Vertex AI Agent Builder and Flutter](https://www.youtube.com/watch?v=V8P_S9OLI_I)
 - Google Cloud Tech channel: [Grounding in Gemini with Vertex AI Search](https://www.youtube.com/watch?v=ml2xMeftEG4)
+- Next Tokyo 2024 session: [Applying generative AI to enterprise systems](https://youtu.be/9B8ruZJKUq8?si=n1Rlh61HmhWNO2LP) (JP only)
 
 ### 2023 blogs and demos
 
