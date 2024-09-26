@@ -5,7 +5,7 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Cloud AI, Google Inc.
 
-Kaz Sato, a Staff Developer Advocate at Cloud AI, has shared over 25 ML/AI blogs and demos at Google Cloud official blog that have been featured by Jeff Dean, Eric Schmidt, Newsweek, and The New Yorker. Having presented in 17 countries, he also regularly speaks at Google I/O and Cloud Next SF. Additionally, he tweets about ML/AI to his 19K followers.
+Kaz Sato, a Staff Developer Advocate of Cloud AI, has shared over 25 ML/AI blogs and demos at Google Cloud official blog that have been featured by Jeff Dean, Eric Schmidt, Newsweek, and The New Yorker. Having presented in 17 countries, he also regularly speaks at Google I/O and Cloud Next SF. Additionally, he tweets about ML/AI to his 19K followers.
 
 ## Bio (Japanese)
 
