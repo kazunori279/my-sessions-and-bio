@@ -57,6 +57,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google Cloud document: [About hybrid search](https://cloud.google.com/vertex-ai/docs/vector-search/about-hybrid-search)
 - GitHub GoogleCloudPlatform repo: [Combining Semantic & Keyword Search: A Hybrid Search Tutorial with Vertex AI Vector Search](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/hybrid-search.ipynb)
 - GitHub GoogleCloudPlatform repo: [Using "task type" embeddings for improving RAG search quality](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/task-type-embedding.ipynb)
+- Google Cloud blog: [Enhancing your gen AI use case with Vertex AI embeddings and task types](https://cloud.google.com/blog/products/ai-machine-learning/improve-gen-ai-search-with-vertex-ai-embeddings-and-task-types?e=48754805&hl=en)
 
 ### 2024 videos
 
