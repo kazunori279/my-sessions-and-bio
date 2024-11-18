@@ -64,6 +64,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - Google IO 2024 session: [Build generative AI agents with Vertex AI Agent Builder and Flutter](https://www.youtube.com/watch?v=V8P_S9OLI_I)
 - Google Cloud Tech channel: [Grounding in Gemini with Vertex AI Search](https://www.youtube.com/watch?v=ml2xMeftEG4)
 - Next Tokyo 2024 session: [Applying generative AI to enterprise systems](https://youtu.be/9B8ruZJKUq8?si=n1Rlh61HmhWNO2LP) (JP only)
+- Google Cloud Tech channel: [New "task type" embedding from the DeepMind team improves RAG search quality](https://www.youtube.com/watch?v=BgfSCTdlvAA)
 
 ### 2023 blogs and demos
 
