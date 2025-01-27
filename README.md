@@ -5,13 +5,13 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Cloud AI, Google Inc.
 
-Kaz Sato, a Staff Developer Advocate of Cloud AI, has shared over 25 ML/AI blogs and demos at Google Cloud official blog that have been featured by Jeff Dean, Eric Schmidt, Newsweek, and The New Yorker. Having presented in 17 countries, he also regularly speaks at Google I/O and Cloud Next. Additionally, he tweets about ML/AI to his 19K followers.
+Kaz Sato, a Staff Developer Advocate of Cloud AI, has shared over 25 ML/AI blogs and demos at Google Cloud official blog that have been featured by Jeff Dean, Eric Schmidt, Newsweek, and The New Yorker. Having presented in 17 countries, he also regularly speaks at Google I/O and Cloud Next. Additionally, he tweets about ML/AI to his 20K followers.
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Cloud AI デベロッパーアドボケイト
 
-AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社のブログ記事やドキュメント執筆、デモ開発を担当。2016年より25件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Nextにも例年登壇。ツイッターでは1万9千人のフォロワーに向けてAI/MLの情報を日々共有している。
+AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社のブログ記事やドキュメント執筆、デモ開発を担当。2016年より25件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Nextにも例年登壇。ツイッターでは2万人のフォロワーに向けてAI/MLの情報を日々共有している。
 
 ## Photos:
 
@@ -46,6 +46,10 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
 
 ## Blog posts, videos and demos
+
+### 2025 blogs and demos
+
+- GitHub GoogleCloudPlatform repo: [Handling large-scale embedding generation for Vertex AI Vector Search](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/large-embs-generation-for-vvs.ipynb)
 
 ### 2024 blogs and demos
 
