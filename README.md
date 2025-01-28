@@ -50,6 +50,7 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 ### 2025 blogs and demos
 
 - GitHub GoogleCloudPlatform repo: [Handling large-scale embedding generation for Vertex AI Vector Search](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/large-embs-generation-for-vvs.ipynb)
+- Google Cloud docs: [Vertex AI Vector Search overview](https://cloud.google.com/vertex-ai/docs/vector-search/overview?hl=en)
 
 ### 2024 blogs and demos
 
