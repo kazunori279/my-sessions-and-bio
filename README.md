@@ -31,11 +31,11 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 ## Current session topics
 
 ## Featured demos
+- [Shopper's Concierge](https://www.youtube.com/watch?v=LwHPYyw7u6U): Shopping assistant AI agent built with ADK + Vector Search
 - [Infinite Nature](https://www.youtube.com/watch?v=vJlgiqPupFw): Generative Recommendation and RAG with Gemini models, Multimodal embeddings and Vector Search
-- [Vertex AI Embeddings API + Matching Engine demo](https://ai-demos.dev/): Text and image semantics search demo
+- [Vertex AI Vector Search Interactive Demo](https://cloud.google.com/vertex-ai/docs/vector-search/try-it?hl=en): Easy try-it demo for Vector Search
 - [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
 - [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI Embeddings API
-- [MatchIt Fast](https://matchit.magellanic-clouds.com/): Image and news article similarity search with Vertex AI Multimodal embeddings and Vector Search, with Groovenauts
 
 ## Past demos
 
@@ -47,11 +47,11 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 
 ## Blog posts, videos and demos
 
-### 2025 blogs and demos
+### 2025 blogs, docs and demos
 
 - GitHub GoogleCloudPlatform repo: [Handling large-scale embedding generation for Vertex AI Vector Search](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/large-embs-generation-for-vvs.ipynb)
 - Google Cloud docs: [Vertex AI Vector Search overview](https://cloud.google.com/vertex-ai/docs/vector-search/overview?hl=en)
-- Google Cloud docs: [Vertex AI Vector Search Interactive Demo](https://cloud.google.com/vertex-ai/docs/vector-search/try-it?hl=en)
+- Google Cloud docs (demo): [Vertex AI Vector Search Interactive Demo](https://cloud.google.com/vertex-ai/docs/vector-search/try-it?hl=en)
 - Medium blog: [Improving Real-Time UX with a Multi-Agent Architecture: Lessons from Shopper’s Concierge demo](https://medium.com/google-cloud/improving-real-time-ux-with-a-multi-agent-architecture-lessons-from-shoppers-concierge-demo-51c466a11662)
 - Medium blog: [Why Basic Similarity Search Still Powers Many RAGs and AI Agents (And Why It’s Changing)](https://medium.com/google-cloud/why-basic-similarity-search-still-powers-many-rags-and-ai-agents-and-why-its-changing-e977e0bb1401)
 - Next '25 demo: [Shopper's Concierge demo video](https://www.youtube.com/watch?v=LwHPYyw7u6U)
