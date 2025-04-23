@@ -51,6 +51,11 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 
 - GitHub GoogleCloudPlatform repo: [Handling large-scale embedding generation for Vertex AI Vector Search](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/large-embs-generation-for-vvs.ipynb)
 - Google Cloud docs: [Vertex AI Vector Search overview](https://cloud.google.com/vertex-ai/docs/vector-search/overview?hl=en)
+- Google Cloud docs: [Vertex AI Vector Search Interactive Demo](https://cloud.google.com/vertex-ai/docs/vector-search/try-it?hl=en)
+- Medium blog: [Improving Real-Time UX with a Multi-Agent Architecture: Lessons from Shopper’s Concierge demo](https://medium.com/google-cloud/improving-real-time-ux-with-a-multi-agent-architecture-lessons-from-shoppers-concierge-demo-51c466a11662)
+- Medium blog: [Why Basic Similarity Search Still Powers Many RAGs and AI Agents (And Why It’s Changing)](https://medium.com/google-cloud/why-basic-similarity-search-still-powers-many-rags-and-ai-agents-and-why-its-changing-e977e0bb1401)
+- Next '25 demo: [Shopper's Concierge demo video](https://www.youtube.com/watch?v=LwHPYyw7u6U)
+- ADK docs: [ADK Quickstart (Streaming)](https://google.github.io/adk-docs/get-started/quickstart-streaming/)
 
 ### 2024 blogs and demos
 
@@ -173,6 +178,10 @@ AI/ML担当のデベロッパーアドボケイトとしてGoogle Cloud US本社
 - [How to build a smart RasPi Bot with Cloud Vision and Speech API - Google I/O 2016](https://www.youtube.com/watch?v=HpPyhsC4q9M)
 
 ## Invited Events
+
+## 2025
+
+- Google Cloud Next '25 Las Vegas
 
 ## 2024
 
