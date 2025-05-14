@@ -56,6 +56,8 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - Medium blog: [Why Basic Similarity Search Still Powers Many RAGs and AI Agents (And Why It’s Changing)](https://medium.com/google-cloud/why-basic-similarity-search-still-powers-many-rags-and-ai-agents-and-why-its-changing-e977e0bb1401)
 - Next '25 demo: [Shopper's Concierge demo video](https://www.youtube.com/watch?v=LwHPYyw7u6U)
 - ADK docs: [ADK Quickstart (Streaming)](https://google.github.io/adk-docs/get-started/quickstart-streaming/)
+- ADK docs: [Build an e-commerce recommendation AI agents with ADK + Vector Search](https://github.com/google/adk-docs/blob/main/examples/python/notebooks/shop_agent.ipynb)
+- YouTube video: [Build an e-commerce recommendation AI agents with ADK + Vector Search](https://www.youtube.com/watch?v=07GX28rk7Yc)
 
 ### 2024 blogs and demos
 
