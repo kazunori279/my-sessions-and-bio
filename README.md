@@ -55,9 +55,11 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - Medium blog: [Improving Real-Time UX with a Multi-Agent Architecture: Lessons from Shopper’s Concierge demo](https://medium.com/google-cloud/improving-real-time-ux-with-a-multi-agent-architecture-lessons-from-shoppers-concierge-demo-51c466a11662)
 - Medium blog: [Why Basic Similarity Search Still Powers Many RAGs and AI Agents (And Why It’s Changing)](https://medium.com/google-cloud/why-basic-similarity-search-still-powers-many-rags-and-ai-agents-and-why-its-changing-e977e0bb1401)
 - Next '25 demo: [Shopper's Concierge demo video](https://www.youtube.com/watch?v=LwHPYyw7u6U)
-- ADK docs: [ADK Quickstart (Streaming)](https://google.github.io/adk-docs/get-started/quickstart-streaming/)
+- ADK docs: [ADK Quickstart (Streaming)](https://google.github.io/adk-docs/get-started/streaming/quickstart-streaming/)
 - ADK docs: [Build an e-commerce recommendation AI agents with ADK + Vector Search](https://github.com/google/adk-docs/blob/main/examples/python/notebooks/shop_agent.ipynb)
 - YouTube video: [Build an e-commerce recommendation AI agents with ADK + Vector Search](https://www.youtube.com/watch?v=07GX28rk7Yc)
+- ADK docs: [Custom Audio Streaming app (SSE)](https://google.github.io/adk-docs/streaming/custom-streaming/)
+- ADK docs: [Custom Audio Streaming app (WebSockets)](https://google.github.io/adk-docs/streaming/custom-streaming-ws/)
 
 ### 2024 blogs and demos
 
