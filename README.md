@@ -60,6 +60,10 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - YouTube video: [Build an e-commerce recommendation AI agents with ADK + Vector Search](https://www.youtube.com/watch?v=07GX28rk7Yc)
 - ADK docs: [Custom Audio Streaming app (SSE)](https://google.github.io/adk-docs/streaming/custom-streaming/)
 - ADK docs: [Custom Audio Streaming app (WebSockets)](https://google.github.io/adk-docs/streaming/custom-streaming-ws/)
+- YouTube video: [Build AI agents for e-commerce with ADK + Vector Search](https://www.youtube.com/watch?v=UIntXBP--gI)
+- Medium blog: [Augmentation Over Automation: Human-in-the-loop AI agent design in Shopper’s Concierge](https://medium.com/google-cloud/augmentation-over-automation-human-in-the-loop-ai-agent-design-in-shoppers-concierge-311100255281)
+- Medium blog: [Build Your Voice Streaming AI Agents with ADK and Google Search grounding](https://medium.com/google-cloud/build-your-voice-streaming-ai-agents-with-adk-and-google-search-grounding-0cfcdec63d1e)
+- Medium blog: [Accelerate ADK development with Claude Code + GitHub MCP Server](https://medium.com/google-cloud/accelerate-adk-development-with-claude-code-github-mcp-server-7a5052d481bc)
 
 ### 2024 blogs and demos
 
