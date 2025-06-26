@@ -64,6 +64,7 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - Medium blog: [Augmentation Over Automation: Human-in-the-loop AI agent design in Shopper’s Concierge](https://medium.com/google-cloud/augmentation-over-automation-human-in-the-loop-ai-agent-design-in-shoppers-concierge-311100255281)
 - Medium blog: [Build Your Voice Streaming AI Agents with ADK and Google Search grounding](https://medium.com/google-cloud/build-your-voice-streaming-ai-agents-with-adk-and-google-search-grounding-0cfcdec63d1e)
 - Medium blog: [Accelerate ADK development with Claude Code + GitHub MCP Server](https://medium.com/google-cloud/accelerate-adk-development-with-claude-code-github-mcp-server-7a5052d481bc)
+- Medium blog: [Generative Recommendation: Using ADK to build an Agentic RAG with Vector Search](https://medium.com/google-cloud/generative-recommendation-using-adk-to-build-an-agentic-rag-with-vector-search-5a4852c5d5d2)
 
 ### 2024 blogs and demos
 
