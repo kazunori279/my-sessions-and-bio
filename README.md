@@ -15,7 +15,7 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 
 ## Photos:
 
-- [My photo](photo_201802_small.PNG)
+- [My photo](photo_202507_small.jpg)
 - [My past works](past_works.png)
 
 ## Links:
