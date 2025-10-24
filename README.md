@@ -31,7 +31,7 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 ## Current session topics
 
 ## Featured demos
-- [Shopper's Concierge](https://www.youtube.com/watch?v=LwHPYyw7u6U): Shopping assistant AI agent built with ADK + Vector Search
+- [Shopper's Concierge](https://www.youtube.com/watch?v=hLSTGgc7gDc): Shopping assistant AI agent built with ADK + Vector Search
 - [Infinite Nature](https://www.youtube.com/watch?v=vJlgiqPupFw): Generative Recommendation and RAG with Gemini models, Multimodal embeddings and Vector Search
 - [Vertex AI Vector Search Interactive Demo](https://cloud.google.com/vertex-ai/docs/vector-search/try-it?hl=en): Easy try-it demo for Vector Search
 - [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
@@ -66,6 +66,8 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - Medium blog: [Accelerate ADK development with Claude Code + GitHub MCP Server](https://medium.com/google-cloud/accelerate-adk-development-with-claude-code-github-mcp-server-7a5052d481bc)
 - Medium blog: [Generative Recommendation: Using ADK to build an Agentic RAG with Vector Search](https://medium.com/google-cloud/generative-recommendation-using-adk-to-build-an-agentic-rag-with-vector-search-5a4852c5d5d2)
 - ADK docs: [ADK Bidi-streaming development guide: Part 1 - Introduction](https://google.github.io/adk-docs/streaming/dev-guide/part1/)
+- Medium blog: [Supercharge ADK Development with Claude Code Skills](https://medium.com/google-cloud/supercharge-adk-development-with-claude-code-skills-d192481cbe72)
+- YouTube video: [Building agentic RAG for e-commerce with ADK and Vector Search](https://www.youtube.com/watch?v=hLSTGgc7gDc)
 
 ### 2024 blogs and demos
 
