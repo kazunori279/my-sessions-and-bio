@@ -68,6 +68,7 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - ADK docs: [ADK Bidi-streaming development guide: Part 1 - Introduction](https://google.github.io/adk-docs/streaming/dev-guide/part1/)
 - Medium blog: [Supercharge ADK Development with Claude Code Skills](https://medium.com/google-cloud/supercharge-adk-development-with-claude-code-skills-d192481cbe72)
 - YouTube video: [Building agentic RAG for e-commerce with ADK and Vector Search](https://www.youtube.com/watch?v=hLSTGgc7gDc)
+- Medium blog: [Supercharge Your Tech Writing with Claude Code Subagents and Agent Skills](https://medium.com/google-cloud/supercharge-tech-writing-with-claude-code-subagents-and-agent-skills-44eb43e5a9b7)
 
 ### 2024 blogs and demos
 
