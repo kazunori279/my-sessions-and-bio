@@ -69,6 +69,7 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - Medium blog: [Supercharge ADK Development with Claude Code Skills](https://medium.com/google-cloud/supercharge-adk-development-with-claude-code-skills-d192481cbe72)
 - YouTube video: [Building agentic RAG for e-commerce with ADK and Vector Search](https://www.youtube.com/watch?v=hLSTGgc7gDc)
 - Medium blog: [Supercharge Your Tech Writing with Claude Code Subagents and Agent Skills](https://medium.com/google-cloud/supercharge-tech-writing-with-claude-code-subagents-and-agent-skills-44eb43e5a9b7)
+- Meduim blog: [ADK Bidi-Streaming: A Visual Guide to Real-Time Multimodal AI Agent Development](https://medium.com/google-cloud/adk-bidi-streaming-a-visual-guide-to-real-time-multimodal-ai-agent-development-62dd08c81399?postPublishedType=repub)
 
 ### 2024 blogs and demos
 
