@@ -72,6 +72,7 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - Meduim blog: [ADK Bidi-Streaming: A Visual Guide to Real-Time Multimodal AI Agent Development](https://medium.com/google-cloud/adk-bidi-streaming-a-visual-guide-to-real-time-multimodal-ai-agent-development-62dd08c81399?postPublishedType=repub)
 - YouTube video: [ADK Bidi-streaming in 5 minutes](https://www.youtube.com/watch?v=vLUkAGeLR1k)
 - YouTube video: [Shopper's Concierge 2 demo](https://www.youtube.com/watch?v=Hwx94smxT_0)
+- Advent of Agents: [Multimodal Agents with Gemini Live API](https://adventofagents.com/day/12)
 
 ### 2024 blogs and demos
 
