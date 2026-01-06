@@ -69,10 +69,11 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - Medium blog: [Supercharge ADK Development with Claude Code Skills](https://medium.com/google-cloud/supercharge-adk-development-with-claude-code-skills-d192481cbe72)
 - YouTube video: [Building agentic RAG for e-commerce with ADK and Vector Search](https://www.youtube.com/watch?v=hLSTGgc7gDc)
 - Medium blog: [Supercharge Your Tech Writing with Claude Code Subagents and Agent Skills](https://medium.com/google-cloud/supercharge-tech-writing-with-claude-code-subagents-and-agent-skills-44eb43e5a9b7)
-- Meduim blog: [ADK Bidi-Streaming: A Visual Guide to Real-Time Multimodal AI Agent Development](https://medium.com/google-cloud/adk-bidi-streaming-a-visual-guide-to-real-time-multimodal-ai-agent-development-62dd08c81399?postPublishedType=repub)
+- Medium blog: [ADK Bidi-Streaming: A Visual Guide to Real-Time Multimodal AI Agent Development](https://medium.com/google-cloud/adk-bidi-streaming-a-visual-guide-to-real-time-multimodal-ai-agent-development-62dd08c81399?postPublishedType=repub)
 - YouTube video: [ADK Bidi-streaming in 5 minutes](https://www.youtube.com/watch?v=vLUkAGeLR1k)
 - YouTube video: [Shopper's Concierge 2 demo](https://www.youtube.com/watch?v=Hwx94smxT_0)
 - Advent of Agents: [Multimodal Agents with Gemini Live API](https://adventofagents.com/day/12)
+- Medium blog: [Introducing Vertex AI Vector Search 2.0: From Zero to Billion Scale](https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43)
 
 ### 2024 blogs and demos
 
@@ -196,9 +197,15 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 
 ## Invited Events
 
+## 2026
+
+- Google Cloud Technical Series (Singapore)
+
 ## 2025
 
 - Google Cloud Next '25 Las Vegas
+- Google Cloud Next '25 Tokyo
+- DevFest Tokyo and Okayama
 
 ## 2024
 
