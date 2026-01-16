@@ -65,14 +65,16 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 - Medium blog: [Build Your Voice Streaming AI Agents with ADK and Google Search grounding](https://medium.com/google-cloud/build-your-voice-streaming-ai-agents-with-adk-and-google-search-grounding-0cfcdec63d1e)
 - Medium blog: [Accelerate ADK development with Claude Code + GitHub MCP Server](https://medium.com/google-cloud/accelerate-adk-development-with-claude-code-github-mcp-server-7a5052d481bc)
 - Medium blog: [Generative Recommendation: Using ADK to build an Agentic RAG with Vector Search](https://medium.com/google-cloud/generative-recommendation-using-adk-to-build-an-agentic-rag-with-vector-search-5a4852c5d5d2)
-- ADK docs: [ADK Bidi-streaming development guide: Part 1 - Introduction](https://google.github.io/adk-docs/streaming/dev-guide/part1/)
 - Medium blog: [Supercharge ADK Development with Claude Code Skills](https://medium.com/google-cloud/supercharge-adk-development-with-claude-code-skills-d192481cbe72)
 - YouTube video: [Building agentic RAG for e-commerce with ADK and Vector Search](https://www.youtube.com/watch?v=hLSTGgc7gDc)
 - Medium blog: [Supercharge Your Tech Writing with Claude Code Subagents and Agent Skills](https://medium.com/google-cloud/supercharge-tech-writing-with-claude-code-subagents-and-agent-skills-44eb43e5a9b7)
+- GitHub adk-samples repo: [ADK Bidi-streaming Demo](https://github.com/google/adk-samples/tree/main/python/agents/bidi-demo)
+- GitHub adk-docs repo: [ADK Bidi-streaming development guide: Part 1 - 5](https://google.github.io/adk-docs/streaming/dev-guide/part1/)
 - Medium blog: [ADK Bidi-Streaming: A Visual Guide to Real-Time Multimodal AI Agent Development](https://medium.com/google-cloud/adk-bidi-streaming-a-visual-guide-to-real-time-multimodal-ai-agent-development-62dd08c81399?postPublishedType=repub)
 - YouTube video: [ADK Bidi-streaming in 5 minutes](https://www.youtube.com/watch?v=vLUkAGeLR1k)
 - YouTube video: [Shopper's Concierge 2 demo](https://www.youtube.com/watch?v=Hwx94smxT_0)
 - Advent of Agents: [Multimodal Agents with Gemini Live API](https://adventofagents.com/day/12)
+- GitHub GoogleCloudPlatform repo: [Introduction to Vertex AI Vector Search 2.0](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/vector-search-2-intro.ipynb)
 - Medium blog: [Introducing Vertex AI Vector Search 2.0: From Zero to Billion Scale](https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43)
 
 ### 2024 blogs and demos
