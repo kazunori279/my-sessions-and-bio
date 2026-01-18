@@ -47,6 +47,11 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 
 ## Blog posts, videos and demos
 
+### 2026 blogs, docs and demos
+
+- GitHub adk-samples repo: [End-to-End Travel Agent: Vector Search 2.0 + ADK](https://github.com/google/adk-samples/blob/main/python/notebooks/grounding/vectorsearch2_travel_agent.ipynb) co-authored with Eran Lewis
+- Medium post: [10-Minute Agentic RAG with the New Vector Search 2.0 and ADK](https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac)
+
 ### 2025 blogs, docs and demos
 
 - GitHub GoogleCloudPlatform repo: [Handling large-scale embedding generation for Vertex AI Vector Search](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/large-embs-generation-for-vvs.ipynb)
