@@ -5,13 +5,13 @@ My past blogs and demos
 
 Kaz Sato / Staff Developer Advocate, Cloud AI, Google.
 
-Kaz Sato, a Staff Developer Advocate from the Cloud AI team, has authored over 25 ML/AI blogs and demos for Google Cloud's official blog. His work has garnered attention from Jeff Dean and Eric Schmidt, and been featured in Newsweek and The New Yorker. He's a regular speaker at Google I/O and Cloud Next, and has presented internationally in 17 countries. Kaz also shares ML/AI updates with his 20,000 X followers.
+Kaz Sato, a Staff Developer Advocate from the Cloud AI team, has authored over 25 ML/AI blogs and demos for Google Cloud's official blog. His work has garnered attention from Jeff Dean and Eric Schmidt, and been featured in Newsweek and The New Yorker. He's a regular speaker at Google I/O and Cloud Next, and has presented internationally in 17 countries. Kaz also shares ML/AI updates with his 23,000 X followers.
 
 ## Bio (Japanese)
 
 佐藤一憲　/ グーグル合同会社 Cloud AI デベロッパーアドボケイト
 
-Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle Cloud USブログ記事やドキュメントの執筆、デモ開発等を担当。2016年より25件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Nextにも例年登壇。Xでは2万人のフォロワーに向けてAI/MLの情報を日々共有している。
+Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle Cloud USブログ記事やドキュメントの執筆、デモ開発等を担当。2016年より25件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Nextにも例年登壇。Xでは23,000フォロワーに向けてAI/MLの情報を日々共有している。
 
 ## Photos:
 
@@ -30,8 +30,8 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 
 ## Current session topics
 
-## Featured demos
-- [Shopper's Concierge](https://www.youtube.com/watch?v=hLSTGgc7gDc): Shopping assistant AI agent built with ADK + Vector Search
+## Featured demos 
+- [Shopper's Concierge 2](https://www.youtube.com/watch?v=Hwx94smxT_0): Agentic RAG shopping assistant built with ADK, Vector Search and Generative Recommendation
 - [Infinite Nature](https://www.youtube.com/watch?v=vJlgiqPupFw): Generative Recommendation and RAG with Gemini models, Multimodal embeddings and Vector Search
 - [Vertex AI Vector Search Interactive Demo](https://cloud.google.com/vertex-ai/docs/vector-search/try-it?hl=en): Easy try-it demo for Vector Search
 - [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
