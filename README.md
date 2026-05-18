@@ -31,15 +31,19 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 ## Current session topics
 
 ## Featured demos 
-- [Shopper's Concierge 2](https://www.youtube.com/watch?v=Hwx94smxT_0): Agentic RAG shopping assistant built with ADK, Vector Search and Generative Recommendation
-- [Infinite Nature](https://www.youtube.com/watch?v=vJlgiqPupFw): Generative Recommendation and RAG with Gemini models, Multimodal embeddings and Vector Search
-- [Vertex AI Vector Search Interactive Demo](https://cloud.google.com/vertex-ai/docs/vector-search/try-it?hl=en): Easy try-it demo for Vector Search
-- [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
-- [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI Embeddings API
+- [LensMosaic](https://lens-mosaic-761793285222.us-central1.run.app/): Search across roughly 1 million items from a Mercari product dataset in milliseconds.
+Built with ADK Gemini Live API Toolkit, Vertex AI Vector Search 2, and Gemini Embedding 2. [GitHub repo](https://github.com/kazunori279/lens-mosaic)
+- [Live Translator](https://live-translation-761793285222.us-central1.run.app/): Live audio translation with Gemini Live API. [GitHub repo](https://github.com/kazunori279/live-translator)
+- [Hotel Concierge Agent](https://grounding-demo-761793285222.us-east1.run.app/): Gemini grounding demo with Search, Maps and Vector Search 2.0 
+- [ADK Gemini Live API Toolkit Demo](https://bidi-demo-761793285222.us-central1.run.app/): A simple demo for ADK Gemini Live API Toolkit. [GitHub repo](https://github.com/google/adk-samples/tree/main/python/agents/bidi-demo)
+- [Agent Platform Vector Search 2.0 Try It](https://ac-web2-761793285222.us-central1.run.app/): Easy try-it demo for Vector Search 2.0
 
 ## Past demos
 
-- [Tensor Processing Unit (TPU) works pt.1](https://www.youtube.com/watch?v=kIyWGrEX7Ms) and [pt.2](https://www.youtube.com/watch?v=80cQQygOXAA): Explains the TPU design archtecture. See the [blog](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) for more detail
+- [Shopper's Concierge 2](https://www.youtube.com/watch?v=Hwx94smxT_0): Agentic RAG shopping assistant built with ADK, Vector Search and Generative Recommendation
+- [Infinite Nature](https://www.youtube.com/watch?v=vJlgiqPupFw): Generative Recommendation and RAG with Gemini models, Multimodal embeddings and Vector Search
+- [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
+- [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI - [Tensor Processing Unit (TPU) works pt.1](https://www.youtube.com/watch?v=kIyWGrEX7Ms) and [pt.2](https://www.youtube.com/watch?v=80cQQygOXAA): Explains the TPU design archtecture. See the [blog](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) for more detail
 - [Rock Papar Scissors Machine](https://www.youtube.com/watch?v=hyNruFqe1L0): A simple demo for explaining how ML with linear model works
 - [Find your candy](https://youtu.be/lMvV_OGFFck?t=91): Candy sorter demo for Cloud Next with TensorFlow and ML APIs. See the [blog](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) for more details
 - [What is Cloud Vision API](https://www.youtube.com/watch?v=eve8DkkVdhI): A fun robot demo with Vision API
@@ -51,6 +55,7 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 
 - GitHub adk-samples repo: [End-to-End Travel Agent: Vector Search 2.0 + ADK](https://github.com/google/adk-samples/blob/main/python/notebooks/grounding/vectorsearch2_travel_agent.ipynb) co-authored with Eran Lewis
 - Medium post: [10-Minute Agentic RAG with the New Vector Search 2.0 and ADK](https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac)
+- Medium post: [Building a Real-Time Audio Translator with Gemini Live API](https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774)
 
 ### 2025 blogs, docs and demos
 
@@ -207,6 +212,8 @@ Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle C
 ## 2026
 
 - Google Cloud Technical Series (Singapore)
+- Google Cloud Next '26 Las Vegas
+- Google Cloud Next '26 Tokyo
 
 ## 2025
 
