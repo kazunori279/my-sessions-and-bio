@@ -44,10 +44,6 @@ Built with ADK Gemini Live API Toolkit, Vertex AI Vector Search 2, and Gemini Em
 - [Infinite Nature](https://www.youtube.com/watch?v=vJlgiqPupFw): Generative Recommendation and RAG with Gemini models, Multimodal embeddings and Vector Search
 - [Nomic AI Atlas: Mercari embeddings visualization](https://atlas.nomic.ai/map/vertexAI-mercari): with Vertex AI Embeddings API
 - [Nomic AI Atlas: Stack Overflow embeddings visualization](https://atlas.nomic.ai/map/edaff028-12b5-42a0-8e8b-6430c9b8222b/bcb42818-3581-4fb5-ac30-9883d01f98ec): with Vertex AI - [Tensor Processing Unit (TPU) works pt.1](https://www.youtube.com/watch?v=kIyWGrEX7Ms) and [pt.2](https://www.youtube.com/watch?v=80cQQygOXAA): Explains the TPU design archtecture. See the [blog](https://cloud.google.com/blog/products/ai-machine-learning/what-makes-tpus-fine-tuned-for-deep-learning) for more detail
-- [Rock Papar Scissors Machine](https://www.youtube.com/watch?v=hyNruFqe1L0): A simple demo for explaining how ML with linear model works
-- [Find your candy](https://youtu.be/lMvV_OGFFck?t=91): Candy sorter demo for Cloud Next with TensorFlow and ML APIs. See the [blog](https://cloud.google.com/blog/big-data/2017/06/build-your-own-machine-learning-powered-robot-arm-using-tensorflow-and-google-cloud) for more details
-- [What is Cloud Vision API](https://www.youtube.com/watch?v=eve8DkkVdhI): A fun robot demo with Vision API
-- [TensorFlow for absolute beginners (codelab)](https://github.com/kazunori279/TensorFlow-for-absolute-beginners)
 
 ## Blog posts, videos and demos
 
