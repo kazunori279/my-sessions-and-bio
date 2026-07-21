@@ -49,6 +49,9 @@ Built with ADK Gemini Live API Toolkit, Vertex AI Vector Search 2, and Gemini Em
 
 ### 2026 blogs, docs and demos
 
+- GitHub repo: [XLS32 — a 32-voice polyphonic HLS/FPGA synthesizer](https://github.com/kazunori279/xls32-fpga-synth): built in Google XLS (DSLX) on a Basys 3, end-to-end with AI coding agents and verified headlessly over USB
+- GitHub repo: [Era of Agents resources](https://github.com/kazunori279/gcp-eoa)
+- YouTube video: [Give your app search superpowers: Agent Retrieval (Vector Search 2.0)](https://www.youtube.com/watch?v=-L5khDHrQSE)
 - GitHub adk-samples repo: [End-to-End Travel Agent: Vector Search 2.0 + ADK](https://github.com/google/adk-samples/blob/main/python/notebooks/grounding/vectorsearch2_travel_agent.ipynb) co-authored with Eran Lewis
 - Medium post: [10-Minute Agentic RAG with the New Vector Search 2.0 and ADK](https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac)
 - Medium post: [Building a Real-Time Audio Translator with Gemini Live API](https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774)
