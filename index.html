@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaz Sato — 2026 Sessions, Articles & Demos</title>
+  <meta name="description" content="Portfolio of 2026 blogs, tech talks, AI agent demos, and publications by Kaz Sato, Staff Developer Advocate, Cloud AI at Google.">
+  <link rel="icon" href="photo_202507_small.jpg" type="image/jpeg">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kaz Sato — 2026 Works & Highlights">
+  <meta property="og:description" content="Explore Kaz Sato's 2026 works on AI Agents, Vector Search 2.0, Gemini Live API, and Hardware synthesis.">
+  <meta property="og:image" content="banner.png">
+  <meta property="og:type" content="website">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8'
+            },
+            gemini: {
+              purple: '#9333ea',
+              cyan: '#06b6d4',
+              blue: '#3b82f6'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Custom gradient background and glow */
+    .bg-grid-pattern {
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    }
+    .light .bg-grid-pattern {
+      background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+    }
+    .glow-gemini {
+      background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.18), rgba(6, 182, 212, 0.12), transparent 70%);
+    }
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(59, 130, 246, 0.15);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-brand-500 selection:text-white transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100 [&.light]:bg-slate-50 [&.light]:text-slate-900">
+
+  <!-- Subtle Ambient Glows -->
+  <div class="fixed inset-0 pointer-events-none glow-gemini z-0"></div>
+  <div class="fixed inset-0 pointer-events-none bg-grid-pattern opacity-60 z-0"></div>
+
+  <!-- Navigation Bar -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-colors [&.light_header]:bg-white/80 [&.light_header]:border-slate-200" id="mainHeader">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="photo_202507_small.jpg" alt="Kaz Sato" class="w-10 h-10 rounded-full object-cover ring-2 ring-brand-500/50 shadow-md">
+        <div>
+          <a href="#" class="font-bold text-lg tracking-tight bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent hover:opacity-90 transition">
+            Kaz Sato
+          </a>
+          <p class="text-xs text-slate-400 hidden sm:block">Cloud AI, Google</p>
+        </div>
+      </div>
+
+      <!-- Quick Navigation & Controls -->
+      <div class="flex items-center gap-3">
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
+          <a href="#about" class="hover:text-brand-400 transition">About</a>
+          <a href="#highlights" class="hover:text-brand-400 transition">2026 Works</a>
+          <a href="#events" class="hover:text-brand-400 transition">Events</a>
+          <a href="#links" class="hover:text-brand-400 transition">Connect</a>
+        </nav>
+
+        <div class="h-4 w-px bg-slate-800 hidden md:block"></div>
+
+        <!-- Language Switcher -->
+        <button id="langToggleBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200 transition">
+          <i data-lucide="globe" class="w-3.5 h-3.5 text-brand-400"></i>
+          <span id="currentLangLabel">日本語</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button id="themeToggleBtn" aria-label="Toggle Theme" class="p-2 rounded-full text-slate-300 hover:text-white bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 transition">
+          <i data-lucide="sun" id="sunIcon" class="w-4 h-4 hidden"></i>
+          <i data-lucide="moon" id="moonIcon" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 space-y-16">
+
+    <!-- Hero & Bio Section -->
+    <section id="about" class="relative rounded-3xl bg-gradient-to-b from-slate-900/90 to-slate-900/50 border border-slate-800/80 backdrop-blur-xl p-6 sm:p-10 lg:p-12 overflow-hidden shadow-2xl">
+      <!-- Decorative background accent -->
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="relative flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
+        <!-- Avatar with glowing border -->
+        <div class="relative group shrink-0">
+          <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 rounded-2xl blur opacity-70 group-hover:opacity-100 transition duration-500"></div>
+          <img src="photo_202507_small.jpg" alt="Kaz Sato" class="relative w-36 h-36 sm:w-44 sm:h-44 rounded-2xl object-cover border-2 border-slate-700 shadow-xl">
+          <div class="absolute bottom-2 right-2 bg-emerald-500/90 text-white p-1.5 rounded-full ring-4 ring-slate-900 shadow" title="Available & Active in 2026">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+          </div>
+        </div>
+
+        <!-- Bio Text Area -->
+        <div class="flex-1 text-center lg:text-left space-y-4">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-brand-500/10 border border-brand-500/20 text-brand-400">
+            <span class="w-2 h-2 rounded-full bg-brand-400 animate-pulse"></span>
+            Staff Developer Advocate, Cloud AI, Google
+          </div>
+
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
+            Kaz Sato
+            <span class="block sm:inline text-xl sm:text-2xl font-normal text-slate-400 ml-0 sm:ml-2">(佐藤 一憲)</span>
+          </h1>
+
+          <!-- English Bio -->
+          <p id="bioEn" class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-3xl">
+            Kaz Sato, a Staff Developer Advocate from the Cloud AI team, has authored over 25 ML/AI blogs and demos for Google Cloud's official blog. His work has garnered attention from Jeff Dean and Eric Schmidt, and been featured in Newsweek and The New Yorker. He's a regular speaker at Google I/O and Cloud Next, and has presented internationally in 17 countries. Kaz also shares ML/AI updates with his 23,000+ X followers.
+          </p>
+
+          <!-- Japanese Bio (toggleable or default sync) -->
+          <p id="bioJa" class="hidden text-slate-300 text-base sm:text-lg leading-relaxed max-w-3xl">
+            Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle Cloud USブログ記事やドキュメントの執筆、デモ開発等を担当。2016年より25件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Nextにも例年登壇。Xでは23,000フォロワーに向けてAI/MLの情報を日々共有している。
+          </p>
+
+          <!-- Metrics Row -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 border-t border-slate-800/80">
+            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/50">
+              <div class="text-2xl font-black text-brand-400">25+</div>
+              <div class="text-xs text-slate-400 font-medium">Official Blogs & Demos</div>
+            </div>
+            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/50">
+              <div class="text-2xl font-black text-purple-400">17</div>
+              <div class="text-xs text-slate-400 font-medium">Countries Presented</div>
+            </div>
+            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/50">
+              <div class="text-2xl font-black text-cyan-400">23k+</div>
+              <div class="text-xs text-slate-400 font-medium">Followers on X</div>
+            </div>
+            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/50">
+              <div class="text-2xl font-black text-emerald-400">I/O & Next</div>
+              <div class="text-xs text-slate-400 font-medium">Keynote & Regular Speaker</div>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div id="links" class="flex flex-wrap items-center justify-center lg:justify-start gap-2 pt-2">
+            <a href="https://twitter.com/kazunori_279" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+              <i data-lucide="twitter" class="w-3.5 h-3.5 text-sky-400"></i> X / Twitter (@kazunori_279)
+            </a>
+            <a href="https://github.com/kazunori279" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+              <i data-lucide="github" class="w-3.5 h-3.5 text-slate-100"></i> GitHub
+            </a>
+            <a href="https://medium.com/@kazunori279" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+              <i data-lucide="book-open" class="w-3.5 h-3.5 text-emerald-400"></i> Medium
+            </a>
+            <a href="https://www.linkedin.com/in/kazunori279/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+              <i data-lucide="linkedin" class="w-3.5 h-3.5 text-blue-400"></i> LinkedIn
+            </a>
+            <a href="https://qiita.com/kazunori279" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+              <i data-lucide="code" class="w-3.5 h-3.5 text-green-400"></i> Qiita
+            </a>
+            <a href="https://kazunori279.hatenablog.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+              <i data-lucide="edit-3" class="w-3.5 h-3.5 text-amber-400"></i> Hatena Blog
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2026 Works Section -->
+    <section id="highlights" class="space-y-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-800 pb-6">
+        <div>
+          <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-brand-400 mb-1">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Curated Portfolio
+          </div>
+          <h2 class="text-3xl font-extrabold text-white tracking-tight">
+            2026 Creations, Publications & Demos
+          </h2>
+          <p class="text-slate-400 text-sm mt-1">
+            Focusing on AI Agents, Vertex AI Vector Search 2.0, Gemini Live API, and Hardware Synthesis.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap items-center gap-2" id="filterContainer">
+          <button data-filter="all" class="filter-btn active px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-brand-600 text-white shadow-lg shadow-brand-500/20">
+            All (2026)
+          </button>
+          <button data-filter="article" class="filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
+            Articles & Notebooks
+          </button>
+          <button data-filter="video" class="filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
+            Videos
+          </button>
+          <button data-filter="code" class="filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
+            GitHub & Demos
+          </button>
+        </div>
+      </div>
+
+      <!-- Grid of 2026 Items -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="itemsGrid">
+
+        <!-- 1. YouTube Video: Agent Retrieval (Vector Search 2.0) -->
+        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="video">
+          <!-- Video Player with Lite Embed (Click to play or open) -->
+          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/video" id="videoContainer">
+            <img 
+              src="https://img.youtube.com/vi/-L5khDHrQSE/maxresdefault.jpg" 
+              alt="Give your app search superpowers: Agent Retrieval (Vector Search 2.0)" 
+              class="w-full h-full object-cover group-hover/video:scale-105 transition duration-500"
+              loading="lazy"
+              id="videoThumb">
+            <div class="absolute inset-0 bg-slate-950/30 group-hover/video:bg-slate-950/10 transition"></div>
+            <!-- Play Button Overlay -->
+            <button class="absolute inset-0 m-auto w-14 h-14 rounded-full bg-rose-600/90 text-white flex items-center justify-center shadow-xl shadow-rose-600/30 group-hover/video:scale-110 group-hover/video:bg-rose-500 transition duration-300" aria-label="Play video" onclick="playEmbeddedVideo()">
+              <i data-lucide="play" class="w-6 h-6 fill-white ml-0.5"></i>
+            </button>
+            <div class="absolute bottom-2.5 right-2.5 bg-slate-900/90 backdrop-blur-sm px-2 py-0.5 rounded text-[11px] font-mono font-medium text-slate-200">
+              YouTube Tech Talk
+            </div>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="inline-flex items-center gap-1 font-semibold text-rose-400 bg-rose-500/10 px-2.5 py-0.5 rounded-full border border-rose-500/20">
+                  <i data-lucide="youtube" class="w-3.5 h-3.5"></i> YouTube Video
+                </span>
+                <span class="text-slate-500 font-mono">2026</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+                <a href="https://www.youtube.com/watch?v=-L5khDHrQSE" target="_blank" rel="noopener noreferrer">
+                  Give your app search superpowers: Agent Retrieval (Vector Search 2.0)
+                </a>
+              </h3>
+
+              <p class="text-sm text-slate-300 line-clamp-3">
+                Explores how Vertex AI Vector Search 2.0 revolutionizes Agent Retrieval with auto-embeddings, self-tuning ANN indexes, and native hybrid search for real-time agent reasoning.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#VectorSearch2</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#AgenticRAG</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=-L5khDHrQSE" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-rose-400 hover:text-rose-300 inline-flex items-center gap-1">
+                Watch on YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Medium Post: Building a Real-Time Audio Translator with Gemini Live API -->
+        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="article">
+          <a href="https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden">
+            <img 
+              src="https://miro.medium.com/v2/da:true/resize:fit:900/0*TvCufSvpiin64hCa.gif" 
+              alt="Live Translator Architecture & Demo" 
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+            <div class="absolute bottom-3 left-3 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-md px-2 py-0.5 text-[11px] font-medium text-emerald-300 flex items-center gap-1">
+              <i data-lucide="play-circle" class="w-3 h-3"></i> Live Animated Demo
+            </div>
+          </a>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="inline-flex items-center gap-1 font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
+                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Medium Article
+                </span>
+                <span class="text-slate-500 font-mono">2026</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+                <a href="https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774" target="_blank" rel="noopener noreferrer">
+                  Building a Real-Time Audio Translator with Gemini Live API
+                </a>
+              </h3>
+
+              <p class="text-sm text-slate-300 line-clamp-3">
+                Architectural deep-dive on building Live Translator across 97 languages. Explains direct speech-to-speech audio streaming over WebSockets, continuous session pre-opening, and automated soak testing.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#GeminiLive</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#WebSockets</span>
+              </div>
+              <a href="https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
+                Read Article <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Medium Post: 10-Minute Agentic RAG with the New Vector Search 2.0 and ADK -->
+        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="article">
+          <a href="https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden">
+            <img 
+              src="https://miro.medium.com/v2/resize:fit:1200/0*NWhR4itws_ObN-0_.jpeg" 
+              alt="10-Minute Agentic RAG banner" 
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+          </a>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="inline-flex items-center gap-1 font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
+                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Medium Article
+                </span>
+                <span class="text-slate-500 font-mono">2026</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+                <a href="https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac" target="_blank" rel="noopener noreferrer">
+                  10-Minute Agentic RAG with the New Vector Search 2.0 and ADK
+                </a>
+              </h3>
+
+              <p class="text-sm text-slate-300 line-clamp-3">
+                Transition from simple retrieve-then-generate pipelines to dynamic Agentic RAG. Step-by-step tutorial configuring auto-embeddings, Reciprocal Rank Fusion hybrid retrieval, and ADK tool calls.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#ADK</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#VectorSearch2</span>
+              </div>
+              <a href="https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
+                Read Article <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. GitHub: XLS32 — a 32-voice polyphonic HLS/FPGA synthesizer -->
+        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="code">
+          <a href="https://github.com/kazunori279/xls32-fpga-synth" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden">
+            <img 
+              src="https://opengraph.githubassets.com/56a99562ee720ef66c4aaa105a320ac75ebf671267216f105ebce87938af554b/kazunori279/xls32-fpga-synth" 
+              alt="XLS32 FPGA Synth OpenGraph preview" 
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+          </a>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="inline-flex items-center gap-1 font-semibold text-indigo-400 bg-indigo-500/10 px-2.5 py-0.5 rounded-full border border-indigo-500/20">
+                  <i data-lucide="cpu" class="w-3.5 h-3.5"></i> FPGA & AI Agents
+                </span>
+                <span class="text-slate-500 font-mono">2026</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+                <a href="https://github.com/kazunori279/xls32-fpga-synth" target="_blank" rel="noopener noreferrer">
+                  XLS32 — 32-Voice Polyphonic HLS/FPGA Synthesizer
+                </a>
+              </h3>
+
+              <p class="text-sm text-slate-300 line-clamp-3">
+                Built in Google XLS (DSLX) on a Digilent Basys 3 board, developed end-to-end with autonomous AI coding agents and verified headlessly over USB. A breakthrough hardware project.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#GoogleXLS</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#DSLX</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#FPGA</span>
+              </div>
+              <a href="https://github.com/kazunori279/xls32-fpga-synth" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
+                View Repo <i data-lucide="github" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. GitHub: Era of Agents resources (gcp-eoa) -->
+        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="code">
+          <a href="https://github.com/kazunori279/gcp-eoa" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden">
+            <img 
+              src="https://opengraph.githubassets.com/33c3cce398b24c9d361b36a293b970c2362c50081ae76c331e368d24106365f6/kazunori279/gcp-eoa" 
+              alt="Era of Agents resources" 
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+          </a>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="inline-flex items-center gap-1 font-semibold text-purple-400 bg-purple-500/10 px-2.5 py-0.5 rounded-full border border-purple-500/20">
+                  <i data-lucide="folder-git-2" class="w-3.5 h-3.5"></i> Curated Resource Hub
+                </span>
+                <span class="text-slate-500 font-mono">2026</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+                <a href="https://github.com/kazunori279/gcp-eoa" target="_blank" rel="noopener noreferrer">
+                  Era of Agents (EOA) Resources for GCP
+                </a>
+              </h3>
+
+              <p class="text-sm text-slate-300 line-clamp-3">
+                Comprehensive curated architecture patterns, frameworks, and deployment guides for building enterprise-grade multi-agent systems and real-time AI agents on Google Cloud.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#AI-Agents</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#GoogleCloud</span>
+              </div>
+              <a href="https://github.com/kazunori279/gcp-eoa" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
+                View Repo <i data-lucide="github" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Sample Notebook: End-to-End Travel Agent (Vector Search 2.0 + ADK) -->
+        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="article">
+          <a href="https://github.com/google/adk-samples" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden">
+            <img 
+              src="https://miro.medium.com/v2/resize:fit:1400/1*Zdc0ZhZD-BShEKL-rUIO1A.png" 
+              alt="Vector Search 2.0 Architecture" 
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+          </a>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="inline-flex items-center gap-1 font-semibold text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded-full border border-cyan-500/20">
+                  <i data-lucide="file-code-2" class="w-3.5 h-3.5"></i> Sample Notebook
+                </span>
+                <span class="text-slate-500 font-mono">2026</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+                <a href="https://github.com/google/adk-samples" target="_blank" rel="noopener noreferrer">
+                  End-to-End Travel Agent: Vector Search 2.0 + ADK
+                </a>
+              </h3>
+
+              <p class="text-sm text-slate-300 line-clamp-3">
+                Co-authored with Eran Lewis. Complete runnable walkthrough building a smart concierge that combines Gemini models, ADK agent loop, and Vector Search 2.0 hybrid filters on Airbnb listings.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#ADK-Samples</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#GeminiFlash</span>
+              </div>
+              <a href="https://github.com/google/adk-samples" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
+                Explore Repo <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Live Interactive Demo: Live Translator -->
+        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="code">
+          <a href="https://live-translation-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden">
+            <img 
+              src="https://miro.medium.com/v2/resize:fit:1400/0*TvCufSvpiin64hCa.gif" 
+              alt="Live Translator Running App" 
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+            <div class="absolute top-3 right-3 bg-emerald-500 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg">
+              <span class="w-1.5 h-1.5 rounded-full bg-slate-950 animate-ping"></span> Live Cloud Run App
+            </div>
+          </a>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="inline-flex items-center gap-1 font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
+                  <i data-lucide="radio" class="w-3.5 h-3.5"></i> Interactive Demo
+                </span>
+                <span class="text-slate-500 font-mono">2026 Featured</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+                <a href="https://live-translation-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer">
+                  Live Translator (Gemini Live API)
+                </a>
+              </h3>
+
+              <p class="text-sm text-slate-300 line-clamp-3">
+                Experience real-time low-latency voice translation in action. Direct speech-to-speech with simultaneous live transcription across 97+ languages.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <a href="https://github.com/kazunori279/live-translator" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white inline-flex items-center gap-1 font-mono">
+                <i data-lucide="github" class="w-3.5 h-3.5"></i> Source
+              </a>
+              <a href="https://live-translation-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-brand-600 hover:bg-brand-500 text-white inline-flex items-center gap-1.5 shadow-md shadow-brand-500/20">
+                Launch Demo <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Live Interactive Demo: LensMosaic -->
+        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="code">
+          <a href="https://lens-mosaic-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden">
+            <img 
+              src="banner.png" 
+              alt="LensMosaic product visualizer" 
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+            <div class="absolute top-3 right-3 bg-cyan-500 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg">
+              <span class="w-1.5 h-1.5 rounded-full bg-slate-950 animate-ping"></span> Live Cloud Run App
+            </div>
+          </a>
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="inline-flex items-center gap-1 font-semibold text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded-full border border-cyan-500/20">
+                  <i data-lucide="zap" class="w-3.5 h-3.5"></i> Interactive Demo
+                </span>
+                <span class="text-slate-500 font-mono">2026 Featured</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+                <a href="https://lens-mosaic-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer">
+                  LensMosaic: 1M Items Search in Milliseconds
+                </a>
+              </h3>
+
+              <p class="text-sm text-slate-300 line-clamp-3">
+                Blazingly fast search across roughly 1 million items from a Mercari product dataset. Built with ADK Gemini Live API Toolkit, Vertex AI Vector Search 2, and Gemini Embedding 2.
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <a href="https://github.com/kazunori279/lens-mosaic" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white inline-flex items-center gap-1 font-mono">
+                <i data-lucide="github" class="w-3.5 h-3.5"></i> Source
+              </a>
+              <a href="https://lens-mosaic-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white inline-flex items-center gap-1.5 shadow-md shadow-cyan-500/20">
+                Launch Demo <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2026 Invited Keynotes & Events Section -->
+    <section id="events" class="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 sm:p-10 backdrop-blur-md shadow-xl space-y-6">
+      <div class="flex items-center gap-3">
+        <div class="p-2.5 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-400">
+          <i data-lucide="mic" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h2 class="text-2xl font-bold text-white tracking-tight">2026 Keynotes & Speaking Events</h2>
+          <p class="text-slate-400 text-sm">International conference appearances and technical keynotes in 2026</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+        <!-- Event 1 -->
+        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800/90 hover:border-slate-700 transition flex items-start gap-4">
+          <div class="text-2xl">🇸🇬</div>
+          <div>
+            <span class="text-[11px] font-semibold text-brand-400 uppercase tracking-wider block">Keynote & Sessions</span>
+            <h4 class="text-base font-bold text-white mt-0.5">Google Cloud Technical Series</h4>
+            <p class="text-xs text-slate-400 mt-1">Singapore</p>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800/90 hover:border-slate-700 transition flex items-start gap-4">
+          <div class="text-2xl">🎰</div>
+          <div>
+            <span class="text-[11px] font-semibold text-purple-400 uppercase tracking-wider block">Global Flagship</span>
+            <h4 class="text-base font-bold text-white mt-0.5">Google Cloud Next '26</h4>
+            <p class="text-xs text-slate-400 mt-1">Las Vegas, USA</p>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800/90 hover:border-slate-700 transition flex items-start gap-4">
+          <div class="text-2xl">🇯🇵</div>
+          <div>
+            <span class="text-[11px] font-semibold text-rose-400 uppercase tracking-wider block">Regional Flagship</span>
+            <h4 class="text-base font-bold text-white mt-0.5">Google Cloud Next '26</h4>
+            <p class="text-xs text-slate-400 mt-1">Tokyo, Japan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-8 pb-12 border-t border-slate-800 text-center text-xs text-slate-500 space-y-4">
+      <div class="flex items-center justify-center gap-6">
+        <a href="https://github.com/kazunori279/my-sessions-and-bio" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition inline-flex items-center gap-1.5">
+          <i data-lucide="git-branch" class="w-3.5 h-3.5"></i> GitHub Repository
+        </a>
+        <a href="https://cloud.google.com/blog" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition">
+          Google Cloud Blog
+        </a>
+        <a href="#about" class="hover:text-slate-300 transition">
+          Back to Top ↑
+        </a>
+      </div>
+      <p>© 2026 Kaz Sato. Hosted seamlessly on GitHub Pages.</p>
+    </footer>
+
+  </main>
+
+  <script>
+    // Play embedded YouTube video
+    function playEmbeddedVideo() {
+      const container = document.getElementById('videoContainer');
+      container.innerHTML = `
+        <iframe 
+          class="w-full h-full" 
+          src="https://www.youtube-nocookie.com/embed/-L5khDHrQSE?autoplay=1" 
+          title="Give your app search superpowers: Agent Retrieval (Vector Search 2.0)" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      `;
+    }
+
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Dark/Light Theme Switcher
+    const htmlEl = document.documentElement;
+    const themeBtn = document.getElementById('themeToggleBtn');
+    const sunIcon = document.getElementById('sunIcon');
+    const moonIcon = document.getElementById('moonIcon');
+
+    function updateThemeUI(isDark) {
+      if (isDark) {
+        htmlEl.classList.add('dark');
+        htmlEl.classList.remove('light');
+        sunIcon.classList.add('hidden');
+        moonIcon.classList.remove('hidden');
+      } else {
+        htmlEl.classList.remove('dark');
+        htmlEl.classList.add('light');
+        sunIcon.classList.remove('hidden');
+        moonIcon.classList.add('hidden');
+      }
+    }
+
+    // Default to dark mode or user's saved preference
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    updateThemeUI(savedTheme === 'dark');
+
+    themeBtn.addEventListener('click', () => {
+      const isDark = htmlEl.classList.contains('dark');
+      const newTheme = isDark ? 'light' : 'dark';
+      localStorage.setItem('theme', newTheme);
+      updateThemeUI(!isDark);
+    });
+
+    // Language Switcher (EN / JA)
+    const langBtn = document.getElementById('langToggleBtn');
+    const langLabel = document.getElementById('currentLangLabel');
+    const bioEn = document.getElementById('bioEn');
+    const bioJa = document.getElementById('bioJa');
+
+    let currentLang = localStorage.getItem('lang') || 'en';
+
+    function setLanguage(lang) {
+      if (lang === 'ja') {
+        bioEn.classList.add('hidden');
+        bioJa.classList.remove('hidden');
+        langLabel.textContent = 'English';
+      } else {
+        bioJa.classList.add('hidden');
+        bioEn.classList.remove('hidden');
+        langLabel.textContent = '日本語';
+      }
+      currentLang = lang;
+      localStorage.setItem('lang', lang);
+    }
+
+    setLanguage(currentLang);
+
+    langBtn.addEventListener('click', () => {
+      setLanguage(currentLang === 'en' ? 'ja' : 'en');
+    });
+
+    // Category Filter Functionality
+    const filterButtons = document.querySelectorAll('#filterContainer .filter-btn');
+    const items = document.querySelectorAll('#itemsGrid .item-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+
+        // Update active button state
+        filterButtons.forEach(b => {
+          b.classList.remove('active', 'bg-brand-600', 'text-white', 'shadow-lg', 'shadow-brand-500/20');
+          b.classList.add('bg-slate-800', 'text-slate-300', 'border', 'border-slate-700');
+        });
+        btn.classList.add('active', 'bg-brand-600', 'text-white', 'shadow-lg', 'shadow-brand-500/20');
+        btn.classList.remove('bg-slate-800', 'text-slate-300', 'border', 'border-slate-700');
+
+        // Show/hide items with fade effect
+        items.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
