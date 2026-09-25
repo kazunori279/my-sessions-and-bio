@@ -118,41 +118,52 @@
 
   <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 space-y-16">
 
-    <!-- Hero & Bio Section -->
-    <section id="about" class="relative rounded-3xl bg-gradient-to-b from-slate-900/90 to-slate-900/50 border border-slate-800/80 backdrop-blur-xl p-6 sm:p-10 lg:p-12 overflow-hidden shadow-2xl">
-      <!-- Decorative background accent -->
-      <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
-      <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <!-- Hero & Bio Section with Banner Cover -->
+    <section id="about" class="relative rounded-3xl bg-slate-900/80 border border-slate-800/80 backdrop-blur-xl overflow-hidden shadow-2xl">
+      <!-- Top Cover Banner -->
+      <div class="relative h-48 sm:h-64 lg:h-72 w-full overflow-hidden group">
+        <img 
+          src="banner.png" 
+          alt="Kaz Sato's Past Works, Keynotes and Media Highlights" 
+          class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-700">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+        <div class="absolute top-4 right-4 bg-slate-950/80 backdrop-blur-md border border-slate-700/80 rounded-full px-3 py-1 text-xs font-medium text-slate-300 flex items-center gap-1.5 shadow-lg">
+          <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i> Featured on Newsweek, The New Yorker & Google I/O
+        </div>
+      </div>
 
-      <div class="relative flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
-        <!-- Avatar with glowing border -->
-        <div class="relative group shrink-0">
-          <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 rounded-2xl blur opacity-70 group-hover:opacity-100 transition duration-500"></div>
-          <img src="photo_202507_small.jpg" alt="Kaz Sato" class="relative w-36 h-36 sm:w-44 sm:h-44 rounded-2xl object-cover border-2 border-slate-700 shadow-xl">
-          <div class="absolute bottom-2 right-2 bg-emerald-500/90 text-white p-1.5 rounded-full ring-4 ring-slate-900 shadow" title="Available & Active in 2026">
-            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+      <div class="p-6 sm:p-10 lg:p-12 pt-0 sm:pt-0 lg:pt-0">
+        <!-- Floating Avatar Overlapping Banner -->
+        <div class="relative flex flex-col lg:flex-row items-center lg:items-end gap-6 lg:gap-8 -mt-16 sm:-mt-20 mb-6">
+          <div class="relative group shrink-0">
+            <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-500"></div>
+            <img src="photo_202507_small.jpg" alt="Kaz Sato" class="relative w-32 h-32 sm:w-40 sm:h-40 rounded-2xl object-cover border-4 border-slate-900 shadow-2xl">
+            <div class="absolute bottom-2 right-2 bg-emerald-500 text-slate-950 p-1.5 rounded-full ring-4 ring-slate-900 shadow" title="Available & Active in 2026">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            </div>
+          </div>
+
+          <div class="text-center lg:text-left space-y-2">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-brand-500/10 border border-brand-500/20 text-brand-400">
+              <span class="w-2 h-2 rounded-full bg-brand-400 animate-pulse"></span>
+              Staff Developer Advocate, Cloud AI, Google
+            </div>
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
+              Kaz Sato
+              <span class="block sm:inline text-xl sm:text-2xl font-normal text-slate-400 ml-0 sm:ml-2">(佐藤 一憲)</span>
+            </h1>
           </div>
         </div>
 
         <!-- Bio Text Area -->
-        <div class="flex-1 text-center lg:text-left space-y-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-brand-500/10 border border-brand-500/20 text-brand-400">
-            <span class="w-2 h-2 rounded-full bg-brand-400 animate-pulse"></span>
-            Staff Developer Advocate, Cloud AI, Google
-          </div>
-
-          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
-            Kaz Sato
-            <span class="block sm:inline text-xl sm:text-2xl font-normal text-slate-400 ml-0 sm:ml-2">(佐藤 一憲)</span>
-          </h1>
-
+        <div class="space-y-4">
           <!-- English Bio -->
-          <p id="bioEn" class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-3xl">
+          <p id="bioEn" class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-4xl">
             Kaz Sato, a Staff Developer Advocate from the Cloud AI team, has authored over 25 ML/AI blogs and demos for Google Cloud's official blog. His work has garnered attention from Jeff Dean and Eric Schmidt, and been featured in Newsweek and The New Yorker. He's a regular speaker at Google I/O and Cloud Next, and has presented internationally in 17 countries. Kaz also shares ML/AI updates with his 23,000+ X followers.
           </p>
 
           <!-- Japanese Bio (toggleable or default sync) -->
-          <p id="bioJa" class="hidden text-slate-300 text-base sm:text-lg leading-relaxed max-w-3xl">
+          <p id="bioJa" class="hidden text-slate-300 text-base sm:text-lg leading-relaxed max-w-4xl">
             Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle Cloud USブログ記事やドキュメントの執筆、デモ開発等を担当。2016年より25件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Nextにも例年登壇。Xでは23,000フォロワーに向けてAI/MLの情報を日々共有している。
           </p>
 
@@ -238,20 +249,25 @@
 
         <!-- 1. Live Interactive Demo: Live Translator -->
         <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="demo">
-          <a href="https://live-translation-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden border-b border-slate-800/60">
+          <!-- Video / Demo Player with Lite Embed -->
+          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-translator" onclick="playVideo('video-translator', '3TJnSBS3bkE', 'Live Translator Demo')">
             <img 
-              src="live_translator_ui.png" 
+              src="https://img.youtube.com/vi/3TJnSBS3bkE/maxresdefault.jpg" 
               alt="Live Translator Interactive UI in Action" 
-              class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500"
+              class="w-full h-full object-cover object-center group-hover/vid:scale-105 transition duration-500"
               loading="lazy">
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
-            <div class="absolute top-3 right-3 bg-emerald-500 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg">
+            <div class="absolute inset-0 bg-slate-950/30 group-hover/vid:bg-slate-950/10 transition"></div>
+            <!-- Play Button Overlay -->
+            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-emerald-600/90 text-white flex items-center justify-center shadow-xl shadow-emerald-600/30 group-hover/vid:scale-110 group-hover/vid:bg-emerald-500 transition duration-300" aria-label="Play video">
+              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
+            </button>
+            <div class="absolute top-3 right-3 bg-emerald-500 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg pointer-events-none">
               <span class="w-1.5 h-1.5 rounded-full bg-slate-950 animate-ping"></span> Live Cloud Run App
             </div>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-emerald-300 flex items-center gap-1">
-              <i data-lucide="play" class="w-3 h-3 fill-emerald-300"></i> Real-time Audio
+            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-emerald-300 flex items-center gap-1 pointer-events-none">
+              <i data-lucide="video" class="w-3 h-3"></i> 2:02 Demo Video
             </div>
-          </a>
+          </div>
 
           <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div class="space-y-2">
@@ -278,7 +294,7 @@
                 <i data-lucide="github" class="w-3.5 h-3.5"></i> Source
               </a>
               <a href="https://live-translation-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white inline-flex items-center gap-1.5 shadow-md shadow-emerald-500/20">
-                Launch Demo <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                Launch App <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
               </a>
             </div>
           </div>
@@ -286,20 +302,25 @@
 
         <!-- 2. Live Interactive Demo: LensMosaic -->
         <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="demo">
-          <a href="https://lens-mosaic-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden border-b border-slate-800/60">
+          <!-- Video / Demo Player with Lite Embed -->
+          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-lensmosaic" onclick="playVideo('video-lensmosaic', 'SgMn-6q8Qg8', 'LensMosaic live demo')">
             <img 
-              src="https://raw.githubusercontent.com/kazunori279/lens-mosaic/main/assets/lens-mosaic-demo.png" 
-              alt="LensMosaic 1 Million Product Search Demo Screenshot" 
-              class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500"
+              src="https://img.youtube.com/vi/SgMn-6q8Qg8/maxresdefault.jpg" 
+              alt="LensMosaic 1 Million Product Search Demo Video" 
+              class="w-full h-full object-cover object-top group-hover/vid:scale-105 transition duration-500"
               loading="lazy">
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
-            <div class="absolute top-3 right-3 bg-cyan-500 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg">
+            <div class="absolute inset-0 bg-slate-950/30 group-hover/vid:bg-slate-950/10 transition"></div>
+            <!-- Play Button Overlay -->
+            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-cyan-600/90 text-white flex items-center justify-center shadow-xl shadow-cyan-600/30 group-hover/vid:scale-110 group-hover/vid:bg-cyan-500 transition duration-300" aria-label="Play video">
+              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
+            </button>
+            <div class="absolute top-3 right-3 bg-cyan-500 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg pointer-events-none">
               <span class="w-1.5 h-1.5 rounded-full bg-slate-950 animate-ping"></span> Live Cloud Run App
             </div>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-cyan-300 flex items-center gap-1">
-              <i data-lucide="search" class="w-3 h-3"></i> 1M Vector Search
+            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-cyan-300 flex items-center gap-1 pointer-events-none">
+              <i data-lucide="video" class="w-3 h-3"></i> 1:26 Demo Video
             </div>
-          </a>
+          </div>
 
           <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div class="space-y-2">
@@ -326,7 +347,7 @@
                 <i data-lucide="github" class="w-3.5 h-3.5"></i> Source
               </a>
               <a href="https://lens-mosaic-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white inline-flex items-center gap-1.5 shadow-md shadow-cyan-500/20">
-                Launch Demo <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                Launch App <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
               </a>
             </div>
           </div>
@@ -440,23 +461,28 @@
 
         <!-- 5. Medium Post: Building a Real-Time Audio Translator with Gemini Live API -->
         <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="article">
-          <a href="https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden border-b border-slate-800/60">
+          <!-- Video / Tech Deep Dive Player with Lite Embed -->
+          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-translator-deepdive" onclick="playVideo('video-translator-deepdive', 'POdETXqBO5E', 'Interpretab / Live Translator Deep Dive')">
             <img 
-              src="live_translator_ui.png" 
-              alt="Live Translator Conversational UI and Translation" 
-              class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500"
+              src="https://img.youtube.com/vi/POdETXqBO5E/maxresdefault.jpg" 
+              alt="Interpretab Technical Deep Dive Video Thumbnail" 
+              class="w-full h-full object-cover object-top group-hover/vid:scale-105 transition duration-500"
               loading="lazy">
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-emerald-300 flex items-center gap-1">
-              <i data-lucide="message-square" class="w-3 h-3"></i> Real-time Speech-to-Speech
+            <div class="absolute inset-0 bg-slate-950/30 group-hover/vid:bg-slate-950/10 transition"></div>
+            <!-- Play Button Overlay -->
+            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-emerald-600/90 text-white flex items-center justify-center shadow-xl shadow-emerald-600/30 group-hover/vid:scale-110 group-hover/vid:bg-emerald-500 transition duration-300" aria-label="Play video">
+              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
+            </button>
+            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-emerald-300 flex items-center gap-1 pointer-events-none">
+              <i data-lucide="video" class="w-3 h-3"></i> 4:49 Deep Dive
             </div>
-          </a>
+          </div>
 
           <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div class="space-y-2">
               <div class="flex items-center justify-between text-xs">
                 <span class="inline-flex items-center gap-1 font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
-                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Medium Article
+                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Medium Article & Video
                 </span>
                 <span class="text-slate-500 font-mono">2026</span>
               </div>
@@ -486,20 +512,28 @@
 
         <!-- 6. Medium Post: 10-Minute Agentic RAG with the New Vector Search 2.0 and ADK -->
         <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="article">
-          <a href="https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden border-b border-slate-800/60">
+          <!-- Video / Demo Player with Lite Embed -->
+          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-rag-demo" onclick="playVideo('video-rag-demo', 'IB6cXNx5iaw', 'Building Agentic RAG Demo')">
             <img 
               src="https://miro.medium.com/v2/resize:fit:1200/0*NWhR4itws_ObN-0_.jpeg" 
               alt="10-Minute Agentic RAG banner" 
-              class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+              class="w-full h-full object-cover group-hover/vid:scale-105 transition duration-500"
               loading="lazy">
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
-          </a>
+            <div class="absolute inset-0 bg-slate-950/20 group-hover/vid:bg-slate-950/0 transition"></div>
+            <!-- Play Button Overlay -->
+            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-emerald-600/90 text-white flex items-center justify-center shadow-xl shadow-emerald-600/30 group-hover/vid:scale-110 group-hover/vid:bg-emerald-500 transition duration-300" aria-label="Play video">
+              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
+            </button>
+            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-emerald-300 flex items-center gap-1 pointer-events-none">
+              <i data-lucide="video" class="w-3 h-3"></i> Quick Demo Video
+            </div>
+          </div>
 
           <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div class="space-y-2">
               <div class="flex items-center justify-between text-xs">
                 <span class="inline-flex items-center gap-1 font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
-                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Medium Article
+                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Medium Article & Video
                 </span>
                 <span class="text-slate-500 font-mono">2026</span>
               </div>
@@ -529,17 +563,22 @@
 
         <!-- 7. GitHub: XLS32 — a 32-voice polyphonic HLS/FPGA synthesizer -->
         <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="code">
-          <a href="https://github.com/kazunori279/xls32-fpga-synth" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden border-b border-slate-800/60">
+          <!-- Video / Demo Player with Lite Embed -->
+          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-xls32" onclick="playVideo('video-xls32', 'sWc6g7cgsd4', 'XLS32 live FPGA synth demo')">
             <img 
-              src="https://raw.githubusercontent.com/kazunori279/xls32-fpga-synth/main/docs/assets/webui.png" 
-              alt="XLS32 Browser Front-End Synth Panel" 
-              class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500"
+              src="https://img.youtube.com/vi/sWc6g7cgsd4/maxresdefault.jpg" 
+              alt="XLS32 Live FPGA Synth Demo Video Thumbnail" 
+              class="w-full h-full object-cover object-top group-hover/vid:scale-105 transition duration-500"
               loading="lazy">
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-indigo-300 flex items-center gap-1">
-              <i data-lucide="sliders" class="w-3 h-3"></i> Analog Panel WebUI
+            <div class="absolute inset-0 bg-slate-950/30 group-hover/vid:bg-slate-950/10 transition"></div>
+            <!-- Play Button Overlay -->
+            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-indigo-600/90 text-white flex items-center justify-center shadow-xl shadow-indigo-600/30 group-hover/vid:scale-110 group-hover/vid:bg-indigo-500 transition duration-300" aria-label="Play video">
+              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
+            </button>
+            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-indigo-300 flex items-center gap-1 pointer-events-none">
+              <i data-lucide="video" class="w-3 h-3"></i> 1:51 Live Performance
             </div>
-          </a>
+          </div>
 
           <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div class="space-y-2">
@@ -557,7 +596,7 @@
               </h3>
 
               <p class="text-sm text-slate-300 line-clamp-3">
-                Built in Google XLS (DSLX) on a Digilent Basys 3 board, developed end-to-end with autonomous AI coding agents and verified headlessly over USB. A breakthrough hardware synthesis project.
+                Built in Google XLS (DSLX) on a Digilent Basys 3 board, developed end-to-end with autonomous AI coding agents and verified headlessly over USB. Watch the live panel playing Bach Prelude in C.
               </p>
             </div>
 
@@ -764,18 +803,23 @@
 
   <script>
     // Play embedded YouTube video
-    function playEmbeddedVideo() {
-      const container = document.getElementById('videoContainer');
+    function playVideo(containerId, videoId, title) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
       container.innerHTML = `
         <iframe 
           class="w-full h-full" 
-          src="https://www.youtube-nocookie.com/embed/-L5khDHrQSE?autoplay=1" 
-          title="Give your app search superpowers: Agent Retrieval (Vector Search 2.0)" 
+          src="https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1" 
+          title="${title}" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
         </iframe>
       `;
+    }
+
+    function playEmbeddedVideo() {
+      playVideo('videoContainer', '-L5khDHrQSE', 'Agent Retrieval (Vector Search 2.0)');
     }
 
     // Initialize Lucide Icons
