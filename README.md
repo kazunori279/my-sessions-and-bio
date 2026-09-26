@@ -49,12 +49,18 @@ Built with ADK Gemini Live API Toolkit, Vertex AI Vector Search 2, and Gemini Em
 
 ### 2026 blogs, docs and demos
 
+- Chrome extension: [Interpretab — real-time browser & voice translator](https://kazunori279.github.io/interpretab/) powered by Gemini Live API, and [Slide deck on architecture & internals](https://kazunori279.github.io/interpretab/slides/)
+- Next Tokyo '26 demo: [事例の森 (Case Studies Forest)](https://casestudiesforest-live-136865672131.us-central1.run.app/chat) — Japanese voice-search agent for customer case studies
+- Next Tokyo '26 demo: [Scale Agents Control Room](https://scale-control-room-nhhfh7g7iq-uc.a.run.app/ui/) — Multi-agent control room across ADK, LangGraph and CrewAI narrated by Gemini 3.1 Flash Live
+- GitHub repo: [Agent Showcase — Enterprise-scale multi-agent systems with Vertex AI & Agent Engine](https://github.com/kazunori279/agent-showcase)
 - GitHub repo: [XLS32 — a 32-voice polyphonic HLS/FPGA synthesizer](https://github.com/kazunori279/xls32-fpga-synth): built in Google XLS (DSLX) on a Basys 3, end-to-end with AI coding agents and verified headlessly over USB
-- GitHub repo: [Era of Agents resources](https://github.com/kazunori279/gcp-eoa)
+- GitHub repo: [Era of Agents resources (Rush Hour workshop)](https://github.com/kazunori279/gcp-eoa)
+- Workshop guide: [Build with Gemini Tokyo — Track 2: Platform Builders Lab Instructions (日本語)](https://storage.googleapis.com/bwg-track2-demo-guide/lab_instructions_ja.html)
 - YouTube video: [Give your app search superpowers: Agent Retrieval (Vector Search 2.0)](https://www.youtube.com/watch?v=-L5khDHrQSE)
 - GitHub adk-samples repo: [End-to-End Travel Agent: Vector Search 2.0 + ADK](https://github.com/google/adk-samples/blob/main/python/notebooks/grounding/vectorsearch2_travel_agent.ipynb) co-authored with Eran Lewis
 - Medium post: [10-Minute Agentic RAG with the New Vector Search 2.0 and ADK](https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac)
 - Medium post: [Building a Real-Time Audio Translator with Gemini Live API](https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774)
+- Codelab: [Vertex AI Vector Search 2.0 Introduction](https://codelabs.developers.google.com/vector-search-2-intro)
 
 ### 2025 blogs, docs and demos
 
@@ -85,6 +91,24 @@ Built with ADK Gemini Live API Toolkit, Vertex AI Vector Search 2, and Gemini Em
 - Advent of Agents: [Multimodal Agents with Gemini Live API](https://adventofagents.com/day/12)
 - GitHub GoogleCloudPlatform repo: [Introduction to Vertex AI Vector Search 2.0](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/vector-search-2-intro.ipynb)
 - Medium blog: [Introducing Vertex AI Vector Search 2.0: From Zero to Billion Scale](https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43)
+- Medium blog: [ADK meets MCP: Bridging Worlds of AI Agents](https://medium.com/google-cloud/adk-meets-mcp-bridging-worlds-of-ai-agents-1ed96ef5399c)
+- Medium blog: [Now available: Direct Importing from BigQuery to Vector Search](https://medium.com/google-cloud/now-available-direct-importing-from-bigquery-to-vector-search-f4ba01b48dfd)
+- Medium blog (JP): [ADK Bidi-streaming Visual Guide (日本語)](https://medium.com/google-cloud-jp/adk-bidi-streaming-visual-guide-ja)
+- Advent of Agents: [Day 17 — Gemini 3 Flash + ADK](https://adventofagents.com/day/17)
+- Gemini Live API docs: [ADK Bidi-streaming introduction](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/live-api/demos)
+- Cloud Skills Boost course: [Vector Search and Embeddings](https://www.cloudskillsboost.google/course_templates/939)
+- GitHub repo: [ADK Bidi-streaming regression test tool](https://github.com/kazunori279/adk-streaming-test)
+- YouTube video: [ADK with Gemini 3 Flash](https://www.youtube.com/watch?v=1txijlIHS_I)
+- YouTube video: [Next '25 Vector Search session recap](https://www.youtube.com/watch?v=uf17IwYg4nE)
+- YouTube live: [ADK Community Call demo (Dec 2025)](https://www.youtube.com/live/usxqkeENUwc)
+
+### 2025 workshops and sessions
+
+- Cloud hands-on seminar: [Gemini Intro + ADK + Vector Search (Apr 2025)](https://explore.qwiklabs.com/ilt/classrooms/17196/focuses/99564) — 450+ registrations
+- AI Agent Bootcamp: [ADK + Vector Search workshop (Sep 2025)](https://cloudonair.withgoogle.com/handson-2025-h2) — 135 attendees
+- [AI & Research Data Ecosystem Hokkaido Consortium: ADK + Vector Search session](https://www.lib.hokudai.ac.jp/consortium/) — 179 attendees
+- DevFest 2025: ADK Bidi-streaming session — approx. 100 attendees
+- Next Tokyo '25: Shopper's Concierge booth demo
 
 ### 2024 blogs and demos
 
@@ -213,12 +237,21 @@ Built with ADK Gemini Live API Toolkit, Vertex AI Vector Search 2, and Gemini Em
 - Google Cloud Technical Series (Singapore)
 - Google Cloud Next '26 Las Vegas
 - Google Cloud Next '26 Tokyo
+- Build with Gemini World Tour Tokyo (Track 2: Platform Builders)
+- GDG Tokyo, ADK Gemini Live API Toolkit workshop
+- Google AI Dojo hands-on workshop (Tokyo)
+- AI DevTalks Live with Google Cloud, Ep 9 / 11 / 12 (online)
+- Agentic AI Bootcamp 2026 Winter (online)
 
 ## 2025
 
 - Google Cloud Next '25 Las Vegas
 - Google Cloud Next '25 Tokyo
 - DevFest Tokyo and Okayama
+- AI & Research Data Ecosystem Hokkaido Consortium
+- AI Agent Bootcamp (online)
+- Cloud hands-on seminar (online)
+- ADK Community Call (online)
 
 ## 2024
 

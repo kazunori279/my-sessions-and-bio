@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kaz Sato — 2026 Sessions, Articles & Demos</title>
-  <meta name="description" content="Portfolio of 2026 blogs, tech talks, AI agent demos, and publications by Kaz Sato, Staff Developer Advocate, Cloud AI at Google.">
+  <title>Kaz Sato — Sessions, Articles &amp; Demos</title>
+  <meta name="description" content="Portfolio of blogs, tech talks, AI agent demos, and publications by Kaz Sato, Staff Developer Advocate, Cloud AI at Google.">
   <link rel="icon" href="photo_202507_small.jpg" type="image/jpeg">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Kaz Sato — 2026 Works & Highlights">
-  <meta property="og:description" content="Explore Kaz Sato's 2026 works on AI Agents, Vector Search 2.0, Gemini Live API, and Hardware synthesis.">
+  <meta property="og:title" content="Kaz Sato — Works &amp; Highlights">
+  <meta property="og:description" content="Explore Kaz Sato's works on AI Agents, Vector Search 2.0, Gemini Live API, and hardware synthesis.">
   <meta property="og:image" content="banner.png">
   <meta property="og:type" content="website">
 
@@ -28,15 +28,10 @@
               500: '#3b82f6',
               600: '#2563eb',
               700: '#1d4ed8'
-            },
-            gemini: {
-              purple: '#9333ea',
-              cyan: '#06b6d4',
-              blue: '#3b82f6'
             }
           },
           fontFamily: {
-            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Noto Sans JP', 'sans-serif'],
           }
         }
       }
@@ -47,56 +42,48 @@
   <script src="https://unpkg.com/lucide@latest"></script>
 
   <style>
-    /* Custom gradient background and glow */
     .bg-grid-pattern {
       background-size: 40px 40px;
-      background-image: 
-        linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+      background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
     }
-    .light .bg-grid-pattern {
-      background-image: 
-        linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
-    }
-    .glow-gemini {
-      background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.18), rgba(6, 182, 212, 0.12), transparent 70%);
+    .glow-ambient {
+      background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.10), transparent 65%);
     }
     .card-hover {
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
     }
     .card-hover:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(59, 130, 246, 0.15);
+      transform: translateY(-3px);
+      box-shadow: 0 14px 30px -12px rgba(0, 0, 0, 0.55);
     }
+    html[lang="ja"] body { letter-spacing: 0.01em; }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-brand-500 selection:text-white transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100 [&.light]:bg-slate-50 [&.light]:text-slate-900">
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-brand-500 selection:text-white">
 
-  <!-- Subtle Ambient Glows -->
-  <div class="fixed inset-0 pointer-events-none glow-gemini z-0"></div>
+  <!-- Ambient background -->
+  <div class="fixed inset-0 pointer-events-none glow-ambient z-0"></div>
   <div class="fixed inset-0 pointer-events-none bg-grid-pattern opacity-60 z-0"></div>
 
   <!-- Navigation Bar -->
-  <header class="sticky top-0 z-50 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-colors [&.light_header]:bg-white/80 [&.light_header]:border-slate-200" id="mainHeader">
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <img src="photo_202507_small.jpg" alt="Kaz Sato" class="w-10 h-10 rounded-full object-cover ring-2 ring-brand-500/50 shadow-md">
+        <img src="photo_202507_small.jpg" alt="Kaz Sato" class="w-10 h-10 rounded-full object-cover ring-1 ring-slate-700">
         <div>
-          <a href="#" class="font-bold text-lg tracking-tight bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent hover:opacity-90 transition">
-            Kaz Sato
-          </a>
-          <p class="text-xs text-slate-400 hidden sm:block">Cloud AI, Google</p>
+          <a href="#" class="font-bold text-lg tracking-tight text-white hover:text-brand-400 transition" data-i18n="navName">Kaz Sato</a>
+          <p class="text-xs text-slate-400 hidden sm:block" data-i18n="navRole">Cloud AI, Google</p>
         </div>
       </div>
 
-      <!-- Quick Navigation & Controls -->
       <div class="flex items-center gap-3">
         <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
-          <a href="#about" class="hover:text-brand-400 transition">About</a>
-          <a href="#highlights" class="hover:text-brand-400 transition">2026 Works</a>
-          <a href="#events" class="hover:text-brand-400 transition">Events</a>
-          <a href="#links" class="hover:text-brand-400 transition">Connect</a>
+          <a href="#about" class="hover:text-brand-400 transition" data-i18n="navAbout">About</a>
+          <a href="#highlights" class="hover:text-brand-400 transition" data-i18n="navWorks">Works</a>
+          <a href="#archive" class="hover:text-brand-400 transition" data-i18n="navArchive">All Publications</a>
+          <a href="#events" class="hover:text-brand-400 transition" data-i18n="navEvents">Events</a>
         </nav>
 
         <div class="h-4 w-px bg-slate-800 hidden md:block"></div>
@@ -106,91 +93,70 @@
           <i data-lucide="globe" class="w-3.5 h-3.5 text-brand-400"></i>
           <span id="currentLangLabel">日本語</span>
         </button>
-
-        <!-- Theme Toggle -->
-        <button id="themeToggleBtn" aria-label="Toggle Theme" class="p-2 rounded-full text-slate-300 hover:text-white bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 transition">
-          <i data-lucide="sun" id="sunIcon" class="w-4 h-4 hidden"></i>
-          <i data-lucide="moon" id="moonIcon" class="w-4 h-4"></i>
-        </button>
       </div>
     </div>
   </header>
 
   <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 space-y-16">
 
-    <!-- Hero & Bio Section with Banner Cover -->
-    <section id="about" class="relative rounded-3xl bg-slate-900/80 border border-slate-800/80 backdrop-blur-xl overflow-hidden shadow-2xl">
-      <!-- Top Cover Banner -->
-      <div class="relative h-48 sm:h-64 lg:h-72 w-full overflow-hidden group">
-        <img 
-          src="banner.png" 
-          alt="Kaz Sato's Past Works, Keynotes and Media Highlights" 
-          class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-700">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
-        <div class="absolute top-4 right-4 bg-slate-950/80 backdrop-blur-md border border-slate-700/80 rounded-full px-3 py-1 text-xs font-medium text-slate-300 flex items-center gap-1.5 shadow-lg">
-          <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i> Featured on Newsweek, The New Yorker & Google I/O
+    <!-- Hero & Bio -->
+    <section id="about" class="relative rounded-3xl bg-slate-900/70 border border-slate-800 overflow-hidden shadow-xl">
+      <div class="relative h-44 sm:h-60 lg:h-68 w-full overflow-hidden">
+        <img src="banner.png" alt="Kaz Sato's past works, keynotes and media highlights" class="w-full h-full object-cover object-center">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/45 to-transparent"></div>
+        <div class="absolute top-4 right-4 bg-slate-950/75 backdrop-blur-md border border-slate-700/70 rounded-full px-3 py-1 text-xs text-slate-300 flex items-center gap-1.5">
+          <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i>
+          <span data-i18n="heroBadge">Featured on Newsweek, The New Yorker &amp; Google I/O</span>
         </div>
       </div>
 
       <div class="p-6 sm:p-10 lg:p-12 pt-0 sm:pt-0 lg:pt-0">
-        <!-- Floating Avatar Overlapping Banner -->
         <div class="relative flex flex-col lg:flex-row items-center lg:items-end gap-6 lg:gap-8 -mt-16 sm:-mt-20 mb-6">
-          <div class="relative group shrink-0">
-            <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-500"></div>
-            <img src="photo_202507_small.jpg" alt="Kaz Sato" class="relative w-32 h-32 sm:w-40 sm:h-40 rounded-2xl object-cover border-4 border-slate-900 shadow-2xl">
-            <div class="absolute bottom-2 right-2 bg-emerald-500 text-slate-950 p-1.5 rounded-full ring-4 ring-slate-900 shadow" title="Available & Active in 2026">
-              <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-            </div>
-          </div>
+          <!-- Portrait: quiet framing, no glow -->
+          <img src="photo_202507_small.jpg" alt="Kaz Sato"
+               class="shrink-0 w-32 h-32 sm:w-40 sm:h-40 rounded-2xl object-cover ring-1 ring-slate-700 border-4 border-slate-900 shadow-lg">
 
           <div class="text-center lg:text-left space-y-2">
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-brand-500/10 border border-brand-500/20 text-brand-400">
-              <span class="w-2 h-2 rounded-full bg-brand-400 animate-pulse"></span>
-              Staff Developer Advocate, Cloud AI, Google
+              <span class="w-1.5 h-1.5 rounded-full bg-brand-400"></span>
+              <span data-i18n="heroTitle">Staff Developer Advocate, Cloud AI, Google</span>
             </div>
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
-              Kaz Sato
-              <span class="block sm:inline text-xl sm:text-2xl font-normal text-slate-400 ml-0 sm:ml-2">(佐藤 一憲)</span>
+              <span data-i18n="heroName">Kaz Sato</span>
+              <span class="block sm:inline text-xl sm:text-2xl font-normal text-slate-400 ml-0 sm:ml-2" data-i18n="heroNameSub">(佐藤 一憲)</span>
             </h1>
           </div>
         </div>
 
-        <!-- Bio Text Area -->
         <div class="space-y-4">
-          <!-- English Bio -->
-          <p id="bioEn" class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-4xl">
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-4xl" data-i18n="bio">
             Kaz Sato, a Staff Developer Advocate from the Cloud AI team, has authored over 25 ML/AI blogs and demos for Google Cloud's official blog. His work has garnered attention from Jeff Dean and Eric Schmidt, and been featured in Newsweek and The New Yorker. He's a regular speaker at Google I/O and Cloud Next, and has presented internationally in 17 countries. Kaz also shares ML/AI updates with his 23,000+ X followers.
           </p>
 
-          <!-- Japanese Bio (toggleable or default sync) -->
-          <p id="bioJa" class="hidden text-slate-300 text-base sm:text-lg leading-relaxed max-w-4xl">
-            Google Cloud AIチームのデベロッパーアドボケイトとしてGoogle Cloud USブログ記事やドキュメントの執筆、デモ開発等を担当。2016年より25件以上を掲載し、ジェフディーン、エリックシュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ17か国のイベントで講演し、Google I/OやCloud Nextにも例年登壇。Xでは23,000フォロワーに向けてAI/MLの情報を日々共有している。
-          </p>
-
-          <!-- Metrics Row -->
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 border-t border-slate-800/80">
-            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/50">
+          <!-- Metrics -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 border-t border-slate-800">
+            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/60">
               <div class="text-2xl font-black text-brand-400">25+</div>
-              <div class="text-xs text-slate-400 font-medium">Official Blogs & Demos</div>
+              <div class="text-xs text-slate-400 font-medium" data-i18n="metricBlogs">Official Blogs &amp; Demos</div>
             </div>
-            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/50">
-              <div class="text-2xl font-black text-purple-400">17</div>
-              <div class="text-xs text-slate-400 font-medium">Countries Presented</div>
+            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/60">
+              <div class="text-2xl font-black text-indigo-400">17</div>
+              <div class="text-xs text-slate-400 font-medium" data-i18n="metricCountries">Countries Presented</div>
             </div>
-            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/50">
+            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/60">
               <div class="text-2xl font-black text-cyan-400">23k+</div>
-              <div class="text-xs text-slate-400 font-medium">Followers on X</div>
+              <div class="text-xs text-slate-400 font-medium" data-i18n="metricFollowers">Followers on X</div>
             </div>
-            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/50">
-              <div class="text-2xl font-black text-emerald-400">I/O & Next</div>
-              <div class="text-xs text-slate-400 font-medium">Keynote & Regular Speaker</div>
+            <div class="bg-slate-950/40 rounded-xl p-3 border border-slate-800/60">
+              <div class="text-2xl font-black text-emerald-400">I/O &amp; Next</div>
+              <div class="text-xs text-slate-400 font-medium" data-i18n="metricSpeaker">Keynote &amp; Regular Speaker</div>
             </div>
           </div>
 
           <!-- Social Links -->
           <div id="links" class="flex flex-wrap items-center justify-center lg:justify-start gap-2 pt-2">
             <a href="https://twitter.com/kazunori_279" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
-              <i data-lucide="twitter" class="w-3.5 h-3.5 text-sky-400"></i> X / Twitter (@kazunori_279)
+              <i data-lucide="twitter" class="w-3.5 h-3.5 text-sky-400"></i> X / Twitter
             </a>
             <a href="https://github.com/kazunori279" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
               <i data-lucide="github" class="w-3.5 h-3.5 text-slate-100"></i> GitHub
@@ -212,709 +178,877 @@
       </div>
     </section>
 
-    <!-- 2026 Works Section -->
+    <!-- Featured Works -->
     <section id="highlights" class="space-y-8">
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-800 pb-6">
         <div>
           <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-brand-400 mb-1">
-            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Curated Portfolio
+            <i data-lucide="star" class="w-3.5 h-3.5"></i> <span data-i18n="featuredKicker">Curated Portfolio</span>
           </div>
-          <h2 class="text-3xl font-extrabold text-white tracking-tight">
-            2026 Creations, Publications & Demos
-          </h2>
-          <p class="text-slate-400 text-sm mt-1">
-            Focusing on AI Agents, Vertex AI Vector Search 2.0, Gemini Live API, and Hardware Synthesis.
+          <h2 class="text-3xl font-extrabold text-white tracking-tight" data-i18n="featuredTitle">Featured Demos, Talks &amp; Articles</h2>
+          <p class="text-slate-400 text-sm mt-1" data-i18n="featuredLead">
+            AI agents, Vertex AI Vector Search 2.0, Gemini Live API, and hardware synthesis.
           </p>
         </div>
 
-        <!-- Filter Buttons -->
-        <div class="flex flex-wrap items-center gap-2" id="filterContainer">
-          <button data-filter="all" class="filter-btn active px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-brand-600 text-white shadow-lg shadow-brand-500/20">
-            All (2026)
-          </button>
-          <button data-filter="demo-video" class="filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
-            🚀 Live Demos & Videos
-          </button>
-          <button data-filter="article" class="filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
-            Articles & Notebooks
-          </button>
-          <button data-filter="code" class="filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700">
-            Code & Hardware
-          </button>
+        <div class="flex flex-wrap items-center gap-2">
+          <div class="flex items-center gap-1 p-1 rounded-xl bg-slate-900 border border-slate-800" id="yearTabs">
+            <button data-year="all" class="year-btn px-3 py-1.5 rounded-lg text-xs font-bold transition" data-i18n="yearAll">All</button>
+            <button data-year="2026" class="year-btn px-3 py-1.5 rounded-lg text-xs font-bold transition">2026</button>
+            <button data-year="2025" class="year-btn px-3 py-1.5 rounded-lg text-xs font-bold transition">2025</button>
+          </div>
+          <div class="flex flex-wrap items-center gap-2" id="catFilters">
+            <button data-cat="all" class="cat-btn px-3 py-1.5 rounded-xl text-xs font-bold transition" data-i18n="catAll">All types</button>
+            <button data-cat="demo" class="cat-btn px-3 py-1.5 rounded-xl text-xs font-bold transition" data-i18n="catDemo">Demos</button>
+            <button data-cat="video" class="cat-btn px-3 py-1.5 rounded-xl text-xs font-bold transition" data-i18n="catVideo">Videos</button>
+            <button data-cat="article" class="cat-btn px-3 py-1.5 rounded-xl text-xs font-bold transition" data-i18n="catArticle">Articles &amp; Docs</button>
+            <button data-cat="code" class="cat-btn px-3 py-1.5 rounded-xl text-xs font-bold transition" data-i18n="catCode">Code &amp; Hardware</button>
+          </div>
         </div>
       </div>
 
-      <!-- Grid of 2026 Items -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="itemsGrid">
-
-        <!-- 1. Live Interactive Demo: Live Translator -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="demo">
-          <!-- Video / Demo Player with Lite Embed -->
-          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-translator" onclick="playVideo('video-translator', '3TJnSBS3bkE', 'Live Translator Demo')">
-            <img 
-              src="https://img.youtube.com/vi/3TJnSBS3bkE/maxresdefault.jpg" 
-              alt="Live Translator Interactive UI in Action" 
-              class="w-full h-full object-cover object-center group-hover/vid:scale-105 transition duration-500"
-              loading="lazy">
-            <div class="absolute inset-0 bg-slate-950/30 group-hover/vid:bg-slate-950/10 transition"></div>
-            <!-- Play Button Overlay -->
-            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-emerald-600/90 text-white flex items-center justify-center shadow-xl shadow-emerald-600/30 group-hover/vid:scale-110 group-hover/vid:bg-emerald-500 transition duration-300" aria-label="Play video">
-              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
-            </button>
-            <div class="absolute top-3 right-3 bg-emerald-500 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg pointer-events-none">
-              <span class="w-1.5 h-1.5 rounded-full bg-slate-950 animate-ping"></span> Live Cloud Run App
-            </div>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-emerald-300 flex items-center gap-1 pointer-events-none">
-              <i data-lucide="video" class="w-3 h-3"></i> 2:02 Demo Video
-            </div>
-          </div>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
-                  <i data-lucide="radio" class="w-3.5 h-3.5"></i> Interactive Live Demo
-                </span>
-                <span class="text-slate-500 font-mono">2026 Featured</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://live-translation-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer">
-                  Live Translator (Gemini Live API)
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Experience real-time low-latency voice translation in action. Direct speech-to-speech with simultaneous live transcription across 97+ languages over WebSockets.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <a href="https://github.com/kazunori279/live-translator" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white inline-flex items-center gap-1 font-mono">
-                <i data-lucide="github" class="w-3.5 h-3.5"></i> Source
-              </a>
-              <a href="https://live-translation-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white inline-flex items-center gap-1.5 shadow-md shadow-emerald-500/20">
-                Launch App <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 2. Live Interactive Demo: LensMosaic -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="demo">
-          <!-- Video / Demo Player with Lite Embed -->
-          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-lensmosaic" onclick="playVideo('video-lensmosaic', 'SgMn-6q8Qg8', 'LensMosaic live demo')">
-            <img 
-              src="https://img.youtube.com/vi/SgMn-6q8Qg8/maxresdefault.jpg" 
-              alt="LensMosaic 1 Million Product Search Demo Video" 
-              class="w-full h-full object-cover object-top group-hover/vid:scale-105 transition duration-500"
-              loading="lazy">
-            <div class="absolute inset-0 bg-slate-950/30 group-hover/vid:bg-slate-950/10 transition"></div>
-            <!-- Play Button Overlay -->
-            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-cyan-600/90 text-white flex items-center justify-center shadow-xl shadow-cyan-600/30 group-hover/vid:scale-110 group-hover/vid:bg-cyan-500 transition duration-300" aria-label="Play video">
-              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
-            </button>
-            <div class="absolute top-3 right-3 bg-cyan-500 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg pointer-events-none">
-              <span class="w-1.5 h-1.5 rounded-full bg-slate-950 animate-ping"></span> Live Cloud Run App
-            </div>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-cyan-300 flex items-center gap-1 pointer-events-none">
-              <i data-lucide="video" class="w-3 h-3"></i> 1:26 Demo Video
-            </div>
-          </div>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded-full border border-cyan-500/20">
-                  <i data-lucide="zap" class="w-3.5 h-3.5"></i> Interactive Live Demo
-                </span>
-                <span class="text-slate-500 font-mono">2026 Featured</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://lens-mosaic-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer">
-                  LensMosaic: 1M Items Search in Milliseconds
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Search across roughly 1 million items from a Mercari product dataset in milliseconds. Built with ADK Gemini Live API Toolkit, Vertex AI Vector Search 2, and Gemini Embedding 2.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <a href="https://github.com/kazunori279/lens-mosaic" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white inline-flex items-center gap-1 font-mono">
-                <i data-lucide="github" class="w-3.5 h-3.5"></i> Source
-              </a>
-              <a href="https://lens-mosaic-761793285222.us-central1.run.app/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white inline-flex items-center gap-1.5 shadow-md shadow-cyan-500/20">
-                Launch App <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 3. Live Interactive Demo: Las Vegas Hotel Concierge Agent -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="demo">
-          <a href="https://grounding-demo-761793285222.us-east1.run.app/" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden border-b border-slate-800/60 flex items-center justify-center p-3">
-            <!-- Stylized Grounding Visual -->
-            <div class="w-full h-full rounded-xl bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 border border-indigo-500/20 p-4 flex flex-col justify-between">
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-amber-400 flex items-center gap-1.5">
-                  <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Las Vegas Strip Concierge
-                </span>
-                <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-mono">Gemini 2.5</span>
-              </div>
-              <div class="space-y-1.5">
-                <div class="flex items-center gap-2 text-xs text-slate-200">
-                  <i data-lucide="compass" class="w-4 h-4 text-emerald-400"></i> Google Maps & Search Grounding
-                </div>
-                <div class="flex items-center gap-2 text-xs text-slate-400">
-                  <i data-lucide="database" class="w-4 h-4 text-cyan-400"></i> Vector Search 2.0 Amenities
-                </div>
-              </div>
-            </div>
-            <div class="absolute top-3 right-3 bg-amber-400 text-slate-950 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide uppercase flex items-center gap-1 shadow-lg">
-              <span class="w-1.5 h-1.5 rounded-full bg-slate-950 animate-ping"></span> Live Cloud Run App
-            </div>
-          </a>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-amber-400 bg-amber-500/10 px-2.5 py-0.5 rounded-full border border-amber-500/20">
-                  <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Interactive Live Demo
-                </span>
-                <span class="text-slate-500 font-mono">2026 Featured</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://grounding-demo-761793285222.us-east1.run.app/" target="_blank" rel="noopener noreferrer">
-                  Hotel Concierge: Gemini Grounding Demo
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Intelligent multimodal hotel concierge combining Gemini models with live Google Search, Google Maps, and Vertex AI Vector Search 2.0 grounding for zero-hallucination travel advice.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#Search #Maps #VS2</span>
-              <a href="https://grounding-demo-761793285222.us-east1.run.app/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 inline-flex items-center gap-1.5 shadow-md shadow-amber-500/20">
-                Launch Demo <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 4. YouTube Video: Agent Retrieval (Vector Search 2.0) -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="video">
-          <!-- Video Player with Lite Embed (Click to play or open) -->
-          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/video" id="videoContainer">
-            <img 
-              src="https://img.youtube.com/vi/-L5khDHrQSE/maxresdefault.jpg" 
-              alt="Give your app search superpowers: Agent Retrieval (Vector Search 2.0)" 
-              class="w-full h-full object-cover group-hover/video:scale-105 transition duration-500"
-              loading="lazy"
-              id="videoThumb">
-            <div class="absolute inset-0 bg-slate-950/30 group-hover/video:bg-slate-950/10 transition"></div>
-            <!-- Play Button Overlay -->
-            <button class="absolute inset-0 m-auto w-14 h-14 rounded-full bg-rose-600/90 text-white flex items-center justify-center shadow-xl shadow-rose-600/30 group-hover/video:scale-110 group-hover/video:bg-rose-500 transition duration-300" aria-label="Play video" onclick="playEmbeddedVideo()">
-              <i data-lucide="play" class="w-6 h-6 fill-white ml-0.5"></i>
-            </button>
-            <div class="absolute bottom-2.5 right-2.5 bg-slate-900/90 backdrop-blur-sm px-2 py-0.5 rounded text-[11px] font-mono font-medium text-slate-200">
-              YouTube Tech Talk
-            </div>
-          </div>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-rose-400 bg-rose-500/10 px-2.5 py-0.5 rounded-full border border-rose-500/20">
-                  <i data-lucide="youtube" class="w-3.5 h-3.5"></i> Featured Video Talk
-                </span>
-                <span class="text-slate-500 font-mono">2026</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://www.youtube.com/watch?v=-L5khDHrQSE" target="_blank" rel="noopener noreferrer">
-                  Give your app search superpowers: Agent Retrieval (Vector Search 2.0)
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Explores how Vertex AI Vector Search 2.0 revolutionizes Agent Retrieval with auto-embeddings, self-tuning ANN indexes, and native hybrid search for real-time agent reasoning.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <div class="flex flex-wrap gap-1.5">
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#VectorSearch2</span>
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#AgenticRAG</span>
-              </div>
-              <a href="https://www.youtube.com/watch?v=-L5khDHrQSE" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-rose-400 hover:text-rose-300 inline-flex items-center gap-1">
-                Watch on YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 5. Medium Post: Building a Real-Time Audio Translator with Gemini Live API -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="article">
-          <!-- Video / Tech Deep Dive Player with Lite Embed -->
-          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-translator-deepdive" onclick="playVideo('video-translator-deepdive', 'POdETXqBO5E', 'Interpretab / Live Translator Deep Dive')">
-            <img 
-              src="https://img.youtube.com/vi/POdETXqBO5E/maxresdefault.jpg" 
-              alt="Interpretab Technical Deep Dive Video Thumbnail" 
-              class="w-full h-full object-cover object-top group-hover/vid:scale-105 transition duration-500"
-              loading="lazy">
-            <div class="absolute inset-0 bg-slate-950/30 group-hover/vid:bg-slate-950/10 transition"></div>
-            <!-- Play Button Overlay -->
-            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-emerald-600/90 text-white flex items-center justify-center shadow-xl shadow-emerald-600/30 group-hover/vid:scale-110 group-hover/vid:bg-emerald-500 transition duration-300" aria-label="Play video">
-              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
-            </button>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-emerald-300 flex items-center gap-1 pointer-events-none">
-              <i data-lucide="video" class="w-3 h-3"></i> 4:49 Deep Dive
-            </div>
-          </div>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
-                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Medium Article & Video
-                </span>
-                <span class="text-slate-500 font-mono">2026</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774" target="_blank" rel="noopener noreferrer">
-                  Building a Real-Time Audio Translator with Gemini Live API
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Architectural deep-dive on building Live Translator across 97 languages. Explains direct speech-to-speech audio streaming over WebSockets, continuous session pre-opening, and automated soak testing.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <div class="flex flex-wrap gap-1.5">
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#GeminiLive</span>
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#WebSockets</span>
-              </div>
-              <a href="https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
-                Read Article <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 6. Medium Post: 10-Minute Agentic RAG with the New Vector Search 2.0 and ADK -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="article">
-          <!-- Video / Demo Player with Lite Embed -->
-          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-rag-demo" onclick="playVideo('video-rag-demo', 'IB6cXNx5iaw', 'Building Agentic RAG Demo')">
-            <img 
-              src="https://miro.medium.com/v2/resize:fit:1200/0*NWhR4itws_ObN-0_.jpeg" 
-              alt="10-Minute Agentic RAG banner" 
-              class="w-full h-full object-cover group-hover/vid:scale-105 transition duration-500"
-              loading="lazy">
-            <div class="absolute inset-0 bg-slate-950/20 group-hover/vid:bg-slate-950/0 transition"></div>
-            <!-- Play Button Overlay -->
-            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-emerald-600/90 text-white flex items-center justify-center shadow-xl shadow-emerald-600/30 group-hover/vid:scale-110 group-hover/vid:bg-emerald-500 transition duration-300" aria-label="Play video">
-              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
-            </button>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-emerald-300 flex items-center gap-1 pointer-events-none">
-              <i data-lucide="video" class="w-3 h-3"></i> Quick Demo Video
-            </div>
-          </div>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
-                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Medium Article & Video
-                </span>
-                <span class="text-slate-500 font-mono">2026</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac" target="_blank" rel="noopener noreferrer">
-                  10-Minute Agentic RAG with the New Vector Search 2.0 and ADK
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Transition from simple retrieve-then-generate pipelines to dynamic Agentic RAG. Step-by-step tutorial configuring auto-embeddings, Reciprocal Rank Fusion hybrid retrieval, and ADK tool calls.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <div class="flex flex-wrap gap-1.5">
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#ADK</span>
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#VectorSearch2</span>
-              </div>
-              <a href="https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
-                Read Article <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 7. GitHub: XLS32 — a 32-voice polyphonic HLS/FPGA synthesizer -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="code">
-          <!-- Video / Demo Player with Lite Embed -->
-          <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="video-xls32" onclick="playVideo('video-xls32', 'sWc6g7cgsd4', 'XLS32 live FPGA synth demo')">
-            <img 
-              src="https://img.youtube.com/vi/sWc6g7cgsd4/maxresdefault.jpg" 
-              alt="XLS32 Live FPGA Synth Demo Video Thumbnail" 
-              class="w-full h-full object-cover object-top group-hover/vid:scale-105 transition duration-500"
-              loading="lazy">
-            <div class="absolute inset-0 bg-slate-950/30 group-hover/vid:bg-slate-950/10 transition"></div>
-            <!-- Play Button Overlay -->
-            <button class="absolute inset-0 m-auto w-12 h-12 rounded-full bg-indigo-600/90 text-white flex items-center justify-center shadow-xl shadow-indigo-600/30 group-hover/vid:scale-110 group-hover/vid:bg-indigo-500 transition duration-300" aria-label="Play video">
-              <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
-            </button>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-indigo-300 flex items-center gap-1 pointer-events-none">
-              <i data-lucide="video" class="w-3 h-3"></i> 1:51 Live Performance
-            </div>
-          </div>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-indigo-400 bg-indigo-500/10 px-2.5 py-0.5 rounded-full border border-indigo-500/20">
-                  <i data-lucide="cpu" class="w-3.5 h-3.5"></i> FPGA & AI Agents
-                </span>
-                <span class="text-slate-500 font-mono">2026</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://github.com/kazunori279/xls32-fpga-synth" target="_blank" rel="noopener noreferrer">
-                  XLS32 — 32-Voice Polyphonic HLS/FPGA Synthesizer
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Built in Google XLS (DSLX) on a Digilent Basys 3 board, developed end-to-end with autonomous AI coding agents and verified headlessly over USB. Watch the live panel playing Bach Prelude in C.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <div class="flex flex-wrap gap-1.5">
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#GoogleXLS</span>
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#Basys3</span>
-              </div>
-              <a href="https://github.com/kazunori279/xls32-fpga-synth" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
-                View Repo <i data-lucide="github" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 8. GitHub: Era of Agents resources (gcp-eoa) -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="code">
-          <a href="https://github.com/kazunori279/gcp-eoa" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden p-3 flex items-center justify-center border-b border-slate-800/60">
-            <!-- Render Crisp Agent Architecture SVG -->
-            <svg viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg" class="w-full h-full max-h-[170px] select-none">
-              <defs>
-                <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-                  <path d="M0,0 L8,3 L0,6" fill="#38bdf8"/>
-                </marker>
-              </defs>
-              <!-- Tool 1 -->
-              <rect x="10" y="15" width="180" height="75" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
-              <text x="100" y="38" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="800" fill="#38bdf8">TOOL 1: SCHEDULE</text>
-              <text x="100" y="58" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="600" fill="#e2e8f0">GTFS Timetable</text>
-              <text x="100" y="74" text-anchor="middle" font-family="system-ui" font-size="9" fill="#94a3b8">"what should happen"</text>
-
-              <!-- Tool 2 -->
-              <rect x="10" y="110" width="180" height="75" rx="8" fill="#1e293b" stroke="#f43f5e" stroke-width="1.5"/>
-              <text x="100" y="133" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="800" fill="#f43f5e">TOOL 2: DISRUPTION</text>
-              <text x="100" y="153" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="600" fill="#e2e8f0">Real-Time Feed</text>
-              <text x="100" y="169" text-anchor="middle" font-family="system-ui" font-size="9" fill="#94a3b8">"what is happening"</text>
-
-              <!-- Reconcile Node -->
-              <rect x="250" y="45" width="165" height="105" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
-              <text x="332" y="75" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="800" fill="#fbbf24">RECONCILE</text>
-              <text x="332" y="98" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="600" fill="#cbd5e1">JOIN on trip_id</text>
-              <text x="332" y="118" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Transit Crisis Agent</text>
-              <text x="332" y="134" text-anchor="middle" font-family="system-ui" font-size="9" fill="#64748b">Zero Hallucination</text>
-
-              <!-- Arrows -->
-              <line x1="190" y1="52" x2="248" y2="82" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow)"/>
-              <line x1="190" y1="147" x2="248" y2="115" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow)"/>
-
-              <!-- Tool 3 -->
-              <rect x="475" y="60" width="180" height="75" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
-              <text x="565" y="85" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="800" fill="#34d399">TOOL 3: REROUTE</text>
-              <text x="565" y="105" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="600" fill="#e2e8f0">Actionable Advice</text>
-              <text x="565" y="121" text-anchor="middle" font-family="system-ui" font-size="9" fill="#94a3b8">Alternative Connections</text>
-
-              <line x1="415" y1="98" x2="473" y2="98" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrow)"/>
-            </svg>
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-purple-300 flex items-center gap-1">
-              <i data-lucide="workflow" class="w-3 h-3"></i> ADK Agent Architecture
-            </div>
-          </a>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-purple-400 bg-purple-500/10 px-2.5 py-0.5 rounded-full border border-purple-500/20">
-                  <i data-lucide="folder-git-2" class="w-3.5 h-3.5"></i> Hands-on Workshop
-                </span>
-                <span class="text-slate-500 font-mono">2026</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://github.com/kazunori279/gcp-eoa" target="_blank" rel="noopener noreferrer">
-                  Era of Agents (EOA) Workshop: Rush Hour
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Build with Gemini World Tour workshop: vibe-build a transit-crisis ADK agent on Gemini Enterprise Agent Platform using Antigravity. Covers the complete lifecycle: Build → Scale → Govern → Optimize → Engage.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <div class="flex flex-wrap gap-1.5">
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#GeminiEnterprise</span>
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#ADK</span>
-              </div>
-              <a href="https://github.com/kazunori279/gcp-eoa" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
-                View Repo <i data-lucide="github" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 9. Sample Notebook: End-to-End Travel Agent (Vector Search 2.0 + ADK) -->
-        <div class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/80 border border-slate-800 overflow-hidden shadow-lg backdrop-blur-md" data-category="article">
-          <a href="https://github.com/google/adk-samples" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden flex items-center justify-center p-2 border-b border-slate-800/60">
-            <img 
-              src="https://miro.medium.com/v2/resize:fit:1400/1*Zdc0ZhZD-BShEKL-rUIO1A.png" 
-              alt="Vector Search 2.0 + ADK Architecture" 
-              class="w-full h-full object-contain group-hover:scale-105 transition duration-500"
-              loading="lazy">
-            <div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded px-2 py-0.5 text-[11px] font-mono text-cyan-300 flex items-center gap-1">
-              <i data-lucide="layers" class="w-3 h-3"></i> Retrieval Architecture
-            </div>
-          </a>
-
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-            <div class="space-y-2">
-              <div class="flex items-center justify-between text-xs">
-                <span class="inline-flex items-center gap-1 font-semibold text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded-full border border-cyan-500/20">
-                  <i data-lucide="file-code-2" class="w-3.5 h-3.5"></i> Sample Notebook
-                </span>
-                <span class="text-slate-500 font-mono">2026</span>
-              </div>
-
-              <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
-                <a href="https://github.com/google/adk-samples" target="_blank" rel="noopener noreferrer">
-                  End-to-End Travel Agent: Vector Search 2.0 + ADK
-                </a>
-              </h3>
-
-              <p class="text-sm text-slate-300 line-clamp-3">
-                Co-authored with Eran Lewis. Complete runnable walkthrough building a smart concierge that combines Gemini models, ADK agent loop, and Vector Search 2.0 hybrid filters on Airbnb listings.
-              </p>
-            </div>
-
-            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
-              <div class="flex flex-wrap gap-1.5">
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#ADK-Samples</span>
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">#AgenticRAG</span>
-              </div>
-              <a href="https://github.com/google/adk-samples" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-brand-400 hover:text-brand-300 inline-flex items-center gap-1">
-                Explore Repo <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="featuredGrid"></div>
+      <p class="hidden text-sm text-slate-400 text-center py-8" id="featuredEmpty" data-i18n="noResults">No items match this filter.</p>
     </section>
 
-    <!-- 2026 Invited Keynotes & Events Section -->
-    <section id="events" class="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 sm:p-10 backdrop-blur-md shadow-xl space-y-6">
+    <!-- All Publications Archive -->
+    <section id="archive" class="space-y-6">
+      <div class="border-b border-slate-800 pb-6">
+        <div class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-indigo-400 mb-1">
+          <i data-lucide="library" class="w-3.5 h-3.5"></i> <span data-i18n="archiveKicker">Complete Index</span>
+        </div>
+        <h2 class="text-3xl font-extrabold text-white tracking-tight" data-i18n="archiveTitle">All Publications (2026 &amp; 2025)</h2>
+        <p class="text-slate-400 text-sm mt-1" data-i18n="archiveLead">
+          Every blog post, video, codelab, workshop and code sample published in 2026 and 2025. Earlier years are in the
+          <a href="https://github.com/kazunori279/my-sessions-and-bio#blog-posts-videos-and-demos" target="_blank" rel="noopener noreferrer" class="text-brand-400 hover:underline">README archive</a>.
+        </p>
+      </div>
+
+      <div id="archiveContainer" class="space-y-10"></div>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 sm:p-10 space-y-6">
       <div class="flex items-center gap-3">
-        <div class="p-2.5 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-400">
+        <div class="p-2.5 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-400">
           <i data-lucide="mic" class="w-5 h-5"></i>
         </div>
         <div>
-          <h2 class="text-2xl font-bold text-white tracking-tight">2026 Keynotes & Speaking Events</h2>
-          <p class="text-slate-400 text-sm">International conference appearances and technical keynotes in 2026</p>
+          <h2 class="text-2xl font-bold text-white tracking-tight" data-i18n="eventsTitle">Keynotes &amp; Speaking Events</h2>
+          <p class="text-slate-400 text-sm" data-i18n="eventsLead">Conference appearances and technical keynotes</p>
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
-        <!-- Event 1 -->
-        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800/90 hover:border-slate-700 transition flex items-start gap-4">
-          <div class="text-2xl">🇸🇬</div>
-          <div>
-            <span class="text-[11px] font-semibold text-brand-400 uppercase tracking-wider block">Keynote & Sessions</span>
-            <h4 class="text-base font-bold text-white mt-0.5">Google Cloud Technical Series</h4>
-            <p class="text-xs text-slate-400 mt-1">Singapore</p>
-          </div>
-        </div>
-
-        <!-- Event 2 -->
-        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800/90 hover:border-slate-700 transition flex items-start gap-4">
-          <div class="text-2xl">🎰</div>
-          <div>
-            <span class="text-[11px] font-semibold text-purple-400 uppercase tracking-wider block">Global Flagship</span>
-            <h4 class="text-base font-bold text-white mt-0.5">Google Cloud Next '26</h4>
-            <p class="text-xs text-slate-400 mt-1">Las Vegas, USA</p>
-          </div>
-        </div>
-
-        <!-- Event 3 -->
-        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800/90 hover:border-slate-700 transition flex items-start gap-4">
-          <div class="text-2xl">🇯🇵</div>
-          <div>
-            <span class="text-[11px] font-semibold text-rose-400 uppercase tracking-wider block">Regional Flagship</span>
-            <h4 class="text-base font-bold text-white mt-0.5">Google Cloud Next '26</h4>
-            <p class="text-xs text-slate-400 mt-1">Tokyo, Japan</p>
-          </div>
-        </div>
-      </div>
+      <div id="eventsContainer" class="space-y-6"></div>
     </section>
 
     <!-- Footer -->
     <footer class="pt-8 pb-12 border-t border-slate-800 text-center text-xs text-slate-500 space-y-4">
-      <div class="flex items-center justify-center gap-6">
+      <div class="flex flex-wrap items-center justify-center gap-6">
         <a href="https://github.com/kazunori279/my-sessions-and-bio" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition inline-flex items-center gap-1.5">
-          <i data-lucide="git-branch" class="w-3.5 h-3.5"></i> GitHub Repository
+          <i data-lucide="git-branch" class="w-3.5 h-3.5"></i> <span data-i18n="footerRepo">GitHub Repository</span>
         </a>
-        <a href="https://cloud.google.com/blog" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition">
-          Google Cloud Blog
-        </a>
-        <a href="#about" class="hover:text-slate-300 transition">
-          Back to Top ↑
-        </a>
+        <a href="https://cloud.google.com/blog" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition" data-i18n="footerBlog">Google Cloud Blog</a>
+        <a href="#about" class="hover:text-slate-300 transition" data-i18n="footerTop">Back to Top ↑</a>
       </div>
-      <p>© 2026 Kaz Sato. Hosted seamlessly on GitHub Pages.</p>
+      <p data-i18n="footerCopy">© 2026 Kaz Sato. Hosted on GitHub Pages.</p>
     </footer>
 
   </main>
 
   <script>
-    // Play embedded YouTube video
-    function playVideo(containerId, videoId, title) {
-      const container = document.getElementById(containerId);
-      if (!container) return;
-      container.innerHTML = `
-        <iframe 
-          class="w-full h-full" 
-          src="https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1" 
-          title="${title}" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
-      `;
+  // ---------------------------------------------------------------------------
+  // UI strings
+  // ---------------------------------------------------------------------------
+  const I18N = {
+    en: {
+      navName: 'Kaz Sato',
+      navRole: 'Cloud AI, Google',
+      navAbout: 'About',
+      navWorks: 'Works',
+      navArchive: 'All Publications',
+      navEvents: 'Events',
+      heroBadge: 'Featured on Newsweek, The New Yorker & Google I/O',
+      heroTitle: 'Staff Developer Advocate, Cloud AI, Google',
+      heroName: 'Kaz Sato',
+      heroNameSub: '(佐藤 一憲)',
+      bio: "Kaz Sato, a Staff Developer Advocate from the Cloud AI team, has authored over 25 ML/AI blogs and demos for Google Cloud's official blog. His work has garnered attention from Jeff Dean and Eric Schmidt, and been featured in Newsweek and The New Yorker. He's a regular speaker at Google I/O and Cloud Next, and has presented internationally in 17 countries. Kaz also shares ML/AI updates with his 23,000+ X followers.",
+      metricBlogs: 'Official Blogs & Demos',
+      metricCountries: 'Countries Presented',
+      metricFollowers: 'Followers on X',
+      metricSpeaker: 'Keynote & Regular Speaker',
+      featuredKicker: 'Curated Portfolio',
+      featuredTitle: 'Featured Demos, Talks & Articles',
+      featuredLead: 'AI agents, Vertex AI Vector Search 2.0, Gemini Live API, and hardware synthesis.',
+      yearAll: 'All',
+      catAll: 'All types',
+      catDemo: 'Demos',
+      catVideo: 'Videos',
+      catArticle: 'Articles & Docs',
+      catCode: 'Code & Hardware',
+      noResults: 'No items match this filter.',
+      archiveKicker: 'Complete Index',
+      archiveTitle: 'All Publications (2026 & 2025)',
+      archiveLead: 'Every blog post, video, codelab, workshop and code sample published in 2026 and 2025. Earlier years are in the <a href="https://github.com/kazunori279/my-sessions-and-bio#blog-posts-videos-and-demos" target="_blank" rel="noopener noreferrer" class="text-brand-400 hover:underline">README archive</a>.',
+      eventsTitle: 'Keynotes & Speaking Events',
+      eventsLead: 'Conference appearances and technical keynotes',
+      footerRepo: 'GitHub Repository',
+      footerBlog: 'Google Cloud Blog',
+      footerTop: 'Back to Top ↑',
+      footerCopy: '© 2026 Kaz Sato. Hosted on GitHub Pages.',
+      // Card chrome
+      kindDemo: 'Live Demo',
+      kindVideo: 'Video',
+      kindArticle: 'Article',
+      kindDocs: 'Documentation',
+      kindNotebook: 'Codelab / Notebook',
+      kindCode: 'Code & Hardware',
+      kindWorkshop: 'Workshop & Session',
+      linkLaunch: 'Launch app',
+      linkWatch: 'Watch on YouTube',
+      linkRead: 'Read article',
+      linkRepo: 'View repo',
+      linkOpen: 'Open',
+      linkSource: 'Source',
+      groupArticles: 'Articles & blog posts',
+      groupDocs: 'Documentation',
+      groupNotebooks: 'Codelabs & notebooks',
+      groupVideos: 'Videos',
+      groupDemos: 'Demos & apps',
+      groupCode: 'Code & samples',
+      groupWorkshops: 'Workshops & sessions'
+    },
+    ja: {
+      navName: '佐藤 一憲',
+      navRole: 'Google Cloud AI',
+      navAbout: 'プロフィール',
+      navWorks: '主な仕事',
+      navArchive: '全コンテンツ',
+      navEvents: '登壇',
+      heroBadge: 'Newsweek 誌、The New Yorker 誌、Google I/O で紹介',
+      heroTitle: 'グーグル合同会社 Cloud AI デベロッパーアドボケイト',
+      heroName: '佐藤 一憲',
+      heroNameSub: '(Kaz Sato)',
+      bio: 'Google Cloud AI チームのデベロッパーアドボケイトとして Google Cloud US ブログ記事やドキュメントの執筆、デモ開発等を担当。2016 年より 25 件以上を掲載し、ジェフ・ディーン、エリック・シュミット、ニューズウィーク誌、ニューヨーカー誌により紹介された。延べ 17 か国のイベントで講演し、Google I/O や Cloud Next にも例年登壇。X では 23,000 フォロワーに向けて AI/ML の情報を日々共有している。',
+      metricBlogs: '公式ブログ・デモ',
+      metricCountries: '講演した国の数',
+      metricFollowers: 'X のフォロワー',
+      metricSpeaker: '基調講演・常連スピーカー',
+      featuredKicker: '注目のコンテンツ',
+      featuredTitle: '主なデモ・講演・記事',
+      featuredLead: 'AI エージェント、Vertex AI Vector Search 2.0、Gemini Live API、ハードウェア合成。',
+      yearAll: 'すべて',
+      catAll: 'すべての種類',
+      catDemo: 'デモ',
+      catVideo: '動画',
+      catArticle: '記事・ドキュメント',
+      catCode: 'コード・ハードウェア',
+      noResults: '条件に一致するものがありません。',
+      archiveKicker: '全一覧',
+      archiveTitle: '全コンテンツ（2026 年・2025 年）',
+      archiveLead: '2026 年と 2025 年に公開したブログ、動画、Codelab、ワークショップ、コードサンプルの全一覧です。それ以前の年は <a href="https://github.com/kazunori279/my-sessions-and-bio#blog-posts-videos-and-demos" target="_blank" rel="noopener noreferrer" class="text-brand-400 hover:underline">README のアーカイブ</a> をご覧ください。',
+      eventsTitle: '基調講演・登壇イベント',
+      eventsLead: 'カンファレンス登壇と技術基調講演',
+      footerRepo: 'GitHub リポジトリ',
+      footerBlog: 'Google Cloud ブログ',
+      footerTop: 'ページ先頭へ ↑',
+      footerCopy: '© 2026 佐藤一憲. GitHub Pages で公開。',
+      kindDemo: 'ライブデモ',
+      kindVideo: '動画',
+      kindArticle: '記事',
+      kindDocs: 'ドキュメント',
+      kindNotebook: 'Codelab / ノートブック',
+      kindCode: 'コード・ハードウェア',
+      kindWorkshop: 'ワークショップ・セッション',
+      linkLaunch: 'アプリを開く',
+      linkWatch: 'YouTube で見る',
+      linkRead: '記事を読む',
+      linkRepo: 'リポジトリを見る',
+      linkOpen: '開く',
+      linkSource: 'ソース',
+      groupArticles: '記事・ブログ',
+      groupDocs: 'ドキュメント',
+      groupNotebooks: 'Codelab・ノートブック',
+      groupVideos: '動画',
+      groupDemos: 'デモ・アプリ',
+      groupCode: 'コード・サンプル',
+      groupWorkshops: 'ワークショップ・セッション'
+    }
+  };
+
+  // ---------------------------------------------------------------------------
+  // Featured works. `m` = media, `c` = category, `k` = kind label key.
+  // ---------------------------------------------------------------------------
+  const FEATURED = [
+    {
+      year: 2026, c: 'demo', k: 'kindDemo', accent: 'emerald',
+      m: { t: 'yt', id: '3TJnSBS3bkE', fit: 'object-center', note: '2:02' },
+      url: 'https://live-translation-761793285222.us-central1.run.app/',
+      src: 'https://github.com/kazunori279/live-translator',
+      cta: 'linkLaunch',
+      title: { en: 'Live Translator (Gemini Live API)', ja: 'Live Translator（Gemini Live API）' },
+      desc: {
+        en: 'Real-time, low-latency voice translation. Direct speech-to-speech with simultaneous live captions across 97+ languages over WebSockets.',
+        ja: '低レイテンシのリアルタイム音声翻訳。WebSocket 経由の音声対音声の直接翻訳で、97 言語以上の同時字幕表示に対応。'
+      },
+      tags: ['#GeminiLive', '#WebSockets']
+    },
+    {
+      year: 2026, c: 'demo', k: 'kindDemo', accent: 'cyan',
+      m: { t: 'yt', id: 'SgMn-6q8Qg8', fit: 'object-top', note: '1:26' },
+      url: 'https://lens-mosaic-761793285222.us-central1.run.app/',
+      src: 'https://github.com/kazunori279/lens-mosaic',
+      cta: 'linkLaunch',
+      title: { en: 'LensMosaic: 1M items searched in milliseconds', ja: 'LensMosaic：100 万点をミリ秒で検索' },
+      desc: {
+        en: 'Search roughly 1 million items from a Mercari product dataset in milliseconds. Built with the ADK Gemini Live API Toolkit, Vertex AI Vector Search 2.0, and Gemini Embedding 2.',
+        ja: 'メルカリの商品データセット約 100 万点をミリ秒で検索。ADK Gemini Live API Toolkit、Vertex AI Vector Search 2.0、Gemini Embedding 2 で構築。'
+      },
+      tags: ['#VectorSearch2', '#Multimodal']
+    },
+    {
+      year: 2026, c: 'demo', k: 'kindDemo', accent: 'violet',
+      m: { t: 'tile', grad: 'from-violet-950 via-slate-900 to-indigo-950', border: 'border-violet-500/25', icon: 'languages',
+           head: { en: 'Chrome Extension', ja: 'Chrome 拡張機能' },
+           lines: [
+             { icon: 'ear', en: 'Browser audio + mic, 70+ languages', ja: 'ブラウザ音声とマイク、70 言語以上' },
+             { icon: 'captions', en: 'Spoken aloud and subtitled live', ja: '音声読み上げとライブ字幕' }
+           ] },
+      url: 'https://kazunori279.github.io/interpretab/',
+      src: 'https://kazunori279.github.io/interpretab/slides/',
+      srcLabel: { en: 'Slides', ja: 'スライド' },
+      cta: 'linkOpen',
+      title: { en: 'Interpretab — real-time browser & voice interpreter', ja: 'Interpretab — ブラウザ音声のリアルタイム通訳' },
+      desc: {
+        en: 'Open-source Chrome extension that interprets browser audio and your microphone into 70+ languages in real time, spoken aloud and subtitled, on the Gemini Live API.',
+        ja: 'Gemini Live API を用いて、ブラウザ音声とマイク入力を 70 言語以上にリアルタイム通訳するオープンソースの Chrome 拡張機能。読み上げと字幕表示に対応。'
+      },
+      tags: ['#GeminiLive', '#ChromeExtension']
+    },
+    {
+      year: 2026, c: 'demo', k: 'kindDemo', accent: 'amber',
+      m: { t: 'tile', grad: 'from-indigo-950 via-slate-900 to-purple-950', border: 'border-indigo-500/25', icon: 'map-pin',
+           head: { en: 'Las Vegas Strip Concierge', ja: 'ラスベガス・ストリップ コンシェルジュ' },
+           lines: [
+             { icon: 'compass', en: 'Google Maps & Search grounding', ja: 'Google マップ・検索によるグラウンディング' },
+             { icon: 'database', en: 'Vector Search 2.0 amenities index', ja: 'Vector Search 2.0 による設備情報の検索' }
+           ] },
+      url: 'https://grounding-demo-761793285222.us-east1.run.app/',
+      cta: 'linkLaunch',
+      title: { en: 'Hotel Concierge: Gemini grounding demo', ja: 'ホテルコンシェルジュ：Gemini グラウンディングのデモ' },
+      desc: {
+        en: 'Multimodal hotel concierge combining Gemini with live Google Search, Google Maps, and Vertex AI Vector Search 2.0 grounding for verifiable travel advice.',
+        ja: 'Gemini に Google 検索、Google マップ、Vertex AI Vector Search 2.0 のグラウンディングを組み合わせた、根拠を示せる旅行案内のマルチモーダル・コンシェルジュ。'
+      },
+      tags: ['#Grounding', '#VectorSearch2']
+    },
+    {
+      year: 2026, c: 'video', k: 'kindVideo', accent: 'rose',
+      m: { t: 'yt', id: '-L5khDHrQSE', fit: 'object-center' },
+      url: 'https://www.youtube.com/watch?v=-L5khDHrQSE',
+      cta: 'linkWatch',
+      title: { en: 'Give your app search superpowers: Agent Retrieval (Vector Search 2.0)', ja: 'アプリに検索の超能力を：Agent Retrieval（Vector Search 2.0）' },
+      desc: {
+        en: 'How Vertex AI Vector Search 2.0 changes agent retrieval, with auto-embeddings, self-tuning ANN indexes, and native hybrid search. Recorded with Martin Omander.',
+        ja: '自動エンベディング、自己チューニング ANN インデックス、ネイティブのハイブリッド検索により、Vertex AI Vector Search 2.0 がエージェントの検索をどう変えるかを解説。Martin Omander 氏との共同収録。'
+      },
+      tags: ['#VectorSearch2', '#AgenticRAG']
+    },
+    {
+      year: 2026, c: 'article', k: 'kindArticle', accent: 'emerald',
+      m: { t: 'yt', id: 'POdETXqBO5E', fit: 'object-top', note: '4:49' },
+      url: 'https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774',
+      cta: 'linkRead',
+      title: { en: 'Building a Real-Time Audio Translator with Gemini Live API', ja: 'Gemini Live API でリアルタイム音声翻訳を作る' },
+      desc: {
+        en: 'Architecture deep-dive on Live Translator across 97 languages: direct speech-to-speech streaming over WebSockets, continuous session pre-opening, and automated soak testing.',
+        ja: '97 言語対応の Live Translator のアーキテクチャ解説。WebSocket 上の音声対音声ストリーミング、セッションの継続的な事前確立、自動ソークテストを扱う。'
+      },
+      tags: ['#GeminiLive', '#Medium']
+    },
+    {
+      year: 2026, c: 'article', k: 'kindArticle', accent: 'brand',
+      m: { t: 'img', src: 'https://miro.medium.com/v2/resize:fit:1200/0*NWhR4itws_ObN-0_.jpeg', fit: 'object-cover' },
+      url: 'https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac',
+      cta: 'linkRead',
+      title: { en: '10-Minute Agentic RAG with the New Vector Search 2.0 and ADK', ja: 'Vector Search 2.0 と ADK で 10 分で作る Agentic RAG' },
+      desc: {
+        en: 'From retrieve-then-generate pipelines to dynamic Agentic RAG: a step-by-step tutorial on auto-embeddings, Reciprocal Rank Fusion hybrid retrieval, and ADK tool calls.',
+        ja: '検索してから生成する従来型のパイプラインから、動的な Agentic RAG へ。自動エンベディング、RRF によるハイブリッド検索、ADK のツール呼び出しを順を追って解説。'
+      },
+      tags: ['#ADK', '#VectorSearch2']
+    },
+    {
+      year: 2026, c: 'code', k: 'kindCode', accent: 'indigo',
+      m: { t: 'yt', id: 'sWc6g7cgsd4', fit: 'object-top', note: '1:51' },
+      url: 'https://github.com/kazunori279/xls32-fpga-synth',
+      cta: 'linkRepo',
+      title: { en: 'XLS32 — 32-voice polyphonic HLS/FPGA synthesizer', ja: 'XLS32 — 32 音ポリフォニック HLS/FPGA シンセサイザー' },
+      desc: {
+        en: 'Written in Google XLS (DSLX) for a Digilent Basys 3 board, built end-to-end by AI coding agents through a self-verifying loop and verified headlessly over USB.',
+        ja: 'Digilent Basys 3 向けに Google XLS（DSLX）で記述。AI コーディングエージェントが自己検証ループでエンドツーエンドに構築し、USB 経由のヘッドレス検証を実施。'
+      },
+      tags: ['#GoogleXLS', '#Basys3']
+    },
+    {
+      year: 2026, c: 'code', k: 'kindWorkshop', accent: 'purple',
+      m: { t: 'svg' },
+      url: 'https://github.com/kazunori279/gcp-eoa',
+      src: 'https://kazunori279.github.io/gcp-eoa/BwG-track2/m0.html',
+      srcLabel: { en: 'Lab', ja: 'ラボ' },
+      cta: 'linkRepo',
+      title: { en: 'Era of Agents workshop: Rush Hour', ja: 'Era of Agents ワークショップ：Rush Hour' },
+      desc: {
+        en: 'Build with Gemini World Tour Track 2: build a transit-crisis ADK agent on the Gemini Enterprise Agent Platform with Antigravity, covering build, scale, govern, optimize and engage.',
+        ja: 'Build with Gemini World Tour Track 2。Antigravity を使って Gemini Enterprise Agent Platform 上に交通障害対応の ADK エージェントを構築し、構築・スケール・ガバナンス・最適化・公開までを扱う。'
+      },
+      tags: ['#GeminiEnterprise', '#ADK']
+    },
+    {
+      year: 2026, c: 'demo', k: 'kindDemo', accent: 'teal',
+      m: { t: 'tile', grad: 'from-teal-950 via-slate-900 to-emerald-950', border: 'border-teal-500/25', icon: 'trees',
+           head: { en: 'Next Tokyo ’26 booth demo', ja: 'Next Tokyo ’26 ブースデモ' },
+           lines: [
+             { icon: 'mic', en: 'Japanese voice search agent', ja: '日本語の音声検索エージェント' },
+             { icon: 'file-search', en: 'Google Cloud customer case studies', ja: 'Google Cloud の顧客事例を検索' }
+           ] },
+      url: 'https://casestudiesforest-live-136865672131.us-central1.run.app/chat',
+      cta: 'linkLaunch',
+      title: { en: 'Case Studies Forest (事例の森)', ja: '事例の森（Case Studies Forest）' },
+      desc: {
+        en: 'Next Tokyo ’26 booth demo: a Japanese voice-search agent that finds Google Cloud customer case studies by speaking to it.',
+        ja: 'Next Tokyo ’26 のブースデモ。話しかけるだけで Google Cloud の顧客事例を探せる日本語音声検索エージェント。'
+      },
+      tags: ['#NextTokyo26', '#VoiceAgent']
+    },
+    {
+      year: 2026, c: 'demo', k: 'kindDemo', accent: 'sky',
+      m: { t: 'tile', grad: 'from-sky-950 via-slate-900 to-slate-950', border: 'border-sky-500/25', icon: 'layout-dashboard',
+           head: { en: 'Multi-agent control room', ja: 'マルチエージェント管制室' },
+           lines: [
+             { icon: 'boxes', en: 'ADK, LangGraph and CrewAI side by side', ja: 'ADK・LangGraph・CrewAI を横断して実行' },
+             { icon: 'volume-2', en: 'Narrated live by Gemini 3.1 Flash Live', ja: 'Gemini 3.1 Flash Live がライブ解説' }
+           ] },
+      url: 'https://scale-control-room-nhhfh7g7iq-uc.a.run.app/ui/',
+      cta: 'linkLaunch',
+      title: { en: 'Scale Agents Control Room', ja: 'Scale Agents コントロールルーム' },
+      desc: {
+        en: 'Next Tokyo ’26 booth demo of the Gemini Enterprise Agent Platform orchestrating agents across ADK, LangGraph and CrewAI, narrated live by Gemini 3.1 Flash Live.',
+        ja: 'Next Tokyo ’26 のブースデモ。Gemini Enterprise Agent Platform が ADK・LangGraph・CrewAI のエージェントを統合制御し、Gemini 3.1 Flash Live がライブで解説する。'
+      },
+      tags: ['#GeminiEnterprise', '#MultiAgent']
+    },
+    {
+      year: 2026, c: 'article', k: 'kindNotebook', accent: 'cyan',
+      m: { t: 'img', src: 'https://miro.medium.com/v2/resize:fit:1400/1*Zdc0ZhZD-BShEKL-rUIO1A.png', fit: 'object-contain' },
+      url: 'https://github.com/google/adk-samples/blob/main/python/notebooks/grounding/vectorsearch2_travel_agent.ipynb',
+      cta: 'linkOpen',
+      title: { en: 'End-to-End Travel Agent: Vector Search 2.0 + ADK', ja: 'エンドツーエンドの旅行エージェント：Vector Search 2.0 + ADK' },
+      desc: {
+        en: 'Co-authored with Eran Lewis. A runnable walkthrough building a concierge that combines Gemini, the ADK agent loop, and Vector Search 2.0 hybrid filters over Airbnb listings.',
+        ja: 'Eran Lewis 氏との共著。Gemini、ADK のエージェントループ、Vector Search 2.0 のハイブリッドフィルタを組み合わせたコンシェルジュを、実行可能な形で構築するチュートリアル。'
+      },
+      tags: ['#ADK-Samples', '#AgenticRAG']
+    },
+
+    // ---- 2025 ----
+    {
+      year: 2025, c: 'video', k: 'kindVideo', accent: 'rose',
+      m: { t: 'yt', id: 'Hwx94smxT_0', fit: 'object-center' },
+      url: 'https://www.youtube.com/watch?v=Hwx94smxT_0',
+      cta: 'linkWatch',
+      title: { en: "Shopper's Concierge 2 demo", ja: "Shopper's Concierge 2 デモ" },
+      desc: {
+        en: 'Agentic RAG shopping assistant built with ADK, Vector Search and Generative Recommendation, with a multi-agent architecture and bidi-streaming voice.',
+        ja: 'ADK、Vector Search、Generative Recommendation で構築した Agentic RAG のショッピングアシスタント。マルチエージェント構成と双方向ストリーミング音声に対応。'
+      },
+      tags: ['#ADK', '#AgenticRAG']
+    },
+    {
+      year: 2025, c: 'article', k: 'kindArticle', accent: 'brand',
+      m: { t: 'tile', grad: 'from-blue-950 via-slate-900 to-indigo-950', border: 'border-blue-500/25', icon: 'rocket',
+           head: { en: 'Vector Search 2.0 launch', ja: 'Vector Search 2.0 ローンチ' },
+           lines: [
+             { icon: 'wand-2', en: 'Auto-embeddings, unified storage', ja: '自動エンベディングとストレージ統合' },
+             { icon: 'trending-up', en: 'Zero setup to billion scale', ja: 'セットアップ不要から数十億件規模まで' }
+           ] },
+      url: 'https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43',
+      cta: 'linkRead',
+      title: { en: 'Introducing Vertex AI Vector Search 2.0: From Zero to Billion Scale', ja: 'Vertex AI Vector Search 2.0 の紹介：ゼロから数十億件規模まで' },
+      desc: {
+        en: 'The launch post for a fully managed, self-tuning vector database that removes embedding, feature-store, index-tuning and hybrid-search complexity.',
+        ja: 'エンベディング生成、Feature Store、インデックス調整、ハイブリッド検索の複雑さを取り除く、フルマネージドで自己チューニングするベクトルデータベースのローンチ記事。'
+      },
+      tags: ['#VectorSearch2', '#Launch']
+    },
+    {
+      year: 2025, c: 'article', k: 'kindArticle', accent: 'indigo',
+      m: { t: 'tile', grad: 'from-indigo-950 via-slate-900 to-slate-950', border: 'border-indigo-500/25', icon: 'book-open',
+           head: { en: 'Visual guide', ja: 'ビジュアルガイド' },
+           lines: [
+             { icon: 'radio', en: 'Bidi-streaming architecture explained', ja: '双方向ストリーミングの構造を図解' },
+             { icon: 'layers', en: 'Five-part developer guide', ja: '全 5 部の開発者ガイド' }
+           ] },
+      url: 'https://medium.com/google-cloud/adk-bidi-streaming-a-visual-guide-to-real-time-multimodal-ai-agent-development-62dd08c81399',
+      src: 'https://google.github.io/adk-docs/streaming/dev-guide/part1/',
+      srcLabel: { en: 'Dev guide', ja: '開発ガイド' },
+      cta: 'linkRead',
+      title: { en: 'ADK Bidi-Streaming: A Visual Guide', ja: 'ADK Bidi-Streaming：ビジュアルガイド' },
+      desc: {
+        en: 'A visual explanation of ADK bidi-streaming for real-time multimodal agent development, paired with the five-part developer guide in the ADK docs.',
+        ja: 'リアルタイムなマルチモーダル・エージェント開発のための ADK Bidi-Streaming を図解。ADK ドキュメントの全 5 部の開発者ガイドと対になる記事。'
+      },
+      tags: ['#ADK', '#Streaming']
+    },
+    {
+      year: 2025, c: 'video', k: 'kindVideo', accent: 'rose',
+      m: { t: 'yt', id: 'vLUkAGeLR1k', fit: 'object-center' },
+      url: 'https://www.youtube.com/watch?v=vLUkAGeLR1k',
+      cta: 'linkWatch',
+      title: { en: 'ADK Bidi-streaming in 5 minutes', ja: '5 分でわかる ADK Bidi-streaming' },
+      desc: {
+        en: 'A short introduction to ADK bidi-streaming: what the infrastructure handles for you, from WebSockets and audio streaming to interruption handling and session state.',
+        ja: 'ADK Bidi-streaming の短い入門。WebSocket や音声ストリーミングから割り込み処理、セッション状態まで、基盤が何を引き受けてくれるかを解説。'
+      },
+      tags: ['#ADK', '#Streaming']
+    },
+    {
+      year: 2025, c: 'video', k: 'kindVideo', accent: 'cyan',
+      m: { t: 'yt', id: 'hLSTGgc7gDc', fit: 'object-center' },
+      url: 'https://www.youtube.com/watch?v=hLSTGgc7gDc',
+      cta: 'linkWatch',
+      title: { en: 'Building agentic RAG for e-commerce with ADK and Vector Search', ja: 'ADK と Vector Search で作る EC 向け Agentic RAG' },
+      desc: {
+        en: 'Walkthrough of an e-commerce recommendation agent combining the ADK agent loop with Vertex AI Vector Search retrieval.',
+        ja: 'ADK のエージェントループと Vertex AI Vector Search の検索を組み合わせた、EC 向けレコメンデーション・エージェントの解説。'
+      },
+      tags: ['#ADK', '#VectorSearch']
+    },
+    {
+      year: 2025, c: 'demo', k: 'kindDemo', accent: 'amber',
+      m: { t: 'yt', id: 'LwHPYyw7u6U', fit: 'object-center' },
+      url: 'https://www.youtube.com/watch?v=LwHPYyw7u6U',
+      cta: 'linkWatch',
+      title: { en: "Next '25: Shopper's Concierge demo", ja: "Next '25：Shopper's Concierge デモ" },
+      desc: {
+        en: 'The Google Cloud Next 2025 demo of Shopper’s Concierge, a multi-agent shopping assistant with human-in-the-loop design.',
+        ja: 'Google Cloud Next 2025 で披露した Shopper’s Concierge のデモ。人間が介在する設計のマルチエージェント・ショッピングアシスタント。'
+      },
+      tags: ['#Next25', '#MultiAgent']
+    }
+  ];
+
+  // ---------------------------------------------------------------------------
+  // Full archive. group keys map to I18N group* labels.
+  // ---------------------------------------------------------------------------
+  const ARCHIVE = [
+    {
+      year: 2026,
+      groups: [
+        { key: 'groupDemos', icon: 'monitor-play', items: [
+          { n: 'Interpretab — real-time browser & voice interpreter (Chrome extension)', nj: 'Interpretab — ブラウザ音声のリアルタイム通訳（Chrome 拡張機能）', u: 'https://kazunori279.github.io/interpretab/' },
+          { n: 'Interpretab demo and internals (slide deck)', nj: 'Interpretab のデモと内部構造（スライド）', u: 'https://kazunori279.github.io/interpretab/slides/' },
+          { n: '事例の森 (Case Studies Forest) — Next Tokyo ’26 booth voice-search agent', nj: '事例の森 — Next Tokyo ’26 ブースの音声検索エージェント', u: 'https://casestudiesforest-live-136865672131.us-central1.run.app/chat' },
+          { n: 'Scale Agents Control Room — Next Tokyo ’26 booth demo', nj: 'Scale Agents コントロールルーム — Next Tokyo ’26 ブースデモ', u: 'https://scale-control-room-nhhfh7g7iq-uc.a.run.app/ui/' },
+          { n: 'Live Translator demo (Gemini Live API)', nj: 'Live Translator デモ（Gemini Live API）', u: 'https://live-translation-761793285222.us-central1.run.app/' },
+          { n: 'LensMosaic — live multimodal shopping demo', nj: 'LensMosaic — マルチモーダル・ショッピングのライブデモ', u: 'https://github.com/kazunori279/lens-mosaic' },
+          { n: 'Hotel Concierge Agent (Next ’26 session demo)', nj: 'ホテルコンシェルジュ・エージェント（Next ’26 セッションデモ）', u: 'https://grounding-demo-761793285222.us-central1.run.app/' },
+          { n: 'Agent Retrieval (Vector Search 2.0) — interactive Try It demo', nj: 'Agent Retrieval（Vector Search 2.0）— インタラクティブな Try It デモ', u: 'https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/vector-search-2/try-it' }
+        ]},
+        { key: 'groupArticles', icon: 'file-text', items: [
+          { n: '10-Minute Agentic RAG with the New Vector Search 2.0 and ADK', nj: 'Vector Search 2.0 と ADK で 10 分で作る Agentic RAG', u: 'https://medium.com/google-cloud/10-minute-agentic-rag-with-the-new-vector-search-2-0-and-adk-655fff0bacac' },
+          { n: 'Building a Real-Time Audio Translator with Gemini Live API', nj: 'Gemini Live API でリアルタイム音声翻訳を作る', u: 'https://medium.com/google-cloud/building-a-real-time-audio-translator-with-gemini-live-api-03fb881b1774' },
+          { n: 'Advent of Agents Day 19 — Live Shopping Agent with ADK and Gemini Embedding 2', nj: 'Advent of Agents Day 19 — ADK と Gemini Embedding 2 で作るライブ・ショッピングエージェント', u: 'https://adventofagents.com/2026/03/19' },
+          { n: 'Advent of Agents Day 15 — Grounding with ADK: Agentic RAG with Vector Search 2.0', nj: 'Advent of Agents Day 15 — ADK でグラウンディング：Vector Search 2.0 による Agentic RAG', u: 'https://adventofagents.com/2026/03/15' }
+        ]},
+        { key: 'groupDocs', icon: 'book-marked', items: [
+          { n: 'ADK Gemini Live API Toolkit (ADK docs)', nj: 'ADK Gemini Live API Toolkit（ADK ドキュメント）', u: 'https://google.github.io/adk-docs/streaming/' },
+          { n: 'Grounding agents with data (ADK docs)', nj: 'データによるエージェントのグラウンディング（ADK ドキュメント）', u: 'https://google.github.io/adk-docs/grounding/' }
+        ]},
+        { key: 'groupNotebooks', icon: 'notebook-pen', items: [
+          { n: 'End-to-End Travel Agent: Vector Search 2.0 + ADK (adk-samples)', nj: 'エンドツーエンドの旅行エージェント：Vector Search 2.0 + ADK（adk-samples）', u: 'https://github.com/google/adk-samples/blob/main/python/notebooks/grounding/vectorsearch2_travel_agent.ipynb' },
+          { n: 'Vertex AI Vector Search 2.0 Introduction (codelab)', nj: 'Vertex AI Vector Search 2.0 入門（Codelab）', u: 'https://codelabs.developers.google.com/vector-search-2-intro' },
+          { n: 'Introduction to ADK Gemini Live API Toolkit (codelab)', nj: 'ADK Gemini Live API Toolkit 入門（Codelab）', u: 'https://codelabs.developers.google.com/intro-to-adk-live' }
+        ]},
+        { key: 'groupVideos', icon: 'youtube', items: [
+          { n: 'Give your app search superpowers: Agent Retrieval (Vector Search 2.0)', nj: 'アプリに検索の超能力を：Agent Retrieval（Vector Search 2.0）', u: 'https://www.youtube.com/watch?v=-L5khDHrQSE' },
+          { n: 'AI DevTalks Live Ep 9 — Vertex AI Vector Search 2.0', nj: 'AI DevTalks Live Ep 9 — Vertex AI Vector Search 2.0', u: 'https://youtu.be/YO3bTHob_oA' },
+          { n: 'AI DevTalks Live Ep 11 — Building Real-Time Voice AI Agents with ADK Bidi-Streaming', nj: 'AI DevTalks Live Ep 11 — ADK Bidi-Streaming でリアルタイム音声エージェントを作る', u: 'https://youtu.be/oYuPW3wa3io' },
+          { n: 'AI DevTalks Live Ep 12 — ADK + Vector Search 2.0', nj: 'AI DevTalks Live Ep 12 — ADK + Vector Search 2.0', u: 'https://www.aicamp.ai/event/eventdetails/W2026030417' },
+          { n: 'Cloud Technical Series: From Prototype to Production — Scalable Semantic Search', nj: 'Cloud Technical Series：プロトタイプから本番へ — スケールするセマンティック検索', u: 'https://www.youtube.com/watch?v=IaDjxcr5Nwo' }
+        ]},
+        { key: 'groupCode', icon: 'code-2', items: [
+          { n: 'XLS32 — 32-voice polyphonic HLS/FPGA synthesizer', nj: 'XLS32 — 32 音ポリフォニック HLS/FPGA シンセサイザー', u: 'https://github.com/kazunori279/xls32-fpga-synth' },
+          { n: 'Agent Showcase — enterprise-scale multi-agent systems', nj: 'Agent Showcase — エンタープライズ規模のマルチエージェント構成', u: 'https://github.com/kazunori279/agent-showcase' },
+          { n: 'ADK Live Translator', nj: 'ADK Live Translator', u: 'https://github.com/kazunori279/adk-live-translator' },
+          { n: 'Era of Agents resources (gcp-eoa)', nj: 'Era of Agents 教材（gcp-eoa）', u: 'https://github.com/kazunori279/gcp-eoa' },
+          { n: 'remote-test — driving the Antigravity CLI headlessly on a Cloud Workstation', nj: 'remote-test — Cloud Workstation 上で Antigravity CLI をヘッドレス実行', u: 'https://github.com/kazunori279/gcp-eoa/tree/main/BwG-track2/remote-test' },
+          { n: 'Vector Search backend API & MCP server for the Next demo', nj: 'Next デモ向け Vector Search バックエンド API と MCP サーバー', u: 'https://github.com/Sita04/agent-showcase/blob/main/vector-search-backend/vector-search-backend.md' },
+          { n: 'generative-ai PR #2868 — Agent Platform migration on embeddings notebooks', nj: 'generative-ai PR #2868 — エンベディング用ノートブックの Agent Platform 移行', u: 'https://github.com/GoogleCloudPlatform/generative-ai/pull/2868' }
+        ]},
+        { key: 'groupWorkshops', icon: 'presentation', items: [
+          { n: 'Build with Gemini — Track 2: Platform Builders (Rush Hour workshop)', nj: 'Build with Gemini — Track 2：Platform Builders（Rush Hour ワークショップ）', u: 'https://kazunori279.github.io/gcp-eoa/BwG-track2/m0.html' },
+          { n: 'Build with Gemini Tokyo — Track 2 lab instructions (日本語)', nj: 'Build with Gemini 東京 — Track 2 ラボ手順（日本語）', u: 'https://storage.googleapis.com/bwg-track2-demo-guide/lab_instructions_ja.html' },
+          { n: 'ADK Gemini Live API Toolkit workshop (日本語)', nj: 'ADK Gemini Live API Toolkit ワークショップ（日本語）', u: 'https://github.com/kazunori279/adk-streaming-guide/blob/main/workshops/workshop_ja.md' },
+          { n: 'ADK Bidi-streaming workshop — Agentic AI Bootcamp 2026 Winter', nj: 'ADK Bidi-streaming ワークショップ — Agentic AI Bootcamp 2026 Winter', u: 'https://github.com/kazunori279/adk-streaming-guide/blob/main/workshops/workshop.md' },
+          { n: 'GDG Tokyo — ADK Gemini Live API Toolkit workshop', nj: 'GDG Tokyo — ADK Gemini Live API Toolkit ワークショップ', u: 'https://adk.connpass.com/event/387527/' },
+          { n: 'Google AI Dojo hands-on workshop', nj: 'Google AI Dojo ハンズオンワークショップ', u: 'https://googleaidojo.connpass.com/event/387049/' },
+          { n: 'Cloud Technical Series OnBoard — From Prototype to Production', nj: 'Cloud Technical Series OnBoard — プロトタイプから本番へ', u: 'https://cloudonair.withgoogle.com/events/apac-cts-onboard?talk=t4-d1-eng' }
+        ]}
+      ]
+    },
+    {
+      year: 2025,
+      groups: [
+        { key: 'groupArticles', icon: 'file-text', items: [
+          { n: 'Introducing Vertex AI Vector Search 2.0: From Zero to Billion Scale', nj: 'Vertex AI Vector Search 2.0 の紹介：ゼロから数十億件規模まで', u: 'https://medium.com/google-cloud/introducing-vertex-ai-vector-search-2-0-from-zero-to-billion-scale-90ed666dac43' },
+          { n: 'ADK Bidi-Streaming: A Visual Guide to Real-Time Multimodal AI Agent Development', nj: 'ADK Bidi-Streaming：リアルタイム・マルチモーダル AI エージェント開発のビジュアルガイド', u: 'https://medium.com/google-cloud/adk-bidi-streaming-a-visual-guide-to-real-time-multimodal-ai-agent-development-62dd08c81399' },
+          { n: 'ADK Bidi-streaming Visual Guide (日本語)', nj: 'ADK Bidi-streaming ビジュアルガイド（日本語）', u: 'https://medium.com/google-cloud-jp/adk-bidi-streaming-visual-guide-ja' },
+          { n: 'Supercharge Your Tech Writing with Claude Code Subagents and Agent Skills', nj: 'Claude Code のサブエージェントと Agent Skills で技術文書執筆を加速する', u: 'https://medium.com/google-cloud/supercharge-tech-writing-with-claude-code-subagents-and-agent-skills-44eb43e5a9b7' },
+          { n: 'Supercharge ADK Development with Claude Code Skills', nj: 'Claude Code Skills で ADK 開発を加速する', u: 'https://medium.com/google-cloud/supercharge-adk-development-with-claude-code-skills-d192481cbe72' },
+          { n: 'Now available: Direct Importing from BigQuery to Vector Search', nj: 'BigQuery から Vector Search への直接インポートが利用可能に', u: 'https://medium.com/google-cloud/now-available-direct-importing-from-bigquery-to-vector-search-f4ba01b48dfd' },
+          { n: 'Generative Recommendation: Using ADK to build an Agentic RAG with Vector Search', nj: 'Generative Recommendation：ADK と Vector Search で Agentic RAG を作る', u: 'https://medium.com/google-cloud/generative-recommendation-using-adk-to-build-an-agentic-rag-with-vector-search-5a4852c5d5d2' },
+          { n: 'Accelerate ADK development with Claude Code + GitHub MCP Server', nj: 'Claude Code と GitHub MCP サーバーで ADK 開発を加速する', u: 'https://medium.com/google-cloud/accelerate-adk-development-with-claude-code-github-mcp-server-7a5052d481bc' },
+          { n: 'ADK meets MCP: Bridging Worlds of AI Agents', nj: 'ADK と MCP の出会い：AI エージェントの世界をつなぐ', u: 'https://medium.com/google-cloud/adk-meets-mcp-bridging-worlds-of-ai-agents-1ed96ef5399c' },
+          { n: 'Build Your Voice Streaming AI Agents with ADK and Google Search grounding', nj: 'ADK と Google 検索グラウンディングで音声ストリーミング AI エージェントを作る', u: 'https://medium.com/google-cloud/build-your-voice-streaming-ai-agents-with-adk-and-google-search-grounding-0cfcdec63d1e' },
+          { n: "Augmentation Over Automation: Human-in-the-loop AI agent design in Shopper's Concierge", nj: '自動化より拡張：Shopper’s Concierge における人間参加型 AI エージェント設計', u: 'https://medium.com/google-cloud/augmentation-over-automation-human-in-the-loop-ai-agent-design-in-shoppers-concierge-311100255281' },
+          { n: 'Why Basic Similarity Search Still Powers Many RAGs and AI Agents', nj: '基本的な類似検索がいまも多くの RAG と AI エージェントを支える理由', u: 'https://medium.com/google-cloud/why-basic-similarity-search-still-powers-many-rags-and-ai-agents-and-why-its-changing-e977e0bb1401' },
+          { n: 'Improving Real-Time UX with a Multi-Agent Architecture', nj: 'マルチエージェント構成でリアルタイム UX を改善する', u: 'https://medium.com/google-cloud/improving-real-time-ux-with-a-multi-agent-architecture-lessons-from-shoppers-concierge-demo-51c466a11662' },
+          { n: 'Advent of Agents Day 17 — Gemini 3 Flash + ADK', nj: 'Advent of Agents Day 17 — Gemini 3 Flash + ADK', u: 'https://adventofagents.com/day/17' },
+          { n: 'Advent of Agents Day 12 — Multimodal Agents with Gemini Live API', nj: 'Advent of Agents Day 12 — Gemini Live API によるマルチモーダル・エージェント', u: 'https://adventofagents.com/day/12' }
+        ]},
+        { key: 'groupDocs', icon: 'book-marked', items: [
+          { n: 'ADK Bidi-streaming development guide: Part 1 – 5', nj: 'ADK Bidi-streaming 開発ガイド：第 1 部〜第 5 部', u: 'https://google.github.io/adk-docs/streaming/dev-guide/part1/' },
+          { n: 'ADK Quickstart (Streaming)', nj: 'ADK クイックスタート（ストリーミング）', u: 'https://google.github.io/adk-docs/get-started/streaming/quickstart-streaming/' },
+          { n: 'ADK Custom Audio Streaming app (SSE)', nj: 'ADK カスタム音声ストリーミングアプリ（SSE）', u: 'https://google.github.io/adk-docs/streaming/custom-streaming/' },
+          { n: 'ADK Custom Audio Streaming app (WebSockets)', nj: 'ADK カスタム音声ストリーミングアプリ（WebSocket）', u: 'https://google.github.io/adk-docs/streaming/custom-streaming-ws/' },
+          { n: 'ADK Bidi-streaming introduction on the Gemini Live API docs', nj: 'Gemini Live API ドキュメントの ADK Bidi-streaming 紹介', u: 'https://docs.cloud.google.com/vertex-ai/generative-ai/docs/live-api/demos' },
+          { n: 'Vertex AI Vector Search overview', nj: 'Vertex AI Vector Search の概要', u: 'https://cloud.google.com/vertex-ai/docs/vector-search/overview?hl=en' },
+          { n: 'Vertex AI Vector Search interactive demo (Try It)', nj: 'Vertex AI Vector Search インタラクティブデモ（Try It）', u: 'https://cloud.google.com/vertex-ai/docs/vector-search/try-it?hl=en' }
+        ]},
+        { key: 'groupNotebooks', icon: 'notebook-pen', items: [
+          { n: 'Introduction to Vertex AI Vector Search 2.0 (notebook)', nj: 'Vertex AI Vector Search 2.0 入門（ノートブック）', u: 'https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/vector-search-2-intro.ipynb' },
+          { n: 'Handling large-scale embedding generation for Vertex AI Vector Search', nj: 'Vertex AI Vector Search 向け大規模エンベディング生成の扱い方', u: 'https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/large-embs-generation-for-vvs.ipynb' },
+          { n: 'Build an e-commerce recommendation AI agent with ADK + Vector Search (notebook)', nj: 'ADK + Vector Search で EC レコメンデーション AI エージェントを作る（ノートブック）', u: 'https://github.com/google/adk-docs/blob/main/examples/python/notebooks/shop_agent.ipynb' },
+          { n: 'Vector Search and Embeddings (Cloud Skills Boost course)', nj: 'Vector Search と Embeddings（Cloud Skills Boost コース）', u: 'https://www.cloudskillsboost.google/course_templates/939' }
+        ]},
+        { key: 'groupVideos', icon: 'youtube', items: [
+          { n: "Shopper's Concierge 2 demo", nj: "Shopper's Concierge 2 デモ", u: 'https://www.youtube.com/watch?v=Hwx94smxT_0' },
+          { n: 'ADK Bidi-streaming in 5 minutes', nj: '5 分でわかる ADK Bidi-streaming', u: 'https://www.youtube.com/watch?v=vLUkAGeLR1k' },
+          { n: 'Building agentic RAG for e-commerce with ADK and Vector Search', nj: 'ADK と Vector Search で作る EC 向け Agentic RAG', u: 'https://www.youtube.com/watch?v=hLSTGgc7gDc' },
+          { n: "Next '25 Shopper's Concierge demo", nj: "Next '25 Shopper's Concierge デモ", u: 'https://www.youtube.com/watch?v=LwHPYyw7u6U' },
+          { n: 'Build AI agents for e-commerce with ADK + Vector Search', nj: 'ADK + Vector Search で EC 向け AI エージェントを作る', u: 'https://www.youtube.com/watch?v=UIntXBP--gI' },
+          { n: 'Build an e-commerce recommendation AI agent with ADK + Vector Search', nj: 'ADK + Vector Search で EC レコメンデーション AI エージェントを作る', u: 'https://www.youtube.com/watch?v=07GX28rk7Yc' },
+          { n: 'ADK with Gemini 3 Flash', nj: 'ADK と Gemini 3 Flash', u: 'https://www.youtube.com/watch?v=1txijlIHS_I' },
+          { n: "Next '25 Vector Search session recap", nj: "Next '25 Vector Search セッションのふりかえり", u: 'https://www.youtube.com/watch?v=uf17IwYg4nE' },
+          { n: 'ADK Community Call demo (Dec 2025)', nj: 'ADK コミュニティコールでのデモ（2025 年 12 月）', u: 'https://www.youtube.com/live/usxqkeENUwc' }
+        ]},
+        { key: 'groupCode', icon: 'code-2', items: [
+          { n: 'ADK Bidi-streaming demo (adk-samples)', nj: 'ADK Bidi-streaming デモ（adk-samples）', u: 'https://github.com/google/adk-samples/tree/main/python/agents/bidi-demo' },
+          { n: 'ADK Bidi-streaming regression test tool', nj: 'ADK Bidi-streaming 回帰テストツール', u: 'https://github.com/kazunori279/adk-streaming-test' }
+        ]},
+        { key: 'groupWorkshops', icon: 'presentation', items: [
+          { n: 'Cloud hands-on seminar: Gemini Intro + ADK + Vector Search (Apr 2025)', nj: 'Cloud ハンズオンセミナー：Gemini 入門 + ADK + Vector Search（2025 年 4 月）', u: 'https://explore.qwiklabs.com/ilt/classrooms/17196/focuses/99564', meta: '450+ registrations' },
+          { n: 'AI Agent Bootcamp: ADK + Vector Search workshop (Sep 2025)', nj: 'AI Agent Bootcamp：ADK + Vector Search ワークショップ（2025 年 9 月）', u: 'https://cloudonair.withgoogle.com/handson-2025-h2', meta: '135 attendees' },
+          { n: 'AI & Research Data Ecosystem Hokkaido Consortium: ADK + Vector Search', nj: 'AI・研究データエコシステム北海道コンソーシアム：ADK + Vector Search', u: 'https://www.lib.hokudai.ac.jp/consortium/', meta: '179 attendees' },
+          { n: 'DevFest 2025: ADK Bidi-streaming session', nj: 'DevFest 2025：ADK Bidi-streaming セッション', meta: '~100 attendees' },
+          { n: "Next Tokyo '25: Shopper's Concierge booth demo", nj: "Next Tokyo '25：Shopper's Concierge ブースデモ" }
+        ]}
+      ]
+    }
+  ];
+
+  // ---------------------------------------------------------------------------
+  // Events
+  // ---------------------------------------------------------------------------
+  const EVENTS = [
+    { year: 2026, items: [
+      { flag: '🎰', en: "Google Cloud Next '26", ja: "Google Cloud Next '26", locEn: 'Las Vegas, USA', locJa: 'ラスベガス（米国）' },
+      { flag: '🇯🇵', en: "Google Cloud Next '26 Tokyo", ja: "Google Cloud Next '26 東京", locEn: 'Tokyo, Japan', locJa: '東京' },
+      { flag: '🇯🇵', en: 'Build with Gemini World Tour Tokyo', ja: 'Build with Gemini World Tour 東京', locEn: 'Tokyo, Japan', locJa: '東京' },
+      { flag: '🇸🇬', en: 'Google Cloud Technical Series', ja: 'Google Cloud Technical Series', locEn: 'Singapore', locJa: 'シンガポール' },
+      { flag: '🇯🇵', en: 'GDG Tokyo — ADK Gemini Live API Toolkit workshop', ja: 'GDG Tokyo — ADK Gemini Live API Toolkit ワークショップ', locEn: 'Tokyo, Japan', locJa: '東京' },
+      { flag: '🇯🇵', en: 'Google AI Dojo hands-on workshop', ja: 'Google AI Dojo ハンズオンワークショップ', locEn: 'Tokyo, Japan', locJa: '東京' },
+      { flag: '💻', en: 'AI DevTalks Live (Ep 9, 11, 12)', ja: 'AI DevTalks Live（Ep 9・11・12）', locEn: 'Online', locJa: 'オンライン' },
+      { flag: '💻', en: 'Agentic AI Bootcamp 2026 Winter', ja: 'Agentic AI Bootcamp 2026 Winter', locEn: 'Online', locJa: 'オンライン' }
+    ]},
+    { year: 2025, items: [
+      { flag: '🎰', en: "Google Cloud Next '25", ja: "Google Cloud Next '25", locEn: 'Las Vegas, USA', locJa: 'ラスベガス（米国）' },
+      { flag: '🇯🇵', en: "Google Cloud Next '25 Tokyo", ja: "Google Cloud Next '25 東京", locEn: 'Tokyo, Japan', locJa: '東京' },
+      { flag: '🇯🇵', en: 'DevFest Tokyo and Okayama', ja: 'DevFest 東京・岡山', locEn: 'Tokyo / Okayama, Japan', locJa: '東京・岡山' },
+      { flag: '🇯🇵', en: 'AI & Research Data Ecosystem Hokkaido Consortium', ja: 'AI・研究データエコシステム北海道コンソーシアム', locEn: 'Hokkaido, Japan', locJa: '北海道' },
+      { flag: '💻', en: 'AI Agent Bootcamp (ADK + Vector Search)', ja: 'AI Agent Bootcamp（ADK + Vector Search）', locEn: 'Online', locJa: 'オンライン' },
+      { flag: '💻', en: 'Cloud hands-on seminar (Gemini + ADK + Vector Search)', ja: 'Cloud ハンズオンセミナー（Gemini + ADK + Vector Search）', locEn: 'Online', locJa: 'オンライン' },
+      { flag: '💻', en: 'ADK Community Call', ja: 'ADK コミュニティコール', locEn: 'Online', locJa: 'オンライン' }
+    ]}
+  ];
+
+  // ---------------------------------------------------------------------------
+  // Rendering
+  // ---------------------------------------------------------------------------
+  let lang = localStorage.getItem('lang') || 'en';
+  let activeYear = 'all';
+  let activeCat = 'all';
+
+  const t = (key) => I18N[lang][key] ?? I18N.en[key] ?? key;
+  const pick = (obj) => (obj ? (obj[lang] ?? obj.en) : '');
+  const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+  const ACCENTS = {
+    emerald: { text: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/20', btn: 'bg-emerald-600 hover:bg-emerald-500 text-white', play: 'bg-emerald-600/90' },
+    cyan:    { text: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/20',    btn: 'bg-cyan-600 hover:bg-cyan-500 text-white',       play: 'bg-cyan-600/90' },
+    amber:   { text: 'text-amber-400',   bg: 'bg-amber-500/10',   border: 'border-amber-500/20',   btn: 'bg-amber-500 hover:bg-amber-400 text-slate-950', play: 'bg-amber-500/90' },
+    rose:    { text: 'text-rose-400',    bg: 'bg-rose-500/10',    border: 'border-rose-500/20',    btn: 'bg-rose-600 hover:bg-rose-500 text-white',       play: 'bg-rose-600/90' },
+    indigo:  { text: 'text-indigo-400',  bg: 'bg-indigo-500/10',  border: 'border-indigo-500/20',  btn: 'bg-indigo-600 hover:bg-indigo-500 text-white',   play: 'bg-indigo-600/90' },
+    violet:  { text: 'text-violet-400',  bg: 'bg-violet-500/10',  border: 'border-violet-500/20',  btn: 'bg-violet-600 hover:bg-violet-500 text-white',   play: 'bg-violet-600/90' },
+    purple:  { text: 'text-purple-400',  bg: 'bg-purple-500/10',  border: 'border-purple-500/20',  btn: 'bg-purple-600 hover:bg-purple-500 text-white',   play: 'bg-purple-600/90' },
+    teal:    { text: 'text-teal-400',    bg: 'bg-teal-500/10',    border: 'border-teal-500/20',    btn: 'bg-teal-600 hover:bg-teal-500 text-white',       play: 'bg-teal-600/90' },
+    sky:     { text: 'text-sky-400',     bg: 'bg-sky-500/10',     border: 'border-sky-500/20',     btn: 'bg-sky-600 hover:bg-sky-500 text-white',         play: 'bg-sky-600/90' },
+    brand:   { text: 'text-brand-400',   bg: 'bg-brand-500/10',   border: 'border-brand-500/20',   btn: 'bg-brand-600 hover:bg-brand-500 text-white',     play: 'bg-brand-600/90' }
+  };
+
+  const EOA_SVG = `
+    <svg viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg" class="w-full h-full max-h-[170px] select-none">
+      <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#38bdf8"/></marker></defs>
+      <rect x="10" y="15" width="180" height="75" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="100" y="40" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="800" fill="#38bdf8">TOOL 1: SCHEDULE</text>
+      <text x="100" y="62" text-anchor="middle" font-family="system-ui" font-size="11" fill="#e2e8f0">GTFS timetable</text>
+      <rect x="10" y="110" width="180" height="75" rx="8" fill="#1e293b" stroke="#f43f5e" stroke-width="1.5"/>
+      <text x="100" y="135" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="800" fill="#f43f5e">TOOL 2: DISRUPTION</text>
+      <text x="100" y="157" text-anchor="middle" font-family="system-ui" font-size="11" fill="#e2e8f0">Real-time feed</text>
+      <rect x="250" y="45" width="165" height="105" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+      <text x="332" y="80" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="800" fill="#fbbf24">RECONCILE</text>
+      <text x="332" y="104" text-anchor="middle" font-family="system-ui" font-size="11" fill="#cbd5e1">JOIN on trip_id</text>
+      <text x="332" y="124" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Transit Crisis Agent</text>
+      <line x1="190" y1="52" x2="248" y2="82" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow)"/>
+      <line x1="190" y1="147" x2="248" y2="115" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow)"/>
+      <rect x="475" y="60" width="180" height="75" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+      <text x="565" y="87" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="800" fill="#34d399">TOOL 3: REROUTE</text>
+      <text x="565" y="109" text-anchor="middle" font-family="system-ui" font-size="11" fill="#e2e8f0">Actionable advice</text>
+      <line x1="415" y1="98" x2="473" y2="98" stroke="#10b981" stroke-width="1.5" marker-end="url(#arrow)"/>
+    </svg>`;
+
+  function renderMedia(item, idx) {
+    const a = ACCENTS[item.accent] || ACCENTS.brand;
+    const m = item.m;
+
+    if (m.t === 'yt') {
+      const note = m.note
+        ? `<div class="absolute bottom-2.5 left-2.5 bg-slate-900/90 backdrop-blur-md border border-slate-700/70 rounded px-2 py-0.5 text-[11px] font-mono text-slate-200 pointer-events-none">${esc(m.note)}</div>`
+        : '';
+      return `
+        <div class="relative aspect-video w-full bg-slate-950 overflow-hidden cursor-pointer group/vid" id="media-${idx}" data-video="${esc(m.id)}">
+          <img src="https://img.youtube.com/vi/${esc(m.id)}/maxresdefault.jpg" alt="" loading="lazy"
+               class="w-full h-full object-cover ${m.fit || 'object-center'} group-hover/vid:scale-[1.03] transition duration-500">
+          <div class="absolute inset-0 bg-slate-950/25 group-hover/vid:bg-slate-950/10 transition"></div>
+          <span class="absolute inset-0 m-auto w-12 h-12 rounded-full ${a.play} text-white flex items-center justify-center shadow-lg group-hover/vid:scale-105 transition">
+            <i data-lucide="play" class="w-5 h-5 fill-white ml-0.5"></i>
+          </span>
+          ${note}
+        </div>`;
     }
 
-    function playEmbeddedVideo() {
-      playVideo('videoContainer', '-L5khDHrQSE', 'Agent Retrieval (Vector Search 2.0)');
+    if (m.t === 'img') {
+      return `
+        <a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden border-b border-slate-800/60">
+          <img src="${esc(m.src)}" alt="" loading="lazy" class="w-full h-full ${m.fit || 'object-cover'} group-hover:scale-[1.03] transition duration-500">
+        </a>`;
     }
 
-    // Initialize Lucide Icons
-    lucide.createIcons();
-
-    // Dark/Light Theme Switcher
-    const htmlEl = document.documentElement;
-    const themeBtn = document.getElementById('themeToggleBtn');
-    const sunIcon = document.getElementById('sunIcon');
-    const moonIcon = document.getElementById('moonIcon');
-
-    function updateThemeUI(isDark) {
-      if (isDark) {
-        htmlEl.classList.add('dark');
-        htmlEl.classList.remove('light');
-        sunIcon.classList.add('hidden');
-        moonIcon.classList.remove('hidden');
-      } else {
-        htmlEl.classList.remove('dark');
-        htmlEl.classList.add('light');
-        sunIcon.classList.remove('hidden');
-        moonIcon.classList.add('hidden');
-      }
+    if (m.t === 'svg') {
+      return `
+        <a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden p-3 flex items-center justify-center border-b border-slate-800/60">
+          ${EOA_SVG}
+        </a>`;
     }
 
-    // Default to dark mode or user's saved preference
-    const savedTheme = localStorage.getItem('theme') || 'dark';
-    updateThemeUI(savedTheme === 'dark');
+    // tile
+    const lines = (m.lines || []).map(l => `
+      <div class="flex items-center gap-2 text-xs text-slate-300">
+        <i data-lucide="${esc(l.icon)}" class="w-4 h-4 ${a.text}"></i> ${esc(lang === 'ja' ? l.ja : l.en)}
+      </div>`).join('');
+    return `
+      <a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer" class="block relative aspect-video w-full bg-slate-950 overflow-hidden p-3 border-b border-slate-800/60">
+        <div class="w-full h-full rounded-xl bg-gradient-to-br ${m.grad} border ${m.border} p-4 flex flex-col justify-between">
+          <div class="flex items-center gap-2 text-xs font-bold ${a.text}">
+            <i data-lucide="${esc(m.icon)}" class="w-4 h-4"></i> ${esc(pick({ en: m.head.en, ja: m.head.ja }))}
+          </div>
+          <div class="space-y-1.5">${lines}</div>
+        </div>
+      </a>`;
+  }
 
-    themeBtn.addEventListener('click', () => {
-      const isDark = htmlEl.classList.contains('dark');
-      const newTheme = isDark ? 'light' : 'dark';
-      localStorage.setItem('theme', newTheme);
-      updateThemeUI(!isDark);
-    });
+  function renderCard(item, idx) {
+    const a = ACCENTS[item.accent] || ACCENTS.brand;
+    const tags = (item.tags || []).map(x =>
+      `<span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400">${esc(x)}</span>`).join('');
+    const secondary = item.src
+      ? `<a href="${esc(item.src)}" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-white inline-flex items-center gap-1 font-mono">
+           <i data-lucide="github" class="w-3.5 h-3.5"></i> ${esc(item.srcLabel ? pick(item.srcLabel) : t('linkSource'))}
+         </a>`
+      : `<div class="flex flex-wrap gap-1.5">${tags}</div>`;
 
-    // Language Switcher (EN / JA)
-    const langBtn = document.getElementById('langToggleBtn');
-    const langLabel = document.getElementById('currentLangLabel');
-    const bioEn = document.getElementById('bioEn');
-    const bioJa = document.getElementById('bioJa');
+    return `
+      <article class="item-card card-hover group flex flex-col rounded-2xl bg-slate-900/70 border border-slate-800 hover:border-slate-700 overflow-hidden"
+               data-year="${item.year}" data-cat="${item.c}">
+        ${renderMedia(item, idx)}
+        <div class="p-6 flex-1 flex flex-col justify-between gap-4">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between text-xs">
+              <span class="inline-flex items-center gap-1 font-semibold ${a.text} ${a.bg} px-2.5 py-0.5 rounded-full border ${a.border}">
+                ${esc(t(item.k))}
+              </span>
+              <span class="text-slate-500 font-mono">${item.year}</span>
+            </div>
+            <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition leading-snug">
+              <a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(pick(item.title))}</a>
+            </h3>
+            <p class="text-sm text-slate-300 leading-relaxed">${esc(pick(item.desc))}</p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between gap-3">
+            ${secondary}
+            <a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer"
+               class="shrink-0 text-xs font-semibold px-3 py-1.5 rounded-lg ${a.btn} inline-flex items-center gap-1.5">
+              ${esc(t(item.cta))} <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </div>
+      </article>`;
+  }
 
-    let currentLang = localStorage.getItem('lang') || 'en';
+  function renderFeatured() {
+    const grid = document.getElementById('featuredGrid');
+    const visible = FEATURED.filter(i =>
+      (activeYear === 'all' || String(i.year) === activeYear) &&
+      (activeCat === 'all' || i.c === activeCat));
+    grid.innerHTML = visible.map(renderCard).join('');
+    document.getElementById('featuredEmpty').classList.toggle('hidden', visible.length > 0);
 
-    function setLanguage(lang) {
-      if (lang === 'ja') {
-        bioEn.classList.add('hidden');
-        bioJa.classList.remove('hidden');
-        langLabel.textContent = 'English';
-      } else {
-        bioJa.classList.add('hidden');
-        bioEn.classList.remove('hidden');
-        langLabel.textContent = '日本語';
-      }
-      currentLang = lang;
-      localStorage.setItem('lang', lang);
-    }
-
-    setLanguage(currentLang);
-
-    langBtn.addEventListener('click', () => {
-      setLanguage(currentLang === 'en' ? 'ja' : 'en');
-    });
-
-    // Category Filter Functionality
-    const filterButtons = document.querySelectorAll('#filterContainer .filter-btn');
-    const items = document.querySelectorAll('#itemsGrid .item-card');
-
-    filterButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const filter = btn.getAttribute('data-filter');
-
-        // Update active button state
-        filterButtons.forEach(b => {
-          b.classList.remove('active', 'bg-brand-600', 'text-white', 'shadow-lg', 'shadow-brand-500/20');
-          b.classList.add('bg-slate-800', 'text-slate-300', 'border', 'border-slate-700');
-        });
-        btn.classList.add('active', 'bg-brand-600', 'text-white', 'shadow-lg', 'shadow-brand-500/20');
-        btn.classList.remove('bg-slate-800', 'text-slate-300', 'border', 'border-slate-700');
-
-        // Show/hide items with fade effect
-        items.forEach(card => {
-          const category = card.getAttribute('data-category');
-          if (filter === 'all') {
-            card.style.display = 'flex';
-          } else if (filter === 'demo-video' && (category === 'demo' || category === 'video')) {
-            card.style.display = 'flex';
-          } else if (category === filter) {
-            card.style.display = 'flex';
-          } else {
-            card.style.display = 'none';
-          }
-        });
+    grid.querySelectorAll('[data-video]').forEach(el => {
+      el.addEventListener('click', () => {
+        const id = el.getAttribute('data-video');
+        el.innerHTML = `<iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1"
+          title="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
       });
     });
+  }
+
+  function renderArchive() {
+    const html = ARCHIVE
+      .filter(y => activeYear === 'all' || String(y.year) === activeYear)
+      .map(y => {
+        const groups = y.groups.map(g => {
+          const rows = g.items.map(it => {
+            const name = esc(lang === 'ja' && it.nj ? it.nj : it.n);
+            const meta = it.meta ? `<span class="text-[11px] text-slate-500 font-mono shrink-0">${esc(it.meta)}</span>` : '';
+            const body = it.u
+              ? `<a href="${esc(it.u)}" target="_blank" rel="noopener noreferrer" class="text-sm text-slate-300 hover:text-brand-400 transition">${name}</a>`
+              : `<span class="text-sm text-slate-400">${name}</span>`;
+            return `<li class="flex items-start justify-between gap-3 py-1.5 border-b border-slate-800/50 last:border-0">
+                      <span class="flex items-start gap-2">
+                        <i data-lucide="${it.u ? 'arrow-up-right' : 'circle-dot'}" class="w-3.5 h-3.5 mt-0.5 text-slate-600 shrink-0"></i>
+                        ${body}
+                      </span>${meta}
+                    </li>`;
+          }).join('');
+          return `
+            <div class="rounded-2xl bg-slate-900/50 border border-slate-800 p-5">
+              <h4 class="flex items-center gap-2 text-sm font-bold text-white mb-3">
+                <i data-lucide="${g.icon}" class="w-4 h-4 text-brand-400"></i> ${esc(t(g.key))}
+                <span class="text-[11px] font-mono text-slate-500">${g.items.length}</span>
+              </h4>
+              <ul class="space-y-0">${rows}</ul>
+            </div>`;
+        }).join('');
+        return `
+          <div class="space-y-4">
+            <h3 class="text-xl font-extrabold text-white tracking-tight flex items-center gap-2">
+              <span class="px-2.5 py-0.5 rounded-lg bg-brand-500/10 border border-brand-500/20 text-brand-400 font-mono text-base">${y.year}</span>
+            </h3>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">${groups}</div>
+          </div>`;
+      }).join('');
+    document.getElementById('archiveContainer').innerHTML = html;
+  }
+
+  function renderEvents() {
+    const html = EVENTS
+      .filter(y => activeYear === 'all' || String(y.year) === activeYear)
+      .map(y => {
+        const cards = y.items.map(ev => `
+          <div class="p-4 rounded-2xl bg-slate-950/60 border border-slate-800/80 hover:border-slate-700 transition flex items-start gap-3">
+            <div class="text-xl leading-none">${ev.flag}</div>
+            <div>
+              <h4 class="text-sm font-bold text-white">${esc(lang === 'ja' ? ev.ja : ev.en)}</h4>
+              <p class="text-xs text-slate-400 mt-0.5">${esc(lang === 'ja' ? ev.locJa : ev.locEn)}</p>
+            </div>
+          </div>`).join('');
+        return `
+          <div class="space-y-3">
+            <h3 class="text-sm font-bold text-slate-400 font-mono">${y.year}</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">${cards}</div>
+          </div>`;
+      }).join('');
+    document.getElementById('eventsContainer').innerHTML = html;
+  }
+
+  function applyStaticI18n() {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      const val = I18N[lang][key];
+      if (val === undefined) return;
+      if (val.includes('<a ')) el.innerHTML = val; else el.textContent = val;
+    });
+    document.getElementById('currentLangLabel').textContent = lang === 'ja' ? 'English' : '日本語';
+    document.title = lang === 'ja'
+      ? '佐藤一憲 — セッション・記事・デモ'
+      : 'Kaz Sato — Sessions, Articles & Demos';
+  }
+
+  function paintFilterButtons() {
+    document.querySelectorAll('.year-btn').forEach(b => {
+      const on = b.getAttribute('data-year') === activeYear;
+      b.className = `year-btn px-3 py-1.5 rounded-lg text-xs font-bold transition ${on ? 'bg-brand-600 text-white' : 'text-slate-400 hover:text-white'}`;
+    });
+    document.querySelectorAll('.cat-btn').forEach(b => {
+      const on = b.getAttribute('data-cat') === activeCat;
+      b.className = `cat-btn px-3 py-1.5 rounded-xl text-xs font-bold transition border ${on ? 'bg-brand-600 text-white border-brand-500' : 'bg-slate-900 text-slate-300 border-slate-800 hover:bg-slate-800'}`;
+    });
+  }
+
+  function renderAll() {
+    applyStaticI18n();
+    paintFilterButtons();
+    renderFeatured();
+    renderArchive();
+    renderEvents();
+    lucide.createIcons();
+  }
+
+  document.getElementById('langToggleBtn').addEventListener('click', () => {
+    lang = lang === 'en' ? 'ja' : 'en';
+    localStorage.setItem('lang', lang);
+    renderAll();
+  });
+
+  document.getElementById('yearTabs').addEventListener('click', (e) => {
+    const btn = e.target.closest('.year-btn');
+    if (!btn) return;
+    activeYear = btn.getAttribute('data-year');
+    renderAll();
+  });
+
+  document.getElementById('catFilters').addEventListener('click', (e) => {
+    const btn = e.target.closest('.cat-btn');
+    if (!btn) return;
+    activeCat = btn.getAttribute('data-cat');
+    paintFilterButtons();
+    renderFeatured();
+    lucide.createIcons();
+  });
+
+  renderAll();
   </script>
 </body>
 </html>
